@@ -1,0 +1,30 @@
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('prize-respect', 'पुरस्कार/सम्मान', 'prize-respect', NULL, CURRENT_TIMESTAMP);
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('prize-respect-1', 'साहित्य गौरव सम्मान','prize-respect-1' ,'prize-respect', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('prize-respect-2', 'सरस्वती सम्मान','prize-respect-2' ,'prize-respect', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('prize-respect-3', 'साहित्य सृजन सम्मान','prize-respect-3' ,'prize-respect', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('prize-respect-4', 'स्वैच्छिक सेवा पुरस्कार','prize-respect-4' ,'prize-respect', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('prize-respect-5', 'स्वागत सम्मान','prize-respect-5' ,'prize-respect', CURRENT_TIMESTAMP);
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('prize-respect-1-1', 'भारत के शिक्षा मंत्री यशस्वी साहित्यकार डॉ. रमेश पोखारियाल ’निशंक’','prize-respect-1-1' ,'prize-respect-1', CURRENT_TIMESTAMP);
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('prize-respect-2-1', 'अरुणा भटनागर','prize-respect-2-1' ,'prize-respect-2', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('prize-respect-2-2', 'श्याम त्रिपाठी','prize-respect-2-2' ,'prize-respect-2', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('prize-respect-2-3', 'डॉ॰ रत्नाकर नराले','prize-respect-2-3' ,'prize-respect-2', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('prize-respect-2-4', 'डॉ॰ भारतेन्दु श्रीवास्तव','prize-respect-2-4' ,'prize-respect-2', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('prize-respect-2-5', 'भुवनेश्वरी पाण्डे','prize-respect-2-5' ,'prize-respect-2', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('prize-respect-2-6', 'आचार्य श्रीनाथ प्रसाद द्विवेदी','prize-respect-2-6' ,'prize-respect-2', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('prize-respect-2-7', 'सुमन कुमार घई','prize-respect-2-7' ,'prize-respect-2', CURRENT_TIMESTAMP);
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('prize-respect-3-1', 'डॉ॰ शिवनन्दन सिंह यादव','prize-respect-3-1' ,'prize-respect-3', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('prize-respect-3-2', 'प्रो॰ हरि शंकर आदेश','prize-respect-3-2' ,'prize-respect-3', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('prize-respect-3-3', 'श्री रामेश्वर काम्बोज हिमांशु','prize-respect-3-3' ,'prize-respect-3', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('prize-respect-3-4', 'डॉ॰ जगमोहन हूमर','prize-respect-3-4' ,'prize-respect-3', CURRENT_TIMESTAMP);
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('prize-respect-4-1', 'पूनम चन्द्रा ''मनु''','prize-respect-4-1' ,'prize-respect-4', CURRENT_TIMESTAMP);
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('prize-respect-5-1', 'तेजेन्द्र शर्मा','prize-respect-5-1' ,'prize-respect-5', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('prize-respect-5-2', 'रामेश्वर कम्बोज ''हिमांशु''','prize-respect-5-2' ,'prize-respect-5', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('prize-respect-5-3', 'डॉ. रोहिणी अग्रवाल','prize-respect-5-3' ,'prize-respect-5', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('prize-respect-5-4', ' डॉ.शंकरलाल पुरोहित','prize-respect-5-4' ,'prize-respect-5', CURRENT_TIMESTAMP);
+

@@ -1,0 +1,98 @@
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('fizi-fest', 'हिन्दी राइटर्स गिल्ड ने मनाया '' विश्व हिन्दी दिवस'' फीजी और भारत के साथ', 'https://www.youtube.com/watch?v=E6aszv7Y78Q', 'facebook-live', CURRENT_TIMESTAMP);
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('vishwarang-2020', 'विश्वारंग 2020  कैनेडा -उद्घाटन', 'https://www.youtube.com/watch?v=Y0D07fbJXa8', 'facebook-live', CURRENT_TIMESTAMP);
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('vishwarang-2020-2', 'विश्वारंग 2020  कैनेडा -विज्ञान से ज्ञान तक', 'https://www.youtube.com/watch?v=QQeiHcDGQtU', 'facebook-live', CURRENT_TIMESTAMP);
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('vishwarang-2020-3', 'विश्वारंग 2020 कैनेडा -भारतवंशी प्रवासी लेखक', 'https://www.youtube.com/watch?v=SE_BznyIhsk', 'facebook-live', CURRENT_TIMESTAMP);
+
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('vishwarang-2020-4', 'विश्वारंग 2020  कैनेडा -हमारी नींव आधार शिलाएँ', 'https://www.youtube.com/watch?v=shwtySmdu_g', 'facebook-live', CURRENT_TIMESTAMP);
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('vishwarang-2020-5', 'विश्वारंग 2020  कैनेडा -जीवन का प्रतिबिंब हैं नाटक', 'https://www.youtube.com/watch?v=xQJmh4iLvs4', 'facebook-live', CURRENT_TIMESTAMP);
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('vishwarang-2020-6', 'विश्वारंग 2020  कैनेडा -आपका सम्मान- हमारा मान', 'vishwarang-2020-6', 'facebook-live', CURRENT_TIMESTAMP);
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('vishwarang-2020-7', 'विश्वारंग 2020  कैनेडा -देखन में छोटी लगें', 'vishwarang-2020-7', 'facebook-live', CURRENT_TIMESTAMP);
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('vishwarang-2020-8', 'विश्वारंग 2020  कैनेडा -और भी विधाएँ हैं कहानी के सिवा- कथेतर साहित्य', 'https://www.youtube.com/watch?v=kPEa1NeEkEo', 'facebook-live', CURRENT_TIMESTAMP);
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('vishwarang-2020-9', 'विश्वारंग 2020  कैनेडा -तेरह रंगों में रंगी, कविता की एक शाम', 'vishwarang-2020-9', 'facebook-live', CURRENT_TIMESTAMP);
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('vishwarang-2020-10', 'विश्वारंग 2020  कैनेडा -छोटे पर्दे से बड़ा संदेश- लघु फ़िल्म', 'vishwarang-2020-10', 'facebook-live', CURRENT_TIMESTAMP);
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('vishwarang-2020-11', 'विश्वारंग 2020  कैनेडा -धन्यवाद', 'https://www.youtube.com/watch?v=HoBOHxUWq0o', 'facebook-live', CURRENT_TIMESTAMP);
+
+-----------------------------------
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('vishwarang-2020-12', 'विश्वरंग 2020-7 नवम्बर', 'vishwarang-2020-12', 'sehbhagita', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('vishwarang-2020-13', 'विश्वरंग 2020-8 नवम्बर', 'vishwarang-2020-13', 'sehbhagita', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('vishwarang-2020-14', 'विश्व हिंदी शिक्षण विमर्श ', 'vishwarang-2020-14', 'sehbhagita', CURRENT_TIMESTAMP);
+
+---------
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('sharad-ritu', 'शरद ऋतु काव्योत्सव', 'sharad-ritu', 'kavi-sammelan', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('deep-jaley', 'दीप जले मन-आँगन', 'deep-jaley', 'kavi-sammelan', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('kavi-sammelan-1', 'विभिन्न भारतीय भाषाओँ का कवि सम्मलेन', 'kavi-sammelan-1', 'kavi-sammelan', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('kavi-sammelan-2', 'हास्य कवि सम्मेलन', 'kavi-sammelan-2', 'kavi-sammelan', CURRENT_TIMESTAMP);
+
+------
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('indiveer', 'इंदीवर', 'indiveer',                       'pustak-vimochan', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('ibarat', 'हवा में लिखी इबारत ', 'ibarat',             'pustak-vimochan', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('vaadey', 'वादों की परछाइयाँ ', 'vaadey',  'pustak-vimochan', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('khumari', 'ख़ुमारी', 'khumari',               'pustak-vimochan', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('bhavnaye', 'भावनाओं के भवँर से ','bhavnaye', 'pustak-vimochan', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('safar', 'सफ़र ', 'safar',                       'pustak-vimochan', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('ambar', 'अम्बर बाँचे पाँती', 'ambar',                  'pustak-vimochan', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('tumko', 'क्या तुमको भी ऐसा लगा  ', 'tumko', 'pustak-vimochan', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('jazbaat', 'जज़्बात', 'jazbaat',             'pustak-vimochan', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('kahi-ankahi', 'कही-अनकही  ', 'kahi-ankahi',                 'pustak-vimochan', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('apna-aasman', 'अपना अपना आसमान', 'apna-aasman',               'pustak-vimochan', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('abhivaykti', 'अभिव्यक्ति', 'abhivaykti', 'pustak-vimochan', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('amrat', 'अमृत ', 'amrat4', 'pustak-vimochan', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('katil', 'क़ातिल का गीत ', 'katil', 'pustak-vimochan', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('rawab', 'रवाब', 'rawab', 'pustak-vimochan', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('aao-bacho', 'आओ बच्चों हम तुम गाएँ-निर्मल भाव--उकाल उंदार', 'aao-bacho', 'pustak-vimochan', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('subah-ka-suraj', 'सुबह का सूरज अब मेरा नहीं है', 'subah-ka-suraj', 'pustak-vimochan', CURRENT_TIMESTAMP);
+
+---------
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('dusri-duniya', 'दूसरी दुनिया', 'dusri-duniya', 'hamari-prastutiya', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('shaddi-ka-interview', 'शादी का इंटरव्यू', 'shaddi-ka-interview', 'hamari-prastutiya', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('udhar-ka-sukh', 'उधार का सुख', 'udhar-ka-sukh', 'hamari-prastutiya', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('cheef-ki-dawat', 'ची़फ़ की दावत', 'cheef-ki-dawat', 'hamari-prastutiya', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('ashwthama', 'अश्वथामा', 'ashwthama', 'hamari-prastutiya', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('unki-chitiya', 'उनकी चिट्ठियाँ', 'unki-chitiya', 'hamari-prastutiya', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('aadhe-adhure', 'आधे-अधूरे', 'aadhe-adhure', 'hamari-prastutiya', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('mitro', 'मित्रो मरजानी', 'mitro', 'hamari-prastutiya', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('surdas', 'सूरदास', 'surdas', 'hamari-prastutiya', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('janabai', 'जनाबाई', 'janabai', 'hamari-prastutiya', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('rashmirath', 'रश्मिरथि', 'rashmirath', 'hamari-prastutiya', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('apni-apni-pasand', 'अपनी-अपनी पसंद', 'apni-apni-pasand', 'hamari-prastutiya', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('andha-yug', 'अंधा युग', 'andha-yug', 'hamari-prastutiya', CURRENT_TIMESTAMP);
+
+-------------------------
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('lekh', 'लेख कैसे लिखें', 'lekh', 'workshop', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('jal', 'जल है तो कल है ', 'jal', 'workshop', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('kahani-lekhan', 'कहानी लेखन कला', 'kahani-lekhan', 'workshop', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('natak', 'नाटक का  सफल प्रस्तुतिकरण और अभिनय कैसे हो। ', 'natak', 'workshop', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('samiksha', 'समीक्षा पर चर्चा', 'samiksha', 'workshop', CURRENT_TIMESTAMP);
+------
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('sanskriti', 'संस्कृति और सभ्यता बदलते हुए परिपेक्ष्य', 'sanskriti', 'sanghoshtiya', CURRENT_TIMESTAMP);
+------
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('him-ki-chadar-2019', 'हिम की चादर पे खेले बसंत राज-2019', 'him-ki-chadar-2019', 'masik-ghoshtiya', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('ram', 'राम तुम्हारा वृत्त स्वयं ही काव्य है-2019 ', 'ram', 'masik-ghoshtiya', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('sharad-fest-2019', 'शरद्‌ काव्योत्सव-2019 ','sharad-fest-2019', 'masik-ghoshtiya', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('kesariya-2019', 'केसरिया फागुन-2019', 'kesariya-2019', 'masik-ghoshtiya', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('tiranga-2018', 'तिरंगे के सम्मान में तीन विधाएँ-2018', 'tiranga-2018', 'masik-ghoshtiya', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('navvarsh-2016', 'नववर्ष गोष्ठी-2016 ', 'navvarsh-2016', 'masik-ghoshtiya', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('dinkar-2016', 'दिनकर साहित्य पर चर्चा-2016', 'dinkar-2016', 'masik-ghoshtiya', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('veena-2014', 'वीना गोखले का कहानी-पाठ-2014', 'veena-2014', 'masik-ghoshtiya', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('vishesh-2014', 'विशेष रिपोर्ताज और काव्य पाठ-2014', 'vishesh-2014', 'masik-ghoshtiya', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('august-2009', '15 अगस्त कवि-गोष्ठी-2009 ', 'august-2009', 'masik-ghoshtiya', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('natak-2009', 'नाटक वाचन और गोष्ठी-2009', 'natak-2009', 'masik-ghoshtiya', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('kavi-2008', 'कवि-गोष्ठी-2008', 'kavi-2008', 'masik-ghoshtiya', CURRENT_TIMESTAMP);
+----
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('picnic-2017', 'पिकनिक 2017 ', 'picnic-2017', 'picnic', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('picnic-2015', 'पिकनिक 2015', 'picnic-2015', 'picnic', CURRENT_TIMESTAMP);
+
+--------------------------------------------------------------------

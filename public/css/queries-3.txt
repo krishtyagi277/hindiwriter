@@ -1,0 +1,41 @@
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('festival', 'उत्सव', 'festival', NULL, CURRENT_TIMESTAMP);
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('annual-festival', 'वार्षिक महोत्सव', 'annual-festival', 'festival', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('holi-festival', 'होली महोत्सव', 'holi-festival', 'festival', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('abhar-divas', 'आभार दिवस', 'abhar-divas', 'festival', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('hindi-divas', 'हिन्दी दिवस', 'hindi-divas', 'festival', CURRENT_TIMESTAMP);
+
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('annual-festival-2009', 'वार्षिक महोत्सव 2009', 'annual-festival-2009', 'annual-festival', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('annual-festival-2010', 'वार्षिक महोत्सव 2010', 'annual-festival-2010', 'annual-festival', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('annual-festival-2011', 'वार्षिक महोत्सव 2011', 'annual-festival-2011', 'annual-festival', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('annual-festival-2012', 'वार्षिक महोत्सव 2012', 'annual-festival-2012', 'annual-festival', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('annual-festival-2013', 'वार्षिक महोत्सव 2013', 'annual-festival-2013', 'annual-festival', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('annual-festival-2014', 'वार्षिक महोत्सव 2014', 'annual-festival-2014', 'annual-festival', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('annual-festival-2015', 'वार्षिक महोत्सव 2015', 'annual-festival-2015', 'annual-festival', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('annual-festival-2016', 'वार्षिक महोत्सव 2016', 'annual-festival-2016', 'annual-festival', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('annual-festival-2017', 'वार्षिक महोत्सव 2017', 'annual-festival-2017', 'annual-festival', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('annual-festival-2018', 'वार्षिक महोत्सव 2018', 'annual-festival-2018', 'annual-festival', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('annual-festival-2019', 'वार्षिक महोत्सव 2019', 'annual-festival-2019', 'annual-festival', CURRENT_TIMESTAMP);
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('holi-festival-2019', 'होली महोत्सव 2019', 'holi-festival-2019', 'holi-festival', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('holi-festival-2018', 'होली महोत्सव 2018', 'holi-festival-2018', 'holi-festival', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('holi-festival-2017', 'होली महोत्सव 2017', 'holi-festival-2017', 'holi-festival', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('holi-festival-2016', 'होली महोत्सव 2016', 'holi-festival-2016', 'holi-festival', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('holi-festival-2015', 'होली महोत्सव 2015', 'holi-festival-2015', 'holi-festival', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('holi-festival-2014', 'होली महोत्सव 2014', 'holi-festival-2014', 'holi-festival', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('holi-festival-2013', 'होली महोत्सव 2013', 'holi-festival-2013', 'holi-festival', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('holi-festival-2012', 'होली महोत्सव 2012', 'holi-festival-2012', 'holi-festival', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('holi-festival-2011', 'होली महोत्सव 2011', 'holi-festival-2011', 'holi-festival', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('holi-festival-2010', 'होली महोत्सव 2010', 'holi-festival-2010', 'holi-festival', CURRENT_TIMESTAMP);
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('abhar-divas-2012', 'आभार दिवस 2012', 'abhar-divas-2012', 'abhar-divas', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('abhar-divas-2017', 'आभार दिवस 2017', 'abhar-divas-2017', 'abhar-divas', CURRENT_TIMESTAMP);
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('hindi-divas-2019', 'हिन्दी दिवस-जनवरी- 2019', 'hindi-divas-2019', 'hindi-divas', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('hindi-divas-2018', 'हिन्दी दिवस-जनवरी- 2018', 'hindi-divas-2018', 'hindi-divas', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('hindi-divas-2015', 'हिन्दी दिवस-जनवरी- 2015', 'hindi-divas-2015', 'hindi-divas', CURRENT_TIMESTAMP);
+
+
+
+

@@ -1,0 +1,21 @@
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('uplabhdiya', 'उपलब्धियाँ ', 'uplabhdiya', NULL, CURRENT_TIMESTAMP);
+
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('e-prakashan', 'ई-संकलन प्रकाशन', 'e-prakashan', 'uplabhdiya', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('international-sammelan', 'अंतरराष्ट्रीय सम्मलेन में भागीदारी', 'international-sammelan', 'uplabhdiya', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('conusell-fest', ' काउंसलावास के साथ कार्यक्रम', 'conusell-fest', 'uplabhdiya', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('shetriya-bhagidari', 'क्षेत्रीय भागीदारी', 'shetriya-bhagidari', 'uplabhdiya', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('sammanit-members', 'हमारे सम्मानित सदस्य', 'sammanit-members', 'uplabhdiya', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('manch', 'अन्य विशिष्ट मंचों पर', 'manch', 'uplabhdiya', CURRENT_TIMESTAMP);
+
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('sapno-ka-akash', 'सपनो का आकाश और सम्भावनाओ की धरती का विमोचन', 'sapno-ka-akash', 'e-prakashan', CURRENT_TIMESTAMP);
+
+--
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('international-sammelan-2020', 'अंतरराष्ट्रीय हिंदी सम्मलेन भारत जनवरी 2020', 'international-sammelan-2020', 'international-sammelan', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('international-sammelan-2015', 'अंतरराष्ट्रीय हिंदी सम्मलेन अमेरिका 2015 ', 'international-sammelan-2015', 'international-sammelan', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('pravasi-hindi', 'प्रवासी हिंदी लेखक मंच', 'pravasi-hindi', 'international-sammelan', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('international-sammelan-2014', 'अंतरराष्ट्रीय हिन्दी सम्मेलन 2014', 'international-sammelan-2014', 'international-sammelan', CURRENT_TIMESTAMP);
+
+---
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('vishwa-hindi', 'विश्व हिंदी दिवस ओटवा', 'vishwa-hindi', 'shetriya-bhagidari', CURRENT_TIMESTAMP);

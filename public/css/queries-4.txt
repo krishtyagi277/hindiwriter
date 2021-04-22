@@ -1,0 +1,60 @@
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member', 'सदस्य', 'member', NULL, CURRENT_TIMESTAMP);
+    
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-1', 'संस्थापक निदेशक','member-1', 'member', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-2', 'निदेशक मंडल','member-2', 'member', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-3', 'मानद सदस्य','member-3', 'member', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4', 'अन्य माननीय सदस्य','member-4', 'member', CURRENT_TIMESTAMP);
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-1-1', 'सुमन घई','member-1-1', 'member-1', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-1-2', 'विजय विक्रान्त','member-1-2', 'member-1', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-1-3', 'शैलजा सक्सेना','member-1-3', 'member-1', CURRENT_TIMESTAMP);
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-2-1', 'कृष्णा वर्मा कृष्णा','member-2-1', 'member-2', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-2-2', 'पूनम चंद्रा ''मनु''','member-2-2', 'member-2', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-2-3', 'आशा बर्मन','member-2-3', 'member-2', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-2-4', 'लता पाण्डेय','member-2-4', 'member-2', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-2-5', 'विद्या भूषण धर','member-2-5', 'member-2', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-2-6', 'संदीप कुमार','member-2-6', 'member-2', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-2-7', 'डॉ. एन के ग्रोवर','member-2-7', 'member-2', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-2-8', 'दीपक राज़दान','member-2-8', 'member-2', CURRENT_TIMESTAMP);
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-3-1', 'डॉ॰ जगमोहन हूमर','member-3-1', 'member-3', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-3-2', 'तेजेन्द्र शर्मा','member-3-2', 'member-3', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-3-3', 'डॉ. रोहिणी अग्रवाल','member-3-3', 'member-3', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-3-4', 'आचार्य श्रीनाथ प्रसाद द्विवेदी','member-3-4', 'member-3', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-3-5', 'रामेश्वर काम्बोज ''हिमांशु''','member-3-5', 'member-3', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-3-6', 'डॉ॰ रत्नाकर नराले','member-3-6', 'member-3', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-3-7', 'हरि शंकर आदेश जी','member-3-7', 'member-3', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-3-8', 'डॉ. शिवनंदन सिंह यादव जी','member-3-8', 'member-3', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-3-9', 'डॉ॰ भारतेन्दु श्रीवास्तव','member-3-9', 'member-3', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-3-10', 'श्याम त्रिपाठी','member-3-10', 'member-3', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-3-11', 'अरुणा भटनागर','member-3-11', 'member-3', CURRENT_TIMESTAMP);
+
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4-1', 'मानोशी चटर्जी','member-4-1', 'member-4', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4-2', 'अम्बिका शर्मा','member-4-2', 'member-4', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4-3', 'रोमिला वर्मा','member-4-3', 'member-4', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4-4', 'इंदिरा वर्मा','member-4-4', 'member-4', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4-5', 'भुवनेश्वरी पाण्डे','member-4-5', 'member-4', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4-6', 'सविता अग्रवाल','member-4-6', 'member-4', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4-7', 'डॉ.कनिका वर्मा','member-4-7', 'member-4', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4-8', 'अचला दीप्ति कुमार','member-4-8', 'member-4', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4-9', 'स्नेह सिंघवी स्नेह','member-4-9', 'member-4', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4-10', 'इंदु रायजादा','member-4-10', 'member-4', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4-11', 'कुलदीप अहलुवालिआ','member-4-11', 'member-4', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4-12', 'सरोजिनी जौहर','member-4-12', 'member-4', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4-13', 'प्रमिला भार्गव','member-4-13', 'member-4', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4-14', 'कैलाश महंत','member-4-14', 'member-4', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4-15', 'डॉ. रेणुका शर्मा','member-4-15', 'member-4', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4-16', 'प्रीति अग्रवाल','member-4-16', 'member-4', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4-17', 'भगवत शरण श्रीवास्तव ‘शरण’','member-4-17', 'member-4', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4-18', 'समीर लाल ''समीर''','member-4-18', 'member-4', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4-19', 'किशोरकान्त द्विवेदी','member-4-19', 'member-4', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4-20', 'पंकज शर्मा','member-4-20', 'member-4', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4-21', 'योगेश ममगाईं','member-4-21', 'member-4', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4-22', 'अखिल भंडारी','member-4-22', 'member-4', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4-23', 'डॉ. जगमोहन संघा','member-4-23', 'member-4', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4-24', 'संदीप कुमार त्यागी','member-4-24', 'member-4', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4-25', 'राज महेश्वरी','member-4-25', 'member-4', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4-26', 'निर्मल सिद्धू','member-4-26', 'member-4', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4-27', 'जसबीर कालरवि','member-4-27', 'member-4', CURRENT_TIMESTAMP);
+INSERT INTO `navigationnodes` (`id`, `node_name`, `node_link`, `parent_node`, `created_at`) VALUES ('member-4-28', 'प्राण किरतानी','member-4-28', 'member-4', CURRENT_TIMESTAMP);
