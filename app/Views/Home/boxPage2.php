@@ -87,7 +87,7 @@
 					data-wow-delay="0.3s" alt="side-design" />
 			</div>
 			<div class="col-6 col-sm-8 col-md-8 col-lg-8 intro-box-container">
-				<div class="intro-box-text intro-box-size">
+				<div class="intro-box-text intro-box-width">
 
 					<p class="text-center wow fadeInUp p-3 pb-5 mb-2 page-title" data-wow-delay="0.2s"><b>
 							<?= $pageData['node_name']?>
@@ -123,28 +123,33 @@
 						</div>
 					</div>
 				</div>
-				
+
 				<div class="d-flex flex-md-row flex-lg-row flex-sm-column justify-content-center flex-wrap">
 					<?php foreach($nodes as $node):?>
+						<?php if($node['display_node']) {?>
 					<div class="m-2 intro-box-container">
-						<img src="<?=site_url("/img/40.png")?>" class="img-fluid wow fadeInDown box-section-tile-img"
-							data-wow-delay="0.3s" alt="activity-cricle" />
+					<a href="<?=site_url("".$node['node_link']."")?>"
+										class="text-white"><img src="<?=empty($node['tile_img_url'])? site_url("/img/40.png"): site_url($node['tile_img_url']) ?>" class="img-fluid wow fadeInDown box-section-tile-img"
+							data-wow-delay="0.3s" alt="activity-cricle" /></a>
 						<div class="detail-box-text">
 							<!--style="width:980px; height:180px;"-->
 							<p class="text-center wow fadeInUp section-text section-text-resp" data-wow-delay="0.3s"><b>
 									<?php 
 								if($node['external_link']) {?>
 									<a href="<?=$node['node_link']?>" class="text-white"
-										target="_blank"><?= $node['node_name'];?></a>
+										target="_blank"><?= $node['box_title'];?></a>
 									<?php } else {?>
+									<?php 
+								if($node['display_text']) {?>
 									<a href="<?=site_url("".$node['node_link']."")?>"
-										class="text-white"><?= $node['node_name'] ;?></a>
-
+										class="text-white"><?= $node['box_title'] ;?></a>
+									<?php } ?>
 									<?php } ?>
 								</b>
 							</p>
 						</div>
 					</div>
+					<?php } ?>
 					<?php endforeach;?>
 				</div>
 			</div>
@@ -163,7 +168,7 @@
 	<!-- footer section-->
 	<?= $this->include("components/footer") ?>
 	<?= $this->include("components/successMessage") ?>
-    <script src="<?=site_url("/js/subscribe.js")?>"></script>
+	<script src="<?=site_url("/js/subscribe.js")?>"></script>
 
 	<script src="<?=site_url("/js/wow.min.js")?>"></script>
 
@@ -191,7 +196,7 @@
 
 	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
 	</script>
-	
+
 
 </body>
 

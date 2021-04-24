@@ -60,7 +60,17 @@ class Home extends BaseController
 
 
 	public function gallery(){
-		return view('Home/gallery');
+		$model = new \App\Models\GalleryModel;
+		$kaviData =  $model->where('parent', 'kavi')->find();
+		$abharData =  $model->where('parent', 'abhar')->find();
+		$annualfestData =  $model->where('parent', 'annualfest')->find();
+		$hindifestData =  $model->where('parent', 'hindifest')->find();
+		$holifestData =  $model->where('parent', 'holifest')->find();
+		$rewardsData =  $model->where('parent', 'rewards')->find();
+		
+		return view('Home/gallery', ['kaviData'=>$kaviData, 'abharData'=>$abharData, 'annualfestData'=>$annualfestData,
+		'hindifestData'=>$hindifestData,'holifestData'=>$holifestData, 'rewardsData'=>$rewardsData
+		]);
 	}
 
 	public function introPage($id){
@@ -136,19 +146,19 @@ if ($result->success) {
 	}
 
 	public function becomesponser(){
-		return view("Home/sponserPage");
+		return view("Home/forms/sponserPage");
 	}
 
 	public function donation(){
-		return view("Home/donationPage");
+		return view("Home/forms/donationPage");
 	}
     
 	public function becomemember(){
-		return view("Home/becomeMember.php");
+		return view("Home/forms/becomeMember.php");
 	}
 
 	public function contactUs(){
-		return view("Home/contactUsPage.php");
+		return view("Home/forms/contactUsPage.php");
 	}
 
 	public function videogallery() {

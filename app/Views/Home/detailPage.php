@@ -88,10 +88,10 @@
 					data-wow-delay="0.3s" alt="side-design" />
 			</div>
 			<div class="col-6 col-sm-8 col-md-8 col-lg-8 intro-box-container">
-				<div class="intro-box-text intro-box-size">
+				<div class="intro-box-text intro-box-width">
 
-					<p class="text-center wow fadeInUp p-3 pb-5 mb-2 page-title" data-wow-delay="0.2s"><b>
-							<?= $pageData['node_name']?>
+					<p class="text-center wow fadeInUp pb-5 mb-2 page-title" data-wow-delay="0.2s"><b>
+							<?=$pageData['node_name']?>
 						</b>
 					</p>
 

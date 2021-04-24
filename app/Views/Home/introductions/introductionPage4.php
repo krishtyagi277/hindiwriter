@@ -215,15 +215,15 @@
                 </div>
                 <div class="d-flex flex-md-row flex-lg-row flex-sm-column flex-wrap justify-content-center mt-5">
                     <div class="intro-box-container intor-page-book-section">
-                        <img src="<?=site_url("/img/books/5.JPG")?>"
-                            class="img-fluid shadow-lg border-0 w-75 wow fadeInLeft" data-wow-delay="0.3s"
-                            alt="activity-cricle" />
+                        <a href="https://www.jazbaat.net/" target="_blank"><img src="<?=site_url("/img/books/5.jpg")?>"
+                            class="img-fluid shadow-lg w-75 wow fadeInLeft" data-wow-delay="0.3s"
+                            alt="activity-cricle" /></a>
 
                     </div>
                     <div class="intro-box-container intor-page-book-section">
-                        <img src="<?=site_url("/img/books/6.JPG")?>"
-                            class="img-fluid shadow-lg border-0 w-75 wow fadeInLeft" data-wow-delay="0.3s"
-                            alt="activity-cricle" />
+                    <a href="https://www.jazbaat.net/payment.php" target="_blank"><img src="<?=site_url("/img/books/6.jpg")?>"
+                            class="img-fluid shadow-lg w-75 wow fadeInLeft" data-wow-delay="0.3s"
+                            alt="activity-cricle" /></a>
 
                     </div>
                 </div>
@@ -256,7 +256,17 @@
             thumbnail: true
         });
     </script>
+    <script type="text/javascript">
+		function googleTranslateElementInit() {
+			new google.translate.TranslateElement({
+				pageLanguage: 'hi',
+				layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+			}, 'google_translate_element');
+		}
+	</script>
 
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+	</script>
 </body>
 
 </html>

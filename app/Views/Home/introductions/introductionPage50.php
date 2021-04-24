@@ -104,7 +104,8 @@
                     </div>
                 </div>
 
-                <div class="row rounded bg-white pt-3 pb-3 mb-5 w-100 wow fadeInUp mt-4 intro-description-page" data-wow-delay="0.5s">
+                <div class="row rounded bg-white pt-3 pb-3 mb-5 w-100 wow fadeInUp mt-4 intro-description-page"
+                    data-wow-delay="0.5s">
 
                     <div class="col-sm-12 col-md-12 col-lg-12 pl-3 pr-0 pt-2 wow fadeInRight" data-wow-delay="1.8s">
                         <div class="col-sm-8 col-md-8 col-lg-6 pl-0 pr-0 pt-2 pr-2 float-left">
@@ -118,6 +119,33 @@
                         </div>
                         <!-- intro description here -->
                         <div class="intro-page-description">
+                            <p>
+                                <b>जन्म स्थान</b>: अम्बाला (हरियाणा)
+                            </p>
+                            <p>
+                                <b>वर्तमान निवास</b>: मिसिसागा
+                            </p>
+                            <p>
+                                (ओंटेरियो)
+                            </p>
+                            <p>
+                                <b>शिक्षा</b>: इलेक्ट्रि कल इंजीनियरिंग (पंजाब यूनिवर्सिटी)
+                            </p>
+                            <p>
+                                <b>संप्रति</b> : ओंटेरियो हाइड्रो से सेवा निवृत्त, साहित्यिक गतिविधियों में व्यस्त
+                            </p>
+                            <p>
+                                <b>प्रकाशित रचनाएँ</b>: संस्मरण, लोक कथाएँ, कविताएँ, आलेख पत्र-पत्रिकाओं में
+                                प्रकाशित
+                            </p>
+                            <p>
+                                <b>लेखन-विधाएँ</b>: संस्मरण, लोक कथाएँ, कविताएँ, आलेख
+                            </p>
+                            <p>
+                                <b> उल्लेखनीय गतिविधियाँ</b>: कैनेडा की साहित्यिक, हिन्दी और सांस्कृतिक संस्थाओं
+                                में निरन्तर सहयोग। हिन्दी साहित्य सभा के संस्थापक सदस्यों में से एक। हिन्दी
+                                राइटर्स गिल्ड के सह-संस्थापक निदेशक
+                            </p>
 
                         </div>
                         <!--end -->
@@ -155,6 +183,17 @@
             thumbnail: true
         });
     </script>
+    <script type="text/javascript">
+		function googleTranslateElementInit() {
+			new google.translate.TranslateElement({
+				pageLanguage: 'hi',
+				layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+			}, 'google_translate_element');
+		}
+	</script>
+
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+	</script>
 
 </body>
 

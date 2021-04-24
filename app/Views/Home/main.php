@@ -138,7 +138,7 @@
 							जगाना</br> लेखकों को केनेडा की पृष्ठभूमि को ध्यान में रखते हुए लेखन के लिए प्रोत्साहित</br>
 							करना केनेडा में हिन्दी पुस्तकों के प्रकाशन को स्थापित करना इत्यादि है।
 							</br><a href="<?=site_url("/home/detailPage/sanstha-ka-parichai")?>" class="text-white">
-								अधिक पढ़ें...</a>
+							आगे पढ़ें ...</a>
 						</b>
 					</p>
 
@@ -229,7 +229,7 @@
 						<div class="intro-box-text">
 							<a href="<?=site_url("/home/details/masik-ghoshtiya")?>"
 								class="text-white text-center wow fadeInUp section-block-text" data-wow-delay="0.3s"><b>
-									मासिक गोश्तिया</b>
+									मासिक गोष्ठियाँ</b>
 							</a>
 						</div>
 					</div>
@@ -304,7 +304,7 @@
 							<a href="<?=site_url("/home/details/hindi-divas")?>"
 								class="text-white text-center wow fadeInUp section-block-text" data-wow-delay="0.3s"><b>
 
-									हिन्दी दिवस
+									हिन्दी </br>दिवस
 								</b>
 							</a>
 						</div>
@@ -332,7 +332,7 @@
 						<div class="intro-box-text">
 							<a href="<?=site_url("/home/detail/uplabhdiya")?>"
 								class="text-center mt-2 wow fadeInUp section-text" data-wow-delay="0.3s">
-								<b>उपलब्धियां</b>
+								<b>उपलब्धियाँ</b>
 							</a>
 						</div>
 					</div>
@@ -624,7 +624,7 @@
 						<h3 class="w-100 text-center text-black-50 wow fadeInLeft" data-wow-delay="0.3s"><b>
 						<a href="<?=site_url("/home/videogallery")?>" class="text-danger">वीडियो गैलरी</a></b>
 						</h3>
-						<a href="<?=site_url("/home/videogallery")?>" class="text-danger video-gallery-icon"><img src="../img/vid.png" class="w-50 img-fluid wow fadeInLeft" data-wow-delay="0.3s"
+						<a href="<?=site_url("/home/videogallery")?>" class="text-danger video-gallery-icon"><img src="../img/video.jpg" class="w-100 img-fluid wow fadeInLeft" data-wow-delay="0.3s"
 								alt="photo-gallery" /></a>
 
 					</div>
@@ -633,7 +633,7 @@
 								<a href="<?=site_url("/home/gallery")?>" class="text-danger">फोटो गैलरी</a></b>
 						</h3>
 						<div class="d-flex flex-md-row flex-lg-row flex-sm-column flex-wrap justify-content-center">
-							<a href="<?=site_url("/home/gallery")?>"><img src="../img/38.JPG" class="w-100 img-fluid wow fadeInLeft" data-wow-delay="0.3s"
+							<a href="<?=site_url("/home/gallery")?>"><img src="../img/galleryimg.JPG" class="w-75 img-fluid wow fadeInLeft" data-wow-delay="0.3s"
 								alt="photo-gallery" /></a>
 							
 						</div>
@@ -643,7 +643,7 @@
 						<h3 class="w-100 text-center text-black-50 wow fadeInLeft" data-wow-delay="0.3s"><b>
 						<a href="<?=site_url("/home/audiogallery")?>" class="text-danger">ऑडियो गैलरी </a></b>
 						</h3>
-						<a href="<?=site_url("/home/audiogallery")?>" class="text-danger video-gallery-icon"><img src="../img/audio-img.jpg" class="w-75 img-fluid wow fadeInLeft" data-wow-delay="0.3s"
+						<a href="<?=site_url("/home/audiogallery")?>" class="text-danger video-gallery-icon"><img src="../img/audio.jpg" class="w-100 img-fluid wow fadeInLeft" data-wow-delay="0.3s"
 								alt="photo-gallery" /></a>
 
 					</div>
@@ -747,7 +747,7 @@
 							alt="activity-cricle" />
 
 					</div>
-					<div class="intro-box-container">
+					<!-- <div class="intro-box-container">
 						<img src="<?=site_url("/img/ourbooks/13.jpg")?>"
 							class="img-fluid shadow-lg wow fadeInLeft books-display" data-wow-delay="0.3s"
 							alt="activity-cricle" />
@@ -758,7 +758,7 @@
 							class="img-fluid shadow-lg wow fadeInLeft books-display" data-wow-delay="0.3s"
 							alt="activity-cricle" />
 
-					</div>
+					</div> -->
 
 				</div>
 
@@ -767,7 +767,48 @@
 		</div>
 	</div>
 
+   <!-- sponser section --->
+   <div class="container-fluid">
+		<div class="row">
+			<div class="col-2 col-sm-2 col-md-2 col-lg-2 pl-0">
+				<img src="../img/31.png" class="img-fluid float-left side-flower mt-5 wow fadeInLeft"
+					data-wow-delay="0.3s" alt="side-design" />
+			</div>
+			<div class="col-8 col-sm-8 col-md-8 col-lg-8 intro-box-container">
+				<div class="row m-4 p-0">
+					<div class="col-sm-12 col-md-12 col-lg-12 intro-box-container">
+						<img src="../img/9.png"
+							class="img-fluid mx-auto d-block section-heading section-heading-spl wow fadeInDown"
+							data-wow-delay="0.3s" alt="intro-box" />
+						<div class="intro-box-text">
+							<a href="<?=site_url("/home/members")?>" class="text-center mt-2 wow fadeInUp section-text"
+								data-wow-delay="0.3s"><b>
+								हमारे प्रायोजक </b>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="d-flex flex-column flex-md-row flex-lg-row flex-sm-column flex-wrap justify-content-center">
+					<div class="bg-white m-2 w-25">
+						<a href="<?=site_url("/home/logo.png")?>"><img src="<?=site_url("/img/logo.png")?>"
+								class="img-fluid w-100" alt="member-image"></a>
 
+					</div>
+					<div class="bg-white m-2 w-25">
+						<a href="<?=site_url("/home/logo.png")?>"><img src="<?=site_url("/img/logo.png")?>"
+								class="img-fluid w-100" alt="member-image"></a>
+
+					</div>
+					
+				</div>
+				
+			</div>
+			<div class="col-2 col-sm-2 col-md-2 col-lg-2 pr-0">
+				<img src="../img/32.png" class="img-fluid float-right side-flower mt-5 wow fadeInRight"
+					data-wow-delay="0.3s" alt="side-design" />
+			</div>
+		</div>
+	</div>
 
 	<!--extra section-->
 	<div class="container-fluid border-top border-light">

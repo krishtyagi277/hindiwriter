@@ -23,8 +23,7 @@
 	<link rel="stylesheet" href="<?=site_url("/css/lightgallery.min.css")?>">
 	<meta name="title" content="हिन्दी राइटर्स गिल्ड कैनेडा-दीर्घा">
 	<meta name="description" content="हिन्दी राइटर्स गिल्ड कैनेडा-दीर्घा">
-	<meta property="og:url"
-		content="<?=site_url("/home/gallery")?>" />
+	<meta property="og:url" content="<?=site_url("/home/gallery")?>" />
 	<meta property="og:type" content="website">
 	<meta property="og:description" content="हिन्दी राइटर्स गिल्ड कैनेडा-दीर्घा">
 	<meta property="og:title" content="हिन्दी राइटर्स गिल्ड कैनेडा-दीर्घा">
@@ -83,7 +82,7 @@
 				<div class="intro-box-text intro-box-size">
 
 					<p class="text-center wow fadeInUp p-3 pb-5 mb-2 page-title" data-wow-delay="0.2s"><b>
-						फोटो गैलरी
+							फोटो गैलरी
 						</b>
 					</p>
 
@@ -109,131 +108,248 @@
 							class="img-fluid mx-auto d-block wow fadeInDown detail-page-heading" data-wow-delay="0.3s"
 							alt="intro-box" />
 						<div class="intro-box-text ">
-							<p class="text-center mt-2 wow fadeInUp section-text" data-wow-delay="0.3s"><b><a class="text-white" href="<?=site_url("/home/detail/dirgha")?>">दीर्घा</a></b>
+							<p class="text-center mt-2 wow fadeInUp section-text" data-wow-delay="0.3s"><b><a
+										class="text-white" href="<?=site_url("/home/detail/dirgha")?>">दीर्घा</a></b>
 							</p>
 						</div>
 					</div>
 				</div>
 
 				<div class="d-flex flex-md-column flex-lg-row  flex-sm-column flex-wrap justify-content-center"
-					id="animated-thumbnials">
-					<a href="<?=site_url("/img/story/1.jpg")?>" class="p-1 m-0 gallery"><img
-							src="<?=site_url("/img/story/1.jpg")?>" class="img-fluid wow fadeInLeft "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/2.1.jpg")?>" class="p-1 m-0 gallery "><img
-							src="<?=site_url("/img/story/2.1.jpg")?>" class="img-fluid wow fadeInRight "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/2.2.jpg")?>" class="p-1 m-0 gallery"><img
-							src="<?=site_url("/img/story/2.2.jpg")?>" class="img-fluid wow fadeInLeft "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/2.jpg")?>" class="p-1 m-0 gallery "><img
-							src="<?=site_url("/img/story/2.jpg")?>" class="img-fluid wow fadeInRight"
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/3.jpg")?>" class="p-1 m-0 gallery "><img
-							src="<?=site_url("/img/story/3.jpg")?>" class="img-fluid wow fadeInLeft"
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/4.jpg")?>" class="p-1 m-0 gallery "><img
-							src="<?=site_url("/img/story/4.jpg")?>" class="img-fluid wow fadeInRight "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/5.jpg")?>" class="p-1 m-0 gallery "><img
-							src="<?=site_url("/img/story/5.jpg")?>" class="img-fluid wow fadeInLeft "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/6.jpg")?>" class="p-1 m-0 gallery"><img
-							src="<?=site_url("/img/story/6.jpg")?>" class="img-fluid wow fadeInRight"
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/7.jpg")?>" class="p-1 m-0 gallery"><img
-							src="<?=site_url("/img/story/7.jpg")?>" class="img-fluid wow fadeInLeft "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/8.jpg")?>" class="p-1 m-0 gallery "><img
-							src="<?=site_url("/img/story/8.jpg")?>" class="img-fluid wow fadeInRight "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/9.jpg")?>" class="p-1 m-0 gallery"><img
-							src="<?=site_url("/img/story/9.jpg")?>" class="img-fluid wow fadeInLeft "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/10.jpg")?>" class="p-1 m-0 gallery"><img
-							src="<?=site_url("/img/story/10.jpg")?>" class="img-fluid wow fadeInRight "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/11.jpg")?>" class="p-1 m-0 gallery"><img
-							src="<?=site_url("/img/story/11.jpg")?>" class="img-fluid wow fadeInLeft "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/1.jpg")?>" class="p-1 m-0 gallery"><img
-							src="<?=site_url("/img/story/1.jpg")?>" class="img-fluid wow fadeInLeft "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/2.1.jpg")?>" class="p-1 m-0 gallery "><img
-							src="<?=site_url("/img/story/2.1.jpg")?>" class="img-fluid wow fadeInRight "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/2.2.jpg")?>" class="p-1 m-0 gallery"><img
-							src="<?=site_url("/img/story/2.2.jpg")?>" class="img-fluid wow fadeInLeft "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/2.jpg")?>" class="p-1 m-0 gallery "><img
-							src="<?=site_url("/img/story/2.jpg")?>" class="img-fluid wow fadeInRight"
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/3.jpg")?>" class="p-1 m-0 gallery "><img
-							src="<?=site_url("/img/story/3.jpg")?>" class="img-fluid wow fadeInLeft"
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/4.jpg")?>" class="p-1 m-0 gallery "><img
-							src="<?=site_url("/img/story/4.jpg")?>" class="img-fluid wow fadeInRight "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/5.jpg")?>" class="p-1 m-0 gallery "><img
-							src="<?=site_url("/img/story/5.jpg")?>" class="img-fluid wow fadeInLeft "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/6.jpg")?>" class="p-1 m-0 gallery"><img
-							src="<?=site_url("/img/story/6.jpg")?>" class="img-fluid wow fadeInRight"
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/7.jpg")?>" class="p-1 m-0 gallery"><img
-							src="<?=site_url("/img/story/7.jpg")?>" class="img-fluid wow fadeInLeft "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/8.jpg")?>" class="p-1 m-0 gallery "><img
-							src="<?=site_url("/img/story/8.jpg")?>" class="img-fluid wow fadeInRight "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/9.jpg")?>" class="p-1 m-0 gallery"><img
-							src="<?=site_url("/img/story/9.jpg")?>" class="img-fluid wow fadeInLeft "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/10.jpg")?>" class="p-1 m-0 gallery"><img
-							src="<?=site_url("/img/story/10.jpg")?>" class="img-fluid wow fadeInRight "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/11.jpg")?>" class="p-1 m-0 gallery"><img
-							src="<?=site_url("/img/story/11.jpg")?>" class="img-fluid wow fadeInLeft "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/1.jpg")?>" class="p-1 m-0 gallery"><img
-							src="<?=site_url("/img/story/1.jpg")?>" class="img-fluid wow fadeInLeft "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/2.1.jpg")?>" class="p-1 m-0 gallery "><img
-							src="<?=site_url("/img/story/2.1.jpg")?>" class="img-fluid wow fadeInRight "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/2.2.jpg")?>" class="p-1 m-0 gallery"><img
-							src="<?=site_url("/img/story/2.2.jpg")?>" class="img-fluid wow fadeInLeft "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/2.jpg")?>" class="p-1 m-0 gallery "><img
-							src="<?=site_url("/img/story/2.jpg")?>" class="img-fluid wow fadeInRight"
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/3.jpg")?>" class="p-1 m-0 gallery "><img
-							src="<?=site_url("/img/story/3.jpg")?>" class="img-fluid wow fadeInLeft"
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/4.jpg")?>" class="p-1 m-0 gallery "><img
-							src="<?=site_url("/img/story/4.jpg")?>" class="img-fluid wow fadeInRight "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/5.jpg")?>" class="p-1 m-0 gallery "><img
-							src="<?=site_url("/img/story/5.jpg")?>" class="img-fluid wow fadeInLeft "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/6.jpg")?>" class="p-1 m-0 gallery"><img
-							src="<?=site_url("/img/story/6.jpg")?>" class="img-fluid wow fadeInRight"
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/7.jpg")?>" class="p-1 m-0 gallery"><img
-							src="<?=site_url("/img/story/7.jpg")?>" class="img-fluid wow fadeInLeft "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/8.jpg")?>" class="p-1 m-0 gallery "><img
-							src="<?=site_url("/img/story/8.jpg")?>" class="img-fluid wow fadeInRight "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/9.jpg")?>" class="p-1 m-0 gallery"><img
-							src="<?=site_url("/img/story/9.jpg")?>" class="img-fluid wow fadeInLeft "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/10.jpg")?>" class="p-1 m-0 gallery"><img
-							src="<?=site_url("/img/story/10.jpg")?>" class="img-fluid wow fadeInRight "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
-					<a href="<?=site_url("/img/story/11.jpg")?>" class="p-1 m-0 gallery"><img
-							src="<?=site_url("/img/story/11.jpg")?>" class="img-fluid wow fadeInLeft "
-							data-wow-delay="0.3s" alt="photo-gallery" /></a>
+					>
+					<div id="accordion" class="mt-5">
+						<div class="card">
+							<div class="card-header text-center" id="headingOne">
+								<h5 class="mb-0">
+									<button class="btn text-danger video-collapse-btn" data-toggle="collapse"
+										data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										कवि- सम्मलेन
+									</button>
+								</h5>
+							</div>
+
+							<div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+								data-parent="#accordion">
+								<div class="card-body">
+									<div
+										class="d-flex flex-md-column flex-lg-row flex-sm-column justify-content-center align-items-center flex-wrap">
+										<?php foreach($kaviData as $data):?>
+										<a href="<?=site_url("/img/gallery/".$data['parent']."/".$data['name']."")?>" target="_blank" class="p-1 m-0 gallery detail-page-img"><img
+												src="<?=site_url("/img/gallery/".$data['parent']."/".$data['name']."")?>"
+												class="img-fluid img-fit wow fadeInLeft " data-wow-delay="0.3s"
+												alt="photo-gallery" /></a>
+												<?php endforeach;?>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header text-center" id="headingTwo">
+								<h5 class="mb-0">
+									<button class="btn text-danger collapsed video-collapse-btn" data-toggle="collapse"
+										data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+										वार्षिक महोत्सव
+									</button>
+								</h5>
+							</div>
+							<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+								data-parent="#accordion">
+								<div class="card-body">
+									<div
+										class="d-flex flex-md-column flex-lg-row flex-sm-column justify-content-center align-items-center flex-wrap">
+										<?php foreach($annualfestData as $data):?>
+										<a href="<?=site_url("/img/gallery/".$data['parent']."/".$data['name']."")?>" target="_blank" class="p-1 m-0 gallery detail-page-img"><img
+												src="<?=site_url("/img/gallery/".$data['parent']."/".$data['name']."")?>"
+												class="img-fluid img-fit wow fadeInLeft " data-wow-delay="0.3s"
+												alt="photo-gallery" /></a>
+												<?php endforeach;?>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header text-center" id="headingThree">
+								<h5 class="mb-0">
+									<button class="btn text-danger collapsed video-collapse-btn" data-toggle="collapse"
+										data-target="#collapseThree" aria-expanded="false"
+										aria-controls="collapseThree">
+										होली महोत्सव
+									</button>
+								</h5>
+							</div>
+							<div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+								data-parent="#accordion">
+								<div class="card-body">
+									<div
+										class="d-flex flex-md-column flex-lg-row flex-sm-column justify-content-center align-items-center flex-wrap">
+										<?php foreach($holifestData as $data):?>
+										<a href="<?=site_url("/img/gallery/".$data['parent']."/".$data['name']."")?>" target="_blank" class="p-1 m-0 gallery detail-page-img"><img
+												src="<?=site_url("/img/gallery/".$data['parent']."/".$data['name']."")?>"
+												class="img-fluid img-fit wow fadeInLeft " data-wow-delay="0.3s"
+												alt="photo-gallery" /></a>
+												<?php endforeach;?>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- <div class="card">
+							<div class="card-header text-center" id="headingFour">
+								<h5 class="mb-0">
+									<button class="btn text-danger collapsed video-collapse-btn" data-toggle="collapse"
+										data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+										नाटक
+									</button>
+								</h5>
+							</div>
+							<div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+								data-parent="#accordion">
+								<div class="card-body">
+									<div
+										class="d-flex flex-md-column flex-lg-row flex-sm-column justify-content-center align-items-center flex-wrap">
+										<div
+											class="display-video text-center d-flex flex-column flex-sm-column flex-md-column flex-lg-column align-items-center">
+											<iframe width="100%" height="350"
+												src="https://www.youtube.com/embed/WGfPzEyH4zo" frameborder="0"
+												allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+												allowfullscreen=""></iframe>
+											<p class="mt-2">
+												दूसरी दुनिया
+											</p>
+										</div>
+										<div
+											class="display-video text-center flex-md-column d-flex flex-lg-column flex-column flex-sm-column align-items-center">
+											<iframe width="100%" height="350"
+												src="https://www.youtube.com/embed/8c43vK1mpbc" frameborder="0"
+												allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+												allowfullscreen=""></iframe>
+											<p class="mt-2">
+												आधे अधूरे
+											</p>
+										</div>
+										<div
+											class="display-video text-center flex-md-column d-flex flex-lg-column flex-column flex-sm-column align-items-center">
+											<iframe width="100%" height="350"
+												src="https://www.youtube.com/embed/_JzY2BEJbIw" frameborder="0"
+												allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+												allowfullscreen=""></iframe>
+											<p class="mt-2">
+												उधार का सुख
+											</p>
+										</div>
+										<div
+											class="display-video text-center flex-md-column d-flex flex-lg-column flex-column flex-sm-column align-items-center">
+											<iframe width="100%" height="350"
+												src="https://www.youtube.com/embed/-mYfAqw9JLo" frameborder="0"
+												allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+												allowfullscreen=""></iframe>
+											<p class="mt-2">
+												रश्मिरथी
+											</p>
+										</div>
+										<div
+											class="display-video text-center flex-md-column d-flex flex-lg-column flex-column flex-sm-column align-items-center">
+											<iframe width="100%" height="350"
+												src="https://www.youtube.com/embed/xQJmh4iLvs4" frameborder="0"
+												allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+												allowfullscreen=""></iframe>
+											<p class="mt-2">
+												अश्वथामा
+											</p>
+										</div>
+										<div
+											class="display-video text-center flex-md-column d-flex flex-lg-column flex-column flex-sm-column align-items-center">
+											<iframe width="100%" height="350"
+												src="https://www.youtube.com/embed/xQJmh4iLvs4" frameborder="0"
+												allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+												allowfullscreen=""></iframe>
+											<p class="mt-2">
+												चीफ की दावत
+											</p>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div> -->
+						<div class="card">
+							<div class="card-header text-center" id="headingFive">
+								<h5 class="mb-0">
+									<button class="btn text-danger collapsed video-collapse-btn" data-toggle="collapse"
+										data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+										आभार दिवस
+									</button>
+								</h5>
+							</div>
+							<div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+								data-parent="#accordion">
+								<div class="card-body">
+									<div
+										class="d-flex flex-md-column flex-lg-row flex-sm-column justify-content-center align-items-center flex-wrap">
+										<?php foreach($abharData as $data):?>
+										<a href="<?=site_url("/img/gallery/".$data['parent']."/".$data['name']."")?>" target="_blank" class="p-1 m-0 gallery detail-page-img"><img
+												src="<?=site_url("/img/gallery/".$data['parent']."/".$data['name']."")?>"
+												class="img-fluid img-fit wow fadeInLeft " data-wow-delay="0.3s"
+												alt="photo-gallery" /></a>
+												<?php endforeach;?>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header text-center" id="headingSix">
+								<h5 class="mb-0">
+									<button class="btn text-danger collapsed video-collapse-btn" data-toggle="collapse"
+										data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+										हिन्दी दिवस
+									</button>
+								</h5>
+							</div>
+							<div id="collapseSix" class="collapse" aria-labelledby="headingSix"
+								data-parent="#accordion">
+								<div class="card-body">
+									<div
+										class="d-flex flex-md-column flex-lg-row flex-sm-column justify-content-center align-items-center flex-wrap">
+										<?php foreach($hindifestData as $data):?>
+										<a href="<?=site_url("/img/gallery/".$data['parent']."/".$data['name']."")?>" target="_blank" class="p-1 m-0 gallery detail-page-img"><img
+												src="<?=site_url("/img/gallery/".$data['parent']."/".$data['name']."")?>"
+												class="img-fluid img-fit wow fadeInLeft " data-wow-delay="0.3s"
+												alt="photo-gallery" /></a>
+												<?php endforeach;?>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header text-center" id="headingSeven">
+								<h5 class="mb-0">
+									<button class="btn text-danger collapsed video-collapse-btn" data-toggle="collapse"
+										data-target="#collapseSeven" aria-expanded="false"
+										aria-controls="collapseSeven">
+										पुरस्कार/सम्मान
+									</button>
+								</h5>
+							</div>
+							<div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
+								data-parent="#accordion">
+								<div class="card-body">
+									<div
+										class="d-flex flex-md-column flex-lg-row flex-sm-column justify-content-center align-items-center flex-wrap">
+										<?php foreach($rewardsData as $data):?>
+										<a href="<?=site_url("/img/gallery/".$data['parent']."/".$data['name']."")?>" target="_blank" class="p-1 m-0 gallery detail-page-img"><img
+												src="<?=site_url("/img/gallery/".$data['parent']."/".$data['name']."")?>"
+												class="img-fluid img-fit wow fadeInLeft " data-wow-delay="0.3s"
+												alt="photo-gallery" /></a>
+												<?php endforeach;?>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 
 
 				</div>
@@ -258,7 +374,7 @@
 	<!-- footer section-->
 	<?= $this->include("components/footer") ?>
 	<?= $this->include("components/successMessage") ?>
-    <script src="<?=site_url("/js/subscribe.js")?>"></script>
+	<script src="<?=site_url("/js/subscribe.js")?>"></script>
 
 	<script src="<?=site_url("/js/wow.min.js")?>"></script>
 
@@ -286,7 +402,7 @@
 
 	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
 	</script>
-   
+
 </body>
 
 </html>

@@ -129,13 +129,13 @@
                                 मिसिसागा, कैनेडा
                             </p>
                             <p>
-                                sahityakunj.net के संस्थापक, संपादक
+                                <a href="http://sahityakunj.net" target="_blank">sahityakunj.net</a> के संस्थापक, संपादक
                             </p>
                             <p>
                                 हिन्दी राइटर्स गिल्ड के संस्थापक निदेशक
                             </p>
                             <p>
-                                pustakbazaar.com के संस्थापक, प्रकाशक
+                            <a href="http://pustakbazaar.com" target="_blank">pustakbazaar.com</a> के संस्थापक, प्रकाशक
                             </p>
                             <p>
                                 <strong>संपादन:</strong>
@@ -163,16 +163,16 @@
                                 भारत और विदेशों के प्रकाशित अनेक कहानी संकलनों में कहानियों का प्रकाशन।
                             </p>
                             <p>
-                                "लाश व अन्य कहानियाँ" (2016) pustakbazaar.com द्वारा ई-पुस्तक प्रकाशित।
+                                "लाश व अन्य कहानियाँ" (2016) <a href="http://pustakbazaar.com" target="_blank">pustakbazaar.com</a> द्वारा ई-पुस्तक प्रकाशित।
                             </p>
                             <p>
                                 अंतरजाल पर शायरी नाम से एक विशाल उर्दू की ग़ज़लों व नज़्मों का (1800 से अधिक)
                                 संग्रह देवनागरी लिपि में किया। श्री रामचरितमानस का सुन्दरकाण्ड पूरा करने के
-                                बाद सब कुछ geocities.com के लुप्त होते ही लोप हो गया।
+                                बाद सब कुछ <a href="http://geocities.com" target="_blank">geocities.com</a> के लुप्त होते ही लोप हो गया।
                             </p>
                             <p>
                                 <strong>सम्पर्क:</strong>
-                                sumankghai@gmail.com
+                                <a href="mailto:sumankghai@gmail.com">sumankghai@gmail.com</a>
                             </p>
                         </div>
                         <!--end -->
@@ -209,6 +209,17 @@
             thumbnail: true
         });
     </script>
+    <script type="text/javascript">
+		function googleTranslateElementInit() {
+			new google.translate.TranslateElement({
+				pageLanguage: 'hi',
+				layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+			}, 'google_translate_element');
+		}
+	</script>
+
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+	</script>
 
 </body>
 

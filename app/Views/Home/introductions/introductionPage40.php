@@ -125,7 +125,7 @@
                         <!-- intro description here -->
                         <div class="intro-page-description">
                             <p>
-                                09 अगत को , कटक,ओडसा में जन्मे कशोरकान्त द्विवेदी ने विज्ञान में
+                                09 अगस्त को , कटक,ओडसा में जन्मे कशोरकान्त द्विवेदी ने विज्ञान में
                             </p>
                             <p>
                                 स्नात्तकोतर शिक्षा पाई । करिब 45 वर्षों तक ओडसा में बस ने के बाद एक दशक
@@ -226,13 +226,13 @@
                 <div class="d-flex flex-md-row flex-lg-row flex-sm-column flex-wrap justify-content-center mt-5">
                     <div class="intro-box-container intor-page-book-section">
                         <img src="<?=site_url("/img/books/41.jpg")?>"
-                            class="img-fluid shadow-lg border-0 w-75 wow fadeInLeft" data-wow-delay="0.3s"
+                            class="img-fluid shadow-lg w-75 wow fadeInLeft" data-wow-delay="0.3s"
                             alt="activity-cricle" />
 
                     </div>
                     <div class="intro-box-container intor-page-book-section">
                         <img src="<?=site_url("/img/books/42.jpg")?>"
-                            class="img-fluid shadow-lg border-0 w-75 wow fadeInLeft" data-wow-delay="0.3s"
+                            class="img-fluid shadow-lg w-75 wow fadeInLeft" data-wow-delay="0.3s"
                             alt="activity-cricle" />
 
                     </div>
@@ -268,6 +268,17 @@
             thumbnail: true
         });
     </script>
+    <script type="text/javascript">
+		function googleTranslateElementInit() {
+			new google.translate.TranslateElement({
+				pageLanguage: 'hi',
+				layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+			}, 'google_translate_element');
+		}
+	</script>
+
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+	</script>
 
 </body>
 

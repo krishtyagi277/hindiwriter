@@ -13,8 +13,12 @@ function sendSubscribeEmail(e) {
         .then(response => response.json())
         .then(data => {
             document.getElementsByClassName('email-alert')[0].style.display = "block";
+            emailId = "";
             clearBlock();
-        }).catch(error => console.log(error));
+        }).catch(error => {
+            emailId = "";
+            console.log(error)
+        });
     }
 
 
@@ -24,11 +28,15 @@ function sponserEmail(e){
     fetch('http://hindiwriter.localhost/home/sponserEmail?email=' + emailId)
         .then(response => response.json())
         .then(data => {
-          
+           
             document.getElementsByClassName('email-alert')[0].style.display = "block";
+            emailId = "";
             clearBlock();
             
-        }).catch(error => console.log(error));
+        }).catch(error => {
+            emailId = "";
+            console.log(error)
+        });
 }
 
 function becomeMemberEmail(e){
@@ -39,9 +47,13 @@ function becomeMemberEmail(e){
         .then(data => {
           
             document.getElementsByClassName('email-alert')[0].style.display = "block";
+            emailId = "";
             clearBlock();
             
-        }).catch(error => console.log(error));
+        }).catch(error => {
+            emailId = "";
+            console.log(error)
+        });
 }
 
 function donationEmail(e){
@@ -52,9 +64,13 @@ function donationEmail(e){
         .then(data => {
           
             document.getElementsByClassName('email-alert')[0].style.display = "block";
+            emailId = "";
             clearBlock();
             
-        }).catch(error => console.log(error));
+        }).catch(error => {
+            emailId = "";
+            console.log(error)
+        });
 }
 
 function contactUsEmail(e){
@@ -67,7 +83,10 @@ function contactUsEmail(e){
             document.getElementsByClassName('email-alert')[0].style.display = "block";
             clearBlock();
             
-        }).catch(error => console.log(error));
+        }).catch(error => {
+            emailId = "";
+            console.log(error)
+        });
 }
 
 function clearBlock () {
@@ -88,4 +107,17 @@ if(window.innerWidth > 992) {
     for(let navlink of navLinksArr){
         navlink.setAttribute("data-toggle", "dropdown");
     }
+}
+
+window.onscroll = function() {myFunction()};
+
+let header = document.getElementById("nav-bar");
+let sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
 }

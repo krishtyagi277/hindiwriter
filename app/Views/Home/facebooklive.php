@@ -118,6 +118,14 @@
                 </div>
 
                 <div class="d-flex flex-md-column flex-lg-row flex-sm-column justify-content-center align-items-center flex-wrap">
+                <div id="vid-10" class="display-video text-center d-flex flex-column flex-sm-column flex-md-column flex-lg-column align-items-center">
+                        <iframe width="100%" height="350" src="https://www.youtube.com/embed/3PNp8xpOklA" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen=""></iframe>
+                            <p class="mt-2">
+                            "रजनीगंधा "मन्नू भंडारी जी के ९०वें जन्मदिन के उत्सव पर आधारित कार्यक्रम 
+                            </p>
+                    </div>
                     <div id="vid-1" class="display-video text-center d-flex flex-column flex-sm-column flex-md-column flex-lg-column align-items-center">
                         <iframe width="100%" height="350" src="https://www.youtube.com/embed/YLl0TXqqsno" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

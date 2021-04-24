@@ -215,7 +215,7 @@
                 <div class="d-flex flex-md-row flex-lg-row flex-sm-column flex-wrap justify-content-center mt-5">
                     <div class="intro-box-container intor-page-book-section">
                         <img src="<?=site_url("/img/books/37.jpg")?>"
-                            class="img-fluid shadow-lg border-0 w-75 wow fadeInLeft" data-wow-delay="0.3s"
+                            class="img-fluid shadow-lg w-75 wow fadeInLeft" data-wow-delay="0.3s"
                             alt="activity-cricle" />
 
                     </div>
@@ -250,6 +250,17 @@
             thumbnail: true
         });
     </script>
+    <script type="text/javascript">
+		function googleTranslateElementInit() {
+			new google.translate.TranslateElement({
+				pageLanguage: 'hi',
+				layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+			}, 'google_translate_element');
+		}
+	</script>
+
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+	</script>
 
 </body>
 

@@ -104,7 +104,8 @@
                     </div>
                 </div>
 
-                <div class="row rounded bg-white pt-3 pb-3 mb-5 w-100 wow fadeInUp mt-4 intro-description-page" data-wow-delay="0.5s">
+                <div class="row rounded bg-white pt-3 pb-3 mb-5 w-100 wow fadeInUp mt-4 intro-description-page"
+                    data-wow-delay="0.5s">
 
                     <div class="col-sm-12 col-md-12 col-lg-12 pl-3 pr-0 pt-2 wow fadeInRight" data-wow-delay="1.8s">
                         <div class="col-sm-8 col-md-8 col-lg-6 pl-0 pr-0 pt-2 pr-2 float-left">
@@ -118,7 +119,30 @@
                         </div>
                         <!-- intro description here -->
                         <div class="intro-page-description">
-                            
+                            <p>
+                                श्रीमती अरुणा भटनागर जी का जन्म दिल्ली में हुआ और प्राथमिक शिक्षा हुई बनारस
+                                में । इसके पश्चात दिल्ली में इन्होंने बी ए की शिक्षा ग्रहण की और दिल्ली
+                                विश्वविद्यालय से एम् ए . किया । इसके पश्चात नाटकों में इनकी बहुत रुचि रही
+                                और 1957 से 1961 तक दिल्ली के रेडियो स्टेशन में नाटकों में भाग लिया | इसके
+                                बाद दिल्ली में रेडियो स्टेशन से 1959 में बच्चों के कार्यक्रम तथा समाचार
+                                प्रसारण का कार्य किया ।
+                            </p>
+                            <p>
+                                1967 में ये कनाडा आयीं और यहां पर हिंदी के प्रचार प्रसार का कार्य किया ,ये
+                                हिंदी साहित्य सभा की संस्थापक सदस्य है और उसकी पूर्व अध्यक्षा भी रही हैं ।
+                                भारतीय काउंसिलावास के पेनोरामा इंडिया की निदेशिका भी रही हैं । इन्होंने
+                                छोटी-छोटी कविताएं लिखी हैं और मंचों से सुनाई भी हैं | इनकी भाषा सरल, सहज और
+                                भावपूर्ण है । हिंदी साहित्य सभा की अध्यक्षा होने पर टोरंटो में हिंदी के कई
+                                कार्यक्रम प्रस्तुत किए और बाहर से आए हुए कवियों का कार्यक्रम किया | इनकी
+                                सबसे बड़ी उपलब्धि यही है कि इन्होंने कई हिंदी के कवियों को प्रतिष्ठित होने
+                                में सहायता दी हिंदी प्रेमियों को सक्रिय बनने के लिए प्रेरित किया है | हिंदी
+                                साहित्य सभा के अंतर्गत इन्होंने कई नाटकों में भी भाग लिया जैसे 'लो कर लो
+                                बात ' में इनकी प्रमुख भूमिका थी और बहुत अच्छा अभिनय भी किया| 'दूसरों के
+                                बच्चे 'नरेंद्र कोहली की कथा पर आधारित नाटक में भी भाग लिया | इस प्रकार और
+                                इन्होंने हिंदी के प्रचार व् प्रसार में इतनी मदद की ,कि हिंदी राइटर्स गिल्ड
+                                की ओर से इनको एक विशेष सम्मान भी दिया गया ।
+                            </p>
+
                         </div>
                         <!--end -->
 
@@ -126,7 +150,7 @@
                 </div>
             </div>
             <div class="col-sm-1 col-md-1 col-lg-1 pr-0">
-                
+
             </div>
         </div>
 
@@ -181,6 +205,17 @@
         lightGallery(document.getElementById('animated-thumbnials'), {
             thumbnail: true
         });
+    </script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'hi',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
     </script>
 
 </body>

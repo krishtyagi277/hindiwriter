@@ -1,18 +1,18 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-	<a href="/home/main"><img src="<?=site_url("/img/HWG-LOGO-21.png") ?>" class="img-fluid" alt="Brand" id="brand"></a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav-bar">
+	<a href="/"><img src="<?=site_url("/img/HWG-LOGO-21.png") ?>" class="img-fluid" alt="Brand" id="brand"></a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
 	<div class="collapse navbar-collapse" id="main_nav">
 		<ul class="navbar-nav">
-			<li class="nav-item active"> <a class="nav-link mega-menu-main-heading" href="/">मुखपृष्ठ  </a> </li>
+			<li class="nav-item active"> <a class="nav-link mega-menu-main-heading" href="/home/main">मुख्य पृष्ठ  </a> </li>
 			<li class="nav-item active"> <a class="nav-link mega-menu-main-heading" href="/home/detailPage/sanstha-ka-parichai">संस्था का परिचय  </a> </li>
+			<li class="nav-item active"> <a class="nav-link mega-menu-main-heading" href="/home/detailPage/Udghatan-samroh">उद्‌घाटन समारोह  </a> </li>
 			
 			<li class="nav-item dropdown has-megamenu"> <a class="nav-link dropdown-toggle mega-menu-main-heading text-white" href="/home/detail/gatividhiya" data-toggle="dropdown"> गतिविधियाँ  </a>
 				<div class="dropdown-menu megamenu nav-bg-img" role="menu">
 					<div class="row">
 						<div class="col-md-2">
 							<div class="col-megamenu">
-								<h6 class="title"><a href="/home/detailPage/Udghatan-samroh" class="mega-menu-heading">उद्‌घाटन समारोह</a></h6>
-								</br>
+								
 								<h6 class="title"><a href="<?=site_url("/home/details/workshop ")?>" class="mega-menu-heading">कार्यशालाएँ</a> </h6>
                               
 								<ul class="list-unstyled">
@@ -29,7 +29,8 @@
 						<div class="col-md-2">
 							<div class="col-megamenu">
 								<h6 class="title"><a href="<?=site_url("/home/facebookLive")?>" class="mega-menu-heading">फेसबुक लाइव</a> </h6>
-								<ul class="list-unstyled">
+								<ul class="list-unstyled"> 
+								    <li><a href="/home/facebookLive?id=vid-10" class="mega-menu-text">"रजनीगंधा "मन्नू भंडारी जी के ९०वें जन्मदिन के उत्सव पर आधारित कार्यक्रम</a></li>
 									<li><a href="/home/facebookLive?id=vid-1" class="mega-menu-text">डॉ. रमेश पोखरियाल 'निशंक' को साहित्य गौरव सम्मान कैनेडा 2021</a></li>
 									<li><a href="/home/facebookLive?id=vid-2" class="mega-menu-text">हिन्दी राइटर्स गिल्ड ने मनाया ' विश्व हिन्दी दिवस' फीजी और भारत के साथ</a></li>
 									<li><a href="/home/facebookLive?id=vid-3" class="mega-menu-text">विश्वारंग 2020  कैनेडा -उद्घाटन</a></li>
@@ -50,7 +51,7 @@
 								<ul class="list-unstyled">
 									<li><a href="/home/detailPage/vishwarang-2020-12" class="mega-menu-text">विश्वरंग 2020-7 नवम्बर </a></li>
 									<li><a href="/home/detailPage/vishwarang-2020-13" class="mega-menu-text">विश्वरंग 2020-8 नवम्बर </a></li>
-									<li><a href="/home/detailPage/vishwarang-2020-14" class="mega-menu-text">विश्व हिंदी शिक्षण विमर्श </a></li>
+									<li><a href="/home/detailPage/vishwarang-2020-14" class="mega-menu-text">विश्व हिन्दी शिक्षण विमर्श </a></li>
 								</ul>
 								<h6 class="title mt-3"><a href="/home/details/sanghoshtiya" class="mega-menu-heading">संगोष्ठियाँ</a></h6>
 								<ul class="list-unstyled">
@@ -131,7 +132,7 @@
 									<li><a href="/home/detailPage/apni-apni-pasand" class="mega-menu-text">अपनी-अपनी पसंद </a></li>
 									<li><a href="/home/detailPage/andha-yug" class="mega-menu-text">अंधा युग </a></li>
 								</ul>
-								<h6 class="title"><a href="/home/details/bhor" class="mega-menu-heading">भोर - द डॉन विदइन" का लोकार्पण</a></h6>
+								<h6 class="title"><a href="/home/detailpage/bhor" class="mega-menu-heading">भोर - द डॉन विदइन" का लोकार्पण</a></h6>
 							</div>
 							<!-- col-megamenu.// -->
 						</div>
@@ -158,10 +159,10 @@
 							<div class="col-megamenu">
 								<h6 class="title"><a href="/home/details/international-sammelan" class="mega-menu-heading">अंतरराष्ट्रीय सम्मलेन में भागीदारी</a> </h6>
 								<ul class="list-unstyled">
-									<li><a href="/home/detailPage/international-sammelan-2020" class="mega-menu-text">अंतरराष्ट्रीय हिंदी सम्मलेन भारत जनवरी 2020</a></li>
-									<li><a href="/home/detailPage/international-sammelan-2015" class="mega-menu-text">अंतरराष्ट्रीय हिंदी सम्मलेन अमेरिका 2015 </a></li>
-									<li><a href="/home/detailPage/pravasi-hindi" class="mega-menu-text">प्रवासी हिंदी लेखक मंच</a></li>
-									<li><a href="/home/detailPage/international-sammelan-2014" class="mega-menu-text">अंतरराष्ट्रीय हिन्दी सम्मेलन 2014</a></li>
+									<li><a href="/home/detailPage/international-sammelan-2020" class="mega-menu-text">अंतरराष्ट्रीय</br>हिन्दी सम्मलेन</br>भारत</br>जनवरी 2020</a></li>
+									<li><a href="/home/detailPage/international-sammelan-2015" class="mega-menu-text">अंतरराष्ट्रीय</br>हिन्दी सम्मलेन</br>अमेरिका</br>2015 </a></li>
+									<li><a href="/home/detailPage/international-sammelan-2014" class="mega-menu-text">अंतरराष्ट्रीय</br>हिन्दी सम्मेलन</br>2014</a></li>
+									<li><a href="/home/detailPage/pravasi-hindi" class="mega-menu-text">प्रवासी</br>हिन्दी लेखक</br>मंच</a></li>
 								</ul>
 							</div>
 							<!-- col-megamenu.// -->
@@ -181,7 +182,7 @@
 							<div class="col-megamenu">
 								<h6 class="title"><a href="/home/details/shetriya-bhagidari" class="mega-menu-heading">क्षेत्रीय भागीदारी </a></h6>
 								<ul class="list-unstyled">
-									<li><a href="/home/detailPage/vishwa-hindi" class="mega-menu-text">'विश्व हिंदी दिवस ओटवा  </a></li>
+									<li><a href="/home/detailPage/vishwa-hindi" class="mega-menu-text">'विश्व हिन्दी दिवस ओटवा  </a></li>
 								</ul>
 							</div>
 							<!-- col-megamenu.// -->
@@ -209,17 +210,17 @@
 							<div class="col-megamenu">
 								<h6 class="title"><a href="/home/details/annual-festival" class="mega-menu-heading">वार्षिक महोत्सव </a></h6>
 								<ul class="list-unstyled">
-									<li><a href="/home/detailPage/annual-festival-2009" class="mega-menu-text">वार्षिक महोत्सव 2009 </a></li>
-									<li><a href="/home/detailPage/annual-festival-2010" class="mega-menu-text">वार्षिक महोत्सव 2010 </a></li>
-									<li><a href="/home/detailPage/annual-festival-2011" class="mega-menu-text">वार्षिक महोत्सव 2011 </a></li>
-									<li><a href="/home/detailPage/annual-festival-2012" class="mega-menu-text">वार्षिक महोत्सव 2012 </a></li>
-									<li><a href="/home/detailPage/annual-festival-2013" class="mega-menu-text">वार्षिक महोत्सव 2013 </a></li>
-									<li><a href="/home/detailPage/annual-festival-2014" class="mega-menu-text">वार्षिक महोत्सव 2014 </a></li>
-									<li><a href="/home/detailPage/annual-festival-2015" class="mega-menu-text">वार्षिक महोत्सव 2015 </a></li>
-									<li><a href="/home/detailPage/annual-festival-2016" class="mega-menu-text">वार्षिक महोत्सव 2016 </a></li>
-									<li><a href="/home/detailPage/annual-festival-2017" class="mega-menu-text">वार्षिक महोत्सव 2017 </a></li>
+								    <li><a href="/home/detailPage/annual-festival-2019" class="mega-menu-text">वार्षिक महोत्सव 2019 </a></li>
 									<li><a href="/home/detailPage/annual-festival-2018" class="mega-menu-text">वार्षिक महोत्सव 2018 </a></li>
-									<li><a href="/home/detailPage/annual-festival-2019" class="mega-menu-text">वार्षिक महोत्सव 2019 </a></li>
+									<li><a href="/home/detailPage/annual-festival-2017" class="mega-menu-text">वार्षिक महोत्सव 2017 </a></li>
+									<li><a href="/home/detailPage/annual-festival-2016" class="mega-menu-text">वार्षिक महोत्सव 2016 </a></li>
+									<li><a href="/home/detailPage/annual-festival-2015" class="mega-menu-text">वार्षिक महोत्सव 2015 </a></li>
+									<li><a href="/home/detailPage/annual-festival-2014" class="mega-menu-text">वार्षिक महोत्सव 2014 </a></li>
+									<li><a href="/home/detailPage/annual-festival-2013" class="mega-menu-text">वार्षिक महोत्सव 2013 </a></li>
+									<li><a href="/home/detailPage/annual-festival-2012" class="mega-menu-text">वार्षिक महोत्सव 2012 </a></li>
+									<li><a href="/home/detailPage/annual-festival-2011" class="mega-menu-text">वार्षिक महोत्सव 2011 </a></li>
+									<li><a href="/home/detailPage/annual-festival-2010" class="mega-menu-text">वार्षिक महोत्सव 2010 </a></li>
+									<li><a href="/home/detailPage/annual-festival-2009" class="mega-menu-text">वार्षिक महोत्सव 2009 </a></li>
 								</ul>
 							</div>
 							<!-- col-megamenu.// -->
@@ -229,9 +230,10 @@
 							<div class="col-megamenu">
 								<h6 class="title"><a href="/home/details/holi-festival" class="mega-menu-heading">होली महोत्सव</a> </h6>
 								<ul class="list-unstyled">
+								    <li><a href="/home/detailPage/holi-festival-2021" class="mega-menu-text">होली महोत्सव 2021</a></li>
 									<li><a href="/home/detailPage/holi-festival-2019" class="mega-menu-text">होली महोत्सव 2019</a></li>
-									<li><a href="/home/detailPage/holi-festival-2018" class="mega-menu-text">होली महोत्सव 2018</a></li>
-									<li><a href="/home/detailPage/holi-festival-2017" class="mega-menu-text">होली महोत्सव 2017</a></li>
+									<!-- <li><a href="/home/detailPage/holi-festival-2018" class="mega-menu-text">होली महोत्सव 2018</a></li>
+									<li><a href="/home/detailPage/holi-festival-2017" class="mega-menu-text">होली महोत्सव 2017</a></li> -->
 									<li><a href="/home/detailPage/holi-festival-2016" class="mega-menu-text">होली महोत्सव 2016</a></li>
 									<li><a href="/home/detailPage/holi-festival-2015" class="mega-menu-text">होली महोत्सव 2015</a></li>
 									<li><a href="/home/detailPage/holi-festival-2014" class="mega-menu-text">होली महोत्सव 2014</a></li>
@@ -249,8 +251,9 @@
 							<div class="col-megamenu">
 								<h6 class="title"><a href="/home/details/abhar-divas" class="mega-menu-heading">आभार दिवस</a> </h6>
 								<ul class="list-unstyled">
+								    <li><a href="/home/detailPage/abhar-divas-2017" class="mega-menu-text">आभार दिवस 2017</a></li>
 									<li><a href="/home/detailPage/abhar-divas-2012" class="mega-menu-text">आभार दिवस 2012</a></li>
-									<li><a href="/home/detailPage/abhar-divas-2017" class="mega-menu-text">आभार दिवस 2017</a></li>
+									
 								</ul>
 							</div>
 							<!-- col-megamenu.// -->
@@ -259,8 +262,8 @@
 							<div class="col-megamenu">
 								<h6 class="title"><a href="/home/details/hindi-divas" class="mega-menu-heading">हिन्दी दिवस  </a></h6>
 								<ul class="list-unstyled">
-									<li><a href="/home/detailPage/hindi-divas-2019" class="mega-menu-text">हिन्दी दिवस-जनवरी- 2019  </a></li>
-									<li><a href="/home/detailPage/hindi-divas-2017" class="mega-menu-text">हिन्दी दिवस-सितम्बर- 2019  </a></li>
+									<li><a href="/home/detailPage/hindi-divas-2019-2" class="mega-menu-text">हिन्दी दिवस-जनवरी- 2019  </a></li>
+									<li><a href="/home/detailPage/hindi-divas-2019" class="mega-menu-text">हिन्दी दिवस-सितम्बर- 2019  </a></li>
 									<li><a href="/home/detailPage/hindi-divas-2018" class="mega-menu-text">हिन्दी दिवस-सितम्बर- 2018  </a></li>
 									<li><a href="/home/detailPage/hindi-divas-2015" class="mega-menu-text">हिन्दी दिवस-सितम्बर- 2015  </a></li>
 								</ul>
@@ -435,7 +438,7 @@
 			<li class="nav-item dropdown has-megamenu"> <a class="nav-link dropdown-toggle text-white mega-menu-main-heading" href="/home/detail/dirgha" data-toggle="dropdown">दीर्घा   </a>
 				<div class="dropdown-menu megamenu nav-bg-img" role="menu">
 					<div class="row">
-						<div class="col-md-4">
+						<div class="col-md-3">
 							<div class="col-megamenu">
 								<h6 class="title"><a href="<?=site_url("/home/gallery")?>" class="mega-menu-heading">फोटो गैलरी </a></h6>
 								<!--<ul class="list-unstyled">
@@ -450,7 +453,7 @@
 							<!-- col-megamenu.// -->
 						</div>
 						<!-- end col-3 -->
-						<div class="col-md-4">
+						<div class="col-md-3">
 							<div class="col-megamenu">
 								<h6 class="title"><a href="<?=site_url("/home/videogallery")?>" class="mega-menu-heading">वीडियो गैलरी </a> </h6>
 								<!--<ul class="list-unstyled">
@@ -465,23 +468,26 @@
 							<!-- col-megamenu.// -->
 						</div>
 						<!-- end col-3 -->
-						<div class="col-md-4">
+						<div class="col-md-3">
 							<div class="col-megamenu">
 								<h6 class="title"><a href="<?=site_url("/home/audiogallery")?>" class="mega-menu-heading">ऑडियो गैलरी </a> </h6> </div>
 							<!-- col-megamenu.// -->
 						</div>
 						<!-- end col-3 -->
+						<div class="col-md-3">
+							<div class="col-megamenu">
+								<h6 class="title"><a href="<?=site_url("/home/newspaper")?>" class="mega-menu-heading">समाचार पत्र में </br>हिन्दी राइटर्स गिल्ड</a> </h6> </div>
+							<!-- col-megamenu.// -->
+						</div>
 					</div>
 					<!-- end row -->
 				</div>
 				<!-- dropdown-mega-menu.// -->
 			</li>
-			<li class="nav-item"><a class="nav-link text-white mega-menu-main-heading" href="<?=site_url("/home/ourbooks")?>">हमारी प्रकाशित पुस्तकें  </a></li>
+			<li class="nav-item"><a class="nav-link text-white mega-menu-main-heading" href="<?=site_url("/home/ourbooks")?>">प्रकाशित पुस्तकें  </a></li>
 			<li class="nav-item"><a class="nav-link text-white mega-menu-main-heading" href="<?=site_url("/home/invitations")?>">निमंत्रण-पत्र   </a></li>
 			<li class="nav-item"><a class="nav-link text-white mega-menu-main-heading" href="#">शुभकामनाएं सन्देश    </a></li>
-			<li class="nav-item"><a class="nav-link text-white mega-menu-main-heading" href="<?=site_url("/home/newspaper")?>" > समाचार पत्र  </a>
-				
-			</li>
+			
 		</ul>
 		<!--
 		<ul class="navbar-nav ml-auto">

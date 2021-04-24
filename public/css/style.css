@@ -60,6 +60,17 @@
     }
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:9999;
+  }
+  
+  .intro-box-width{
+      width:100%;
+  }
+
 
 #brand {
     margin: 0;
@@ -77,9 +88,10 @@
       width:100%;
   }
   .email-alert{
+      font-size: 24px;
       display: none;
       position: fixed;
-      top: 0;
+      bottom: 0;
       z-index: 1;
   }
   .payment-alert{
@@ -275,7 +287,12 @@
 .intor-page-book-section {
     width: 360px;
     margin-top: 4px;
+    
 }
+.intor-page-book-section img{
+    border: 3px solid #ff3354;
+}
+
 
 #detail-bg {
     background-image: url("../img/5034733.jpg");
