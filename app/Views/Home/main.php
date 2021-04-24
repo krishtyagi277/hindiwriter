@@ -659,7 +659,7 @@
 	</div>
 
 	<!-- book section-->
-	<div class="container-fluid mb-4 book-parallax">
+	<div class="container-fluid book-parallax">
 		<div class="row">
 			<div class="col-sm-12 col-md-12 col-lg-12 intro-box-container">
 				<div class="row m-0 p-0 mt-2 mb-2">
@@ -788,14 +788,14 @@
 						</div>
 					</div>
 				</div>
-				<div class="d-flex flex-column flex-md-row flex-lg-row flex-sm-column flex-wrap justify-content-center">
-					<div class="bg-white m-2 w-25">
-						<a href="<?=site_url("/home/logo.png")?>"><img src="<?=site_url("/img/logo.png")?>"
+				<div class="d-flex flex-column flex-md-row flex-lg-row flex-sm-column flex-wrap justify-content-around">
+					<div class="bg-white m-2">
+						<a href="<?=site_url("/img/starenergy-logo-web.png")?>"><img src="<?=site_url("/img/starenergy-logo-web.png")?>"
 								class="img-fluid w-100" alt="member-image"></a>
 
 					</div>
-					<div class="bg-white m-2 w-25">
-						<a href="<?=site_url("/home/logo.png")?>"><img src="<?=site_url("/img/logo.png")?>"
+					<div class="bg-white m-2">
+						<a href="<?=site_url("/img/logo250x66.png")?>"><img src="<?=site_url("/img/logo250x66.png")?>"
 								class="img-fluid w-100" alt="member-image"></a>
 
 					</div>

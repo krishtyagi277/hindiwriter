@@ -71,6 +71,12 @@
       width:100%;
   }
 
+  .pustak-box-section-tile-img{
+      width:280px;
+      height: 340px;
+      border: 6px solid #ff3354;
+  }
+
 
 #brand {
     margin: 0;

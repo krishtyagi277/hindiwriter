@@ -121,7 +121,7 @@
                 <div class="mt-2 shadow-lg sponser-form mb-5 bg-white rounded text-dark">
 
                     <form name="donation_form" id="donation_form" action="<?=site_url("/home/payment")?>"
-                        method="post" class="form-horizontal ">
+                        method="post" class="form-horizontal " onsubmit="donationEmail(event)">
                         <div class="form-group row">
                             <label for="full_name" class="col-sm-3 control-label">Full Name *</label>
                             <div class="col-sm-5 ">

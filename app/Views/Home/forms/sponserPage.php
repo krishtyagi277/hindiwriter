@@ -120,7 +120,7 @@
                 </div>
                 <div class="mt-2 shadow-lg sponser-form mb-5 bg-white rounded text-dark">
 
-                    <form name="member_registration_form" onsubmit="sponserEmail(event)"
+                    <form name="member_registration_form" id="sponse-form" onsubmit="sponserEmail(event)"
                         method="post" class="form-horizontal" enctype="multipart/form-data">
                         <div class="form-group row">
                             <label for="type" class="col-sm-2 control-label">Type *</label>
@@ -174,7 +174,7 @@
                         <div class="form-group row">
                             <label for="city" class="col-sm-2 control-label">Logo/Image*</label>
                             <div class="col-sm-5 ">
-                                <input type="file" name="image" id="image" class="form-control p-1" value="">
+                                <input type="file" name="image" id="image" class="form-control p-1" value="" accept="image/*" onchange="validateImage()">
                             </div>
                         </div>
                         <div class="form-group row">

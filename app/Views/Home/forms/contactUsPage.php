@@ -120,7 +120,7 @@
                 </div>
                 <div class="mt-2 shadow-lg sponser-form mb-5 bg-white rounded text-dark">
 
-                    <form name="member_registration_form" id="member_registration"
+                    <form name="member_registration_form" id="contact_us"
                         onsubmit="contactUsEmail(event)" method="post" class="form-horizontal">
                         <div class="form-group row">
                             <label for="full_name" class="col-sm-2 control-label">Name *</label>
@@ -135,7 +135,7 @@
                             <label for="email" class="col-sm-2 control-label">Email *</label>
                             <div class="col-sm-5 ">
                                 <input type="email" onchange="setEmailId(event)" name="email" id="email" class="form-control" value=""
-                                    placeholder="Email ID" required>
+                                    placeholder="Email ID" >
                             </div>
                             <div class="col-sm-5">
                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mississauga, Ontario, L5B 3J9 </div>

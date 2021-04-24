@@ -127,8 +127,13 @@
 					<?php foreach($nodes as $node):?>
 						<?php if($node['display_node']) {?>
 					<div class="m-2 intro-box-container">
-						<img src="<?=empty($pageData['tile_img_url'])? site_url("/img/40.png"): site_url($pageData['tile_img_url']) ?>" class="img-fluid wow fadeInDown box-section-tile-img"
+					<?php if($pageData['id'] == 'dirgha') {?>
+											<img src="<?=empty($node['tile_img_url'])? site_url("/img/40.png"): site_url($node['tile_img_url']) ?>" class="img-fluid wow fadeInDown box-section-tile-img"
 							data-wow-delay="0.3s" alt="activity-cricle" />
+										<?php } else { ?>
+											<img src="<?=empty($pageData['tile_img_url'])? site_url("/img/40.png"): site_url($pageData['tile_img_url']) ?>" class="img-fluid wow fadeInDown box-section-tile-img"
+							data-wow-delay="0.3s" alt="activity-cricle" />
+										<?php } ?>
 						<div class="detail-box-text">
 							<p class="text-center wow fadeInUp section-text section-text-resp" data-wow-delay="0.3s"><b>
 									<?php 

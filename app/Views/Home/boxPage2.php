@@ -129,8 +129,16 @@
 						<?php if($node['display_node']) {?>
 					<div class="m-2 intro-box-container">
 					<a href="<?=site_url("".$node['node_link']."")?>"
-										class="text-white"><img src="<?=empty($node['tile_img_url'])? site_url("/img/40.png"): site_url($node['tile_img_url']) ?>" class="img-fluid wow fadeInDown box-section-tile-img"
-							data-wow-delay="0.3s" alt="activity-cricle" /></a>
+										class="text-white">
+										<?php if($pageData['id'] == 'pustak-vimochan') {?>
+											<img src="<?=empty($node['tile_img_url'])? site_url("/img/40.png"): site_url($node['tile_img_url']) ?>" class="img-fluid wow fadeInDown pustak-box-section-tile-img"
+							data-wow-delay="0.3s" alt="activity-cricle" />
+										<?php } else { ?>
+											<img src="<?=empty($pageData['tile_img_url'])? site_url("/img/40.png"): site_url($pageData['tile_img_url']) ?>" class="img-fluid wow fadeInDown box-section-tile-img"
+							data-wow-delay="0.3s" alt="activity-cricle" />
+										<?php } ?>
+
+										</a>
 						<div class="detail-box-text">
 							<!--style="width:980px; height:180px;"-->
 							<p class="text-center wow fadeInUp section-text section-text-resp" data-wow-delay="0.3s"><b>

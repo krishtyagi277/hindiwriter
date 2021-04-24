@@ -83,7 +83,7 @@
                 <div class="intro-box-text intro-box-size">
 
                     <p class="text-center wow fadeInUp p-3 pb-5 mb-2 page-title" data-wow-delay="0.2s"><b>
-                            फेसबुक लाइव
+                    गूगल कैलेंडर
                         </b>
                     </p>
 
@@ -110,15 +110,15 @@
                             alt="intro-box" />
                         <div class="intro-box-text">
                             <p class="text-center mt-2 wow fadeInUp section-text" data-wow-delay="0.3s"><b>
-                                    <a href="<?=site_url("/home/detail/gatividhiya")?>"
-                                        class="text-white">गतिविधियाँ</a></b>
+                                    <a href="<?=site_url("#")?>"
+                                        class="text-white">मुख्य पृष्ठ</a></b>
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <div class="d-flex flex-md-column flex-lg-row flex-sm-column justify-content-center align-items-center flex-wrap">
-                <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23B39DDB&amp;ctz=Asia%2FKolkata&amp;src=a3Jpc2h0eWFnaTI3N0BnbWFpbC5jb20&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZW4uaW5kaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=Y2xhc3Nyb29tMTE2NzYwNzY0NDUzNzkwNDg2OTI1QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%237986CB&amp;color=%2333B679&amp;color=%230B8043&amp;color=%237627bb&amp;showNav=1&amp;showCalendars=1&amp;showTitle=1&amp;showTz=1&amp;showTabs=0" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                <div class="d-flex flex-md-column flex-lg-row flex-sm-column justify-content-center align-items-center flex-wrap p-5">
+                <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ff3354&amp;ctz=Asia%2FKolkata&amp;src=a3Jpc2h0eWFnaTI3N0BnbWFpbC5jb20&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZW4uaW5kaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=Y2xhc3Nyb29tMTE2NzYwNzY0NDUzNzkwNDg2OTI1QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%237986CB&amp;color=%2333B679&amp;color=%230B8043&amp;color=%237627bb" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
                 </div>
             </div>

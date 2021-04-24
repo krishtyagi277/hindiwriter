@@ -198,7 +198,7 @@
                                     <input type="radio" name="author" id="author-yes" value="yes"> Yes
                                 </label>
                                 <label class="radio-inline">
-                                    <input type="radio" name="author" id="author-no" value="no"> No
+                                    <input type="radio" name="author" id="author-no" value="no" checked> No
                                 </label>
                             </div>
                         </div>
