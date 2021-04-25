@@ -161,6 +161,7 @@ function donationEmail(e){
     let full_name=  document.getElementById('full_name');
     let contact_num = document.getElementById('phone_no');
     let donation_amt = document.getElementById('amount');
+    let currency = document.getElementById('currency');
 
 
     if(validateValue(full_name.value)){
@@ -169,6 +170,10 @@ function donationEmail(e){
     }
     if(validateValue(emailId)){
         document.getElementById('email').style.border = "1px solid red";
+        return;
+    }
+    if(validateValue(currency.value)){
+        currency.style.border = "1px solid red";
         return;
     }
     if(validateValue(contact_num.value)){

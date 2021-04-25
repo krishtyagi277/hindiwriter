@@ -11,7 +11,7 @@
 
 <body>
     <div class="sponser-email ">
-        <img src="<?=site_url("/img/email/newsletter.jpg")?>" class="img-fluid w-100" alt="sponser-letter"/>
+        <img src="<?=site_url("/img/email/donation.png")?>" class="img-fluid w-100" alt="sponser-letter"/>
         <div class="" style="top:80%; left:30%; width:40%; background: #6A1B4D;">
           <table>
               <tr>

@@ -8,9 +8,9 @@ class Home extends BaseController
 	public function __construct() {
 		$this->gateway = new \Braintree\Gateway([
 			'environment' => 'sandbox',
-			'merchantId' => 'v8c277xt62rqg68h',
-			'publicKey' => 'nzz8tyykwxcnrwpy',
-			'privateKey' => 'c09ea2d93c0f62f49a1a9464362f83ea'
+			'merchantId' => 'hytcvc86y37dd699',
+			'publicKey' => 'mpmb3j8m4bxwqn3j',
+			'privateKey' => 'dfab0ddb1e1c2d928bc2809a7b713505'
 		]);
    }
      
@@ -94,18 +94,19 @@ class Home extends BaseController
 		$fullName = $this->request->getPost('full_name');
 		$email = $this->request->getPost('email');
 		$amount = $this->request->getPost('amount');
+		$currency = $this->request->getPost('currency');
 		$clientToken = $this->gateway->clientToken()->generate();
 		
-	    return view('Home/payment', ['clientToken' => $clientToken, 'fullName'=> $fullName, 'émail' => $email, 'amount'=>$amount]);
+	    return view('Home/payment', ['clientToken' => $clientToken, 'fullName'=> $fullName, 'émail' => $email, 'amount'=>$amount,'currency'=>$currency]);
 	}
 
 	public function paymentSubmit(){
 
-		
+		$amount = $_POST['amount'];
 		$nonceFromTheClient = $_POST["payment_method_nonce"];
 
 		$result = $this->gateway->transaction()->sale([
-			'amount' => '10.00',
+			'amount' => $amount,
 			'paymentMethodNonce' => $nonceFromTheClient,
 			'options' => [
 			  'submitForSettlement' => True
@@ -114,7 +115,8 @@ class Home extends BaseController
 
 		  
 if ($result->success) {
-    print_r("success!: " . $result->transaction->id);
+	return redirect()->to('/home/donation/'.$result->transaction->id); 
+    //return view('Home/forms/donationPage', ['transaction'=> $result->transaction->id]);
 } else if ($result->transaction) {
     print_r("Error processing transaction:");
     print_r("\n  code: " . $result->transaction->processorResponseCode);
@@ -149,8 +151,9 @@ if ($result->success) {
 		return view("Home/forms/sponserPage");
 	}
 
-	public function donation(){
-		return view("Home/forms/donationPage");
+	public function donation($transaction = null){
+		return view('Home/forms/donationPage', ['transaction'=>$transaction]);
+		
 	}
     
 	public function becomemember(){
@@ -202,10 +205,9 @@ if ($result->success) {
 		$email->setTo($emailId);
 		$email->setSubject('Sponser Email');
 		
-		$email->setMessage("<p>नमस्ते,</p>
-		<p>हिन्दी राइटर्स गिल्ड कैनेडा के आयोजक बनने के हेतु ,दिए आवेदन के लिए आपका हार्दिक धन्यवाद।</p>
-		<p>हम आपसे जल्द ही सम्पर्ककरेंगें।</p>
-		<p>सादर&nbsp;</p>");
+		$data = view('emails/sponserEmail.php');
+		$email->setMessage($data);
+	
 		
 		if($email->send()){
 			$resp = array("message"=>"email send", "flag"=>true);
@@ -225,9 +227,8 @@ if ($result->success) {
 		$email->setTo($emailId);
 		$email->setSubject('Member Email');
 		
-		$email->setMessage("<p>नमस्ते,</p>
-		<p>सदस्यता का आवेदन पत्र भरने के लिए आपका धन्यवाद! निदेशक मंडल आपकी सदस्यता पर विचार कर के आप से सम्पर्क करेगा।</p>
-		<p>सादर धन्यवाद &nbsp;&nbsp;&nbsp;</p>");
+		$data = view('emails/memberEmailPage.php');
+		$email->setMessage($data);
 		
 		if($email->send()){
 			$resp = array("message"=>"email send", "flag"=>true);
@@ -247,9 +248,8 @@ if ($result->success) {
 		$email->setTo($emailId);
 		$email->setSubject('Donation Email');
 		
-		$email->setMessage("<p>नमस्ते,</p>
-		<p>हिन्दी राइटर्स गिल्ड कैनेडा को दी गई आपकी अनुदान राशि के लिए आपका हार्दिक धन्यवाद।</p>
-		<p>सादर&nbsp;</p>");
+		$data = view('emails/donationEmailPage.php');
+		$email->setMessage($data);
 		
 		if($email->send()){
 			$resp = array("message"=>"email send", "flag"=>true);
@@ -269,9 +269,8 @@ if ($result->success) {
 		$email->setTo($emailId);
 		$email->setSubject('Contactus Email');
 		
-		$email->setMessage("<p>नमस्ते,</p>
-		<p>हिन्दी राइटर्स गिल्ड कैनेडा को संपर्क करने के लिए आपका हार्दिक धन्यवाद।</p>
-		<p>सादर&nbsp;</p>");
+		$data = view('emails/contactusEmailPage.php');
+		$email->setMessage($data);
 		
 		if($email->send()){
 			$resp = array("message"=>"email send", "flag"=>true);
@@ -289,5 +288,20 @@ if ($result->success) {
 	public function calendar(){
 		return view('Home/googlecalendar');
 	}
+
+	public function wellWishes(){
+		return view("Home/wellWishesPage");
+	}
+
+	public function testimonial(){
+		return view("Home/testimonialPage");
+	}
+
+	public function starenergy(){
+		return view("Home/starEnergyPage");
+	}
 	
+	public function sahityakunj(){
+		return view("Home/sahityakunjPage");
+	}
 }

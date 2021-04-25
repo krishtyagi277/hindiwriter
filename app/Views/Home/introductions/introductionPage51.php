@@ -5,7 +5,7 @@
     <title>HWG Web Page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     </script>
@@ -21,16 +21,6 @@
 
     <link rel="stylesheet" href="<?=site_url("/css/style.css")?>" />
     <link rel="stylesheet" href="<?=site_url("/css/lightgallery.min.css")?>">
-    <meta name="title" content="फेसबुक लाइव">
-	<meta name="description" content="हिन्दी राइटर्स गिल्ड कैनेडा फेसबुक लाइव कार्यक्रम।">
-	<meta property="og:url"
-		content="<?=site_url("/home/facebookLive")?>" />
-	<meta property="og:type" content="website">
-	<meta property="og:description" content="हिन्दी राइटर्स गिल्ड कैनेडा फेसबुक लाइव कार्यक्रम।">
-	<meta property="og:title" content="फेसबुक लाइव">
-	<meta property="og:image" content="<?=site_url("/img/HWG-LOGO-21.png") ?>">
-	<meta property="og:image:width" content="1280">
-	<meta property="og:image:height" content="720">
     <script type="text/javascript">
         /// some script
 
@@ -73,9 +63,9 @@
     <?= $this->include("components/navbar") ?>
 
     <!-- Intro Section-->
-    <div class="container-fluid " id="detail-bg">
+    <div class="container-fluid" id="detail-bg">
         <div class="row">
-            <div class="col-3 col-sm-2 col-md-2 col-lg-2 pl-0">
+            <div class="col-3 col-sm-2 col-md-2 col-lg-2 pl-0 d-flex align-items-center">
                 <img src="<?=site_url("/img/41.png")?>" class="img-fluid float-left side-flower wow fadeInLeft"
                     data-wow-delay="0.3s" alt="side-design" />
             </div>
@@ -83,7 +73,7 @@
                 <div class="intro-box-text intro-box-size">
 
                     <p class="text-center wow fadeInUp p-3 pb-5 mb-2 page-title" data-wow-delay="0.2s"><b>
-                    गूगल कैलेंडर
+                            <?= $pageData['name']?>
                         </b>
                     </p>
 
@@ -96,37 +86,52 @@
         </div>
     </div>
     <!-- Detail page tile section-->
-    <div class="container-fluid bg-light detail-tile-bg">
+    <div class="container-fluid detail-tile-bg ">
         <div class="row mb-2">
-            <div class="col-2 col-sm-2 col-md-2 col-lg-2 pl-0">
-                <img src="<?=site_url("/img/31.png")?>" class="img-fluid float-left side-flower mt-5 wow fadeInLeft"
-                    data-wow-delay="0.3s" alt="side-design" />
+            <div class="col-sm-1 col-md-1 col-lg-1 pl-0">
             </div>
-            <div class="col-8 col-sm-8 col-md-8 col-lg-8 intro-box-container">
+            <div class="col-sm-10 col-md-10 col-lg-10">
                 <div class="row mt-2 p-0">
                     <div class="col-sm-12 col-md-12 col-lg-12 intro-box-container ">
                         <img src="<?=site_url("/img/9.png")?>"
-                            class="img-fluid mx-auto d-block section-heading wow fadeInDown" data-wow-delay="0.3s"
+                            class="img-fluid mx-auto d-block wow fadeInDown detail-page-heading" data-wow-delay="0.3s"
                             alt="intro-box" />
-                        <div class="intro-box-text">
+                        <div class="intro-box-text ">
                             <p class="text-center mt-2 wow fadeInUp section-text" data-wow-delay="0.3s"><b>
-                                    <a href="<?=site_url("/home/main")?>"
-                                        class="text-white">मुख्य पृष्ठ</a></b>
+                                    <a href="<?=site_url("/home/members")?>" class="text-white">हमारे सदस्य</a></b>
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <div class="d-flex flex-md-column flex-lg-row flex-sm-column justify-content-center align-items-center flex-wrap p-5">
-                <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ff3354&amp;ctz=Asia%2FKolkata&amp;src=a3Jpc2h0eWFnaTI3N0BnbWFpbC5jb20&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZW4uaW5kaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=Y2xhc3Nyb29tMTE2NzYwNzY0NDUzNzkwNDg2OTI1QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%237986CB&amp;color=%2333B679&amp;color=%230B8043&amp;color=%237627bb" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                <div class="row rounded bg-white pt-3 pb-3 mb-5 w-100 wow fadeInUp mt-4 intro-description-page"
+                    data-wow-delay="0.5s">
 
+                    <div class="col-sm-12 col-md-12 col-lg-12 pl-3 pr-0 pt-2 wow fadeInRight" data-wow-delay="1.8s">
+                        <div class="col-sm-8 col-md-8 col-lg-6 pl-0 pr-0 pt-2 pr-2 float-left">
+                            <img src="<?=site_url("/img/members/".$pageData['image']."")?>"
+                                class="w-50 img-fluid mx-auto d-block wow fadeInLeft" style="border:8px solid #ff3354;"
+                                data-wow-delay="1.8s" alt="intro-image">
+                            <p class="text-center wow fadeInUp p-3 pb-5 mb-2" data-wow-delay="0.2s"
+                                style="font-size:1.2rem;color:#6A1B4D; word-wrap: break-word;"><b>
+                                    <?= $pageData['name']?>
+                                </b></p>
+                        </div>
+                        <!-- intro description here -->
+                        <div class="intro-page-description">
+                            
+
+                        </div>
+                        <!--end -->
+
+                    </div>
                 </div>
             </div>
-            <div class="col-2 col-sm-2 col-md-2 col-lg-2 pr-0">
-                <img src="<?=site_url("/img/32.png")?>" class="img-fluid float-right side-flower mt-5 wow fadeInRight"
-                    data-wow-delay="0.3s" alt="side-design" />
+            <div class="col-sm-1 col-md-1 col-lg-1 pr-0">
             </div>
         </div>
+
+
     </div>
 
 
@@ -136,8 +141,6 @@
 
     <!-- footer section-->
     <?= $this->include("components/footer") ?>
-    <?= $this->include("components/successMessage") ?>
-    <script src="<?=site_url("/js/subscribe.js")?>"></script>
 
     <script src="<?=site_url("/js/wow.min.js")?>"></script>
 
@@ -154,33 +157,17 @@
             thumbnail: true
         });
     </script>
-    <script>
-		/*
-		 *Scroll effect
-		 */
-        $(document).ready(function () {
-		setTimeout(function () {
-			let myParam = location.search.split('id=')[1] ? location.search.split('id=')[1] : false;
-			if (myParam) {
-				document.getElementById(myParam).scrollIntoView({
-					behavior: 'smooth',
-					delay: 3000
-				});
-			}
-		}, 10000);
-        });
-	</script>
     <script type="text/javascript">
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement({
-                pageLanguage: 'hi',
-                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-            }, 'google_translate_element');
-        }
-    </script>
+		function googleTranslateElementInit() {
+			new google.translate.TranslateElement({
+				pageLanguage: 'hi',
+				layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+			}, 'google_translate_element');
+		}
+	</script>
 
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
-    </script>
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+	</script>
 
 </body>
 

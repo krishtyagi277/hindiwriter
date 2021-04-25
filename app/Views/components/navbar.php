@@ -486,7 +486,7 @@
 			</li>
 			<li class="nav-item"><a class="nav-link text-white mega-menu-main-heading" href="<?=site_url("/home/ourbooks")?>">प्रकाशित पुस्तकें  </a></li>
 			<li class="nav-item"><a class="nav-link text-white mega-menu-main-heading" href="<?=site_url("/home/invitations")?>">निमंत्रण-पत्र   </a></li>
-			<li class="nav-item"><a class="nav-link text-white mega-menu-main-heading" href="#">शुभकामनाएं सन्देश    </a></li>
+			<li class="nav-item"><a class="nav-link text-white mega-menu-main-heading" href="<?=site_url("/home/wellWishes")?>">शुभकामनाएं सन्देश    </a></li>
 			
 		</ul>
 		<!--

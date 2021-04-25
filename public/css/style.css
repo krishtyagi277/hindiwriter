@@ -1,7 +1,9 @@
 * {
     box-sizing: border-box;
 }
-
+a:hover{
+    text-decoration: none !important;
+}
 
 /* ============ only desktop view ============ */
 @media all and (min-width: 992px) {
@@ -309,6 +311,31 @@
     min-height: 300px;
 }
 
+#wishes-bg{
+    background-image: url("../img/wishes.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+#star-energy-bg{
+    background-image: url("../img/starenergy/10.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+#sahtiya-kunj-energy-bg{
+    background-image: url("../img/sahityakunj/top-bg.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+
 .detail-tile-bg {
     background-image: url("../img/27.png");
     background-position: center;
@@ -492,6 +519,79 @@
     width:60%;
     height:100px;
 }
+
+.wishes-section-1{
+    border-bottom: 5px solid #6A1B4D;
+}
+
+.wishes-page-side-img{
+    
+    width:26%;
+    padding: 10px;
+    border: 4px solid #6A1B4D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wishes-page-side-img img{
+    width: 100%;
+}
+
+.wishes-detail{
+    width:70%;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 56;
+}
+.testimonial-image{
+    width:180px;
+    height: 180px;
+}
+
+.testimonial-text{
+    color:black;
+    font-size: 24px;
+    line-height: 1.6;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+}
+.testimonial-image-text{
+    color:black;
+    font-size: 24px;
+    line-height: 1.6;
+    align-items: center;
+}
+.star-enrgy-about-text{
+    color:black;
+    font-size: 22px;
+    line-height: 1.6;
+    align-items: center;
+    height: 100%;
+}
+.star-energy-left-section-detail{
+    font-size: 16px;
+    text-align: left;
+}
+
+.more-info-btn{
+    text-align: center;
+    font-size: 22px;
+    padding: 20px 42px;
+    text-decoration: none;
+}
+.more-info-btn:hover{
+    text-decoration: none;
+}
+
+.star-energy-left-section, .star-energy-right-section{
+ width:48%;
+}
+.sahitya-left-section-detail{
+    font-size: 16px;
+ 
+}
 @media only screen and (max-width: 768px) {
     .section-heading {
         width: 40%;
@@ -499,6 +599,21 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .more-info-btn{
+        text-align: center;
+        font-size:18px;
+        padding: 12px 38px;
+        text-decoration: none;
+    }
+    .wishes-detail{
+        width:100%;
+        font-size: 18px;
+    }
+
+    .wishes-page-side-img{
+    
+        width:100%;
+    }
     .side-img{
         width:100%;
     }

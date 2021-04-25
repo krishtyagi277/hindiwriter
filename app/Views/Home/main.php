@@ -781,7 +781,7 @@
 							class="img-fluid mx-auto d-block section-heading section-heading-spl wow fadeInDown"
 							data-wow-delay="0.3s" alt="intro-box" />
 						<div class="intro-box-text">
-							<a href="<?=site_url("/home/members")?>" class="text-center mt-2 wow fadeInUp section-text"
+							<a href="<?=site_url("#")?>" class="text-center mt-2 wow fadeInUp section-text"
 								data-wow-delay="0.3s"><b>
 								हमारे प्रायोजक </b>
 							</a>
@@ -790,12 +790,12 @@
 				</div>
 				<div class="d-flex flex-column flex-md-row flex-lg-row flex-sm-column flex-wrap justify-content-around">
 					<div class="bg-white m-2">
-						<a href="<?=site_url("/img/starenergy-logo-web.png")?>"><img src="<?=site_url("/img/starenergy-logo-web.png")?>"
+						<a href="<?=site_url("/home/starenergy")?>"><img src="<?=site_url("/img/starenergy-logo-web.png")?>"
 								class="img-fluid w-100" alt="member-image"></a>
 
 					</div>
 					<div class="bg-white m-2">
-						<a href="<?=site_url("/img/logo250x66.png")?>"><img src="<?=site_url("/img/logo250x66.png")?>"
+						<a href="<?=site_url("/home/sahityakunj")?>"><img src="<?=site_url("/img/logo250x66.png")?>"
 								class="img-fluid w-100" alt="member-image"></a>
 
 					</div>

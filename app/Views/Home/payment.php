@@ -17,6 +17,7 @@
     <input type="hidden" id="nonce" name="payment_method_nonce" />
     <input type="hidden" id="email" name="email" value="<?php echo $émail?>" />
     <input type="hidden" id="name" name="fullName" value="<?php echo $fullName?>" />
+    <input type="hidden" id="amount" name="amount" value="<?php echo $amount?>" />
   </form>
 
   <script type="text/javascript">
@@ -30,7 +31,7 @@
       paypal: {
         flow: 'checkout',
         amount: <?php echo $amount; ?>,
-        currency: 'USD'
+        currency: 'INR'
       },
     }, (error, dropinInstance) => {
       if (error) console.error(error);
