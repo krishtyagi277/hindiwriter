@@ -21,13 +21,13 @@
 
     <link rel="stylesheet" href="<?=site_url("/css/style.css")?>" />
     <link rel="stylesheet" href="<?=site_url("/css/lightgallery.min.css")?>">
-    <meta name="title" content="फेसबुक लाइव">
-	<meta name="description" content="हिन्दी राइटर्स गिल्ड कैनेडा फेसबुक लाइव कार्यक्रम।">
+    <meta name="title" content="गूगल कैलेंडर">
+	<meta name="description" content="हिन्दी राइटर्स गिल्ड कैनेडा गूगल कैलेंडर">
 	<meta property="og:url"
-		content="<?=site_url("/home/facebookLive")?>" />
+		content="<?=site_url("/home/calendar")?>" />
 	<meta property="og:type" content="website">
-	<meta property="og:description" content="हिन्दी राइटर्स गिल्ड कैनेडा फेसबुक लाइव कार्यक्रम।">
-	<meta property="og:title" content="फेसबुक लाइव">
+	<meta property="og:description" content="हिन्दी राइटर्स गिल्ड कैनेडा गूगल कैलेंडर">
+	<meta property="og:title" content="गूगल कैलेंडर">
 	<meta property="og:image" content="<?=site_url("/img/HWG-LOGO-21.png") ?>">
 	<meta property="og:image:width" content="1280">
 	<meta property="og:image:height" content="720">
@@ -118,8 +118,8 @@
                 </div>
 
                 <div class="d-flex flex-md-column flex-lg-row flex-sm-column justify-content-center align-items-center flex-wrap p-5">
-                <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ff3354&amp;ctz=Asia%2FKolkata&amp;src=a3Jpc2h0eWFnaTI3N0BnbWFpbC5jb20&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZW4uaW5kaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=Y2xhc3Nyb29tMTE2NzYwNzY0NDUzNzkwNDg2OTI1QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%237986CB&amp;color=%2333B679&amp;color=%230B8043&amp;color=%237627bb" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-
+                <!-- <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ff3354&amp;ctz=Asia%2FKolkata&amp;src=a3Jpc2h0eWFnaTI3N0BnbWFpbC5jb20&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZW4uaW5kaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=Y2xhc3Nyb29tMTE2NzYwNzY0NDUzNzkwNDg2OTI1QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%237986CB&amp;color=%2333B679&amp;color=%230B8043&amp;color=%237627bb" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
+                    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ff3353&amp;ctz=America%2FToronto&amp;src=aGluZGl3Z0BnbWFpbC5jb20&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%237986CB&amp;color=%237986CB" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
                 </div>
             </div>
             <div class="col-2 col-sm-2 col-md-2 col-lg-2 pr-0">
