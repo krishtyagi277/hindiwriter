@@ -35,7 +35,11 @@
 	<?php } ?>
 	<meta property="og:url" content="<?=site_url("".$pageData['node_link']."")?>" />
 	<meta property="og:type" content="website">
+	<?php if(!empty($pageData['meta_img'])) {?>
+	<meta property="og:image" content="<?=site_url($pageData['meta_img']) ?>">
+	<?php } else {?>
 	<meta property="og:image" content="<?=site_url("/img/HWG-LOGO-21.png") ?>">
+	<?php } ?>
 	<meta property="og:image:width" content="1280">
 	<meta property="og:image:height" content="720">
 	<script type="text/javascript">

@@ -30,18 +30,15 @@ function sendSubscribeEmail(e) {
 function sponserEmail(e){
     e.preventDefault();
     let nature = document.getElementById('type');
-    let rank = document.getElementById('rank');
     let name = document.getElementById('name');
     let contact_num = document.getElementById('phone_no');
-    
+    let website = document.getElementById('website');
+    let logo = document.getElementById('image')    
     if(validateValue(nature.value)){
         nature.style.border = "1px solid red";
         return;
     }
-    if(validateValue(rank.value)){
-        rank.style.border = "1px solid red";
-        return;
-    }
+    
     if(validateValue(name.value)){
         name.style.border = "1px solid red";
         return;
@@ -57,7 +54,7 @@ function sponserEmail(e){
     }
    
 
-    fetch(`http://${window.location.hostname}/home/sponserEmail?email=` + emailId)
+    fetch(`http://${window.location.hostname}/home/sponserEmail?email=${emailId}&&name=${name.value}&&type=${nature.value}&&phone_no=${contact_num.value}&&website=${website.value}&&image=${logo.value}`)
         .then(response => response.json())
         .then(data => {
            
@@ -76,9 +73,9 @@ function becomeMemberEmail(e){
     e.preventDefault();
 
     let first_name = document.getElementById('first_name');
-    let first_name_hn = document.getElementById('first_name_hn');
+    // let first_name_hn = document.getElementById('first_name_hn');
     let last_name= document.getElementById('last_name');
-    let last_name_hn = document.getElementById('last_name_hn');
+    // let last_name_hn = document.getElementById('last_name_hn');
     let mobile_num =  document.getElementById('phone_no');
     let city = document.getElementById('city');
     let state = document.getElementById('state');
@@ -92,10 +89,7 @@ function becomeMemberEmail(e){
         return;
     }
 
-    if(validateValue(first_name_hn.value)){
-        first_name_hn.style.border = "1px solid red";
-        return;
-    }
+    
     if(validateValue(last_name.value)){
         last_name.style.border = "1px solid red";
         return;
@@ -104,10 +98,7 @@ function becomeMemberEmail(e){
         document.getElementById('email').style.border = "1px solid red";
         return;
     }
-    if(validateValue(last_name_hn.value)){
-        last_name_hn.style.border = "1px solid red";
-        return;
-    }
+   
     if(validateValue(mobile_num.value)){
         mobile_num.style.border = "1px solid red";
         return;
@@ -157,6 +148,7 @@ function becomeMemberEmail(e){
 
 function donationEmail(e){
     e.preventDefault();
+    return;
     let formToSubmit = document.getElementById('donation_form');
     let full_name=  document.getElementById('full_name');
     let contact_num = document.getElementById('phone_no');

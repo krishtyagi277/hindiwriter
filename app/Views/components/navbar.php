@@ -384,13 +384,13 @@
 							<div class="col-megamenu">
 								<h6 class="title"><a href="<?=site_url("/home/details/prize-respect-2")?>" class="mega-menu-heading">सरस्वती सम्मान </a> </h6>
 								<ul class="list-unstyled">
-									<li><a href="<?=site_url("/home/details/prize-respect-2-1")?>" class="mega-menu-text">अरुणा भटनागर </a></li>
-									<li><a href="<?=site_url("/home/details/prize-respect-2-2")?>" class="mega-menu-text">श्याम त्रिपाठी</a></li>
-									<li><a href="<?=site_url("/home/details/prize-respect-2-4")?>" class="mega-menu-text">डॉ॰ भारतेन्दु श्रीवास्तव </a></li>
-									<li><a href="<?=site_url("/home/details/prize-respect-2-5")?>" class="mega-menu-text">भुवनेश्वरी पाण्डे </a></li>
-									<li><a href="<?=site_url("/home/details/prize-respect-2-6")?>" class="mega-menu-text">आचार्य श्रीनाथ प्रसाद द्विवेदी </a></li>
-									<li><a href="<?=site_url("/home/details/prize-respect-2-3")?>" class="mega-menu-text">डॉ॰ रत्नाकर नराले  </a></li>
-									<li><a href="<?=site_url("/home/details/prize-respect-2-7")?>" class="mega-menu-text">सुमन कुमार घई </a></li>
+									<li><a href="<?=site_url("/home/detailpage/prize-respect-2-1")?>" class="mega-menu-text">अरुणा भटनागर </a></li>
+									<li><a href="<?=site_url("/home/detailpage/prize-respect-2-2")?>" class="mega-menu-text">श्याम त्रिपाठी</a></li>
+									<li><a href="<?=site_url("/home/detailpage/prize-respect-2-4")?>" class="mega-menu-text">डॉ॰ भारतेन्दु श्रीवास्तव </a></li>
+									<li><a href="<?=site_url("/home/detailpage/prize-respect-2-5")?>" class="mega-menu-text">भुवनेश्वरी पाण्डे </a></li>
+									<li><a href="<?=site_url("/home/detailpage/prize-respect-2-6")?>" class="mega-menu-text">आचार्य श्रीनाथ प्रसाद द्विवेदी </a></li>
+									<li><a href="<?=site_url("/home/detailpage/prize-respect-2-3")?>" class="mega-menu-text">डॉ॰ रत्नाकर नराले  </a></li>
+									<li><a href="<?=site_url("/home/detailpage/prize-respect-2-7")?>" class="mega-menu-text">सुमन कुमार घई </a></li>
 								</ul>
 							</div>
 							<!-- col-megamenu.// -->
@@ -400,10 +400,10 @@
 							<div class="col-megamenu">
 								<h6 class="title"><a href="<?=site_url("/home/details/prize-respect-3")?>" class="mega-menu-heading">साहित्य सृजन सम्मान</a> </h6>
 								<ul class="list-unstyled">
-									<li><a href="<?=site_url("/home/details/prize-respect-3-1")?>" class="mega-menu-text">डॉ॰ शिवनन्दन सिंह यादव</a></li>
-									<li><a href="<?=site_url("/home/details/prize-respect-3-2")?>" class="mega-menu-text">प्रो॰ हरि शंकर आदेश </a></li>
-									<li><a href="<?=site_url("/home/details/prize-respect-3-3")?>" class="mega-menu-text">श्री रामेश्वर काम्बोज हिमांशु </a></li>
-									<li><a href="<?=site_url("/home/details/prize-respect-3-4")?>" class="mega-menu-text">डॉ॰ जगमोहन हूमर</a></li>
+									<li><a href="<?=site_url("/home/detailpage/prize-respect-3-1")?>" class="mega-menu-text">डॉ॰ शिवनन्दन सिंह यादव</a></li>
+									<li><a href="<?=site_url("/home/detailpage/prize-respect-3-2")?>" class="mega-menu-text">प्रो॰ हरि शंकर आदेश </a></li>
+									<li><a href="<?=site_url("/home/detailpage/prize-respect-3-3")?>" class="mega-menu-text">श्री रामेश्वर काम्बोज हिमांशु </a></li>
+									<li><a href="<?=site_url("/home/detailpage/prize-respect-3-4")?>" class="mega-menu-text">डॉ॰ जगमोहन हूमर</a></li>
 								</ul>
 							</div>
 							<!-- col-megamenu.// -->
@@ -421,10 +421,10 @@
 							<div class="col-megamenu">
 								<h6 class="title"><a href="<?=site_url("/home/details/prize-respect-5")?>" class="mega-menu-heading">स्वागत सम्मान   </a></h6>
 								<ul class="list-unstyled">
-									<li><a href="<?=site_url("/home/details/prize-respect-5-1")?>" class="mega-menu-text">तेजेन्द्र शर्मा   </a></li>
-									<li><a href="<?=site_url("/home/details/prize-respect-5-2")?>" class="mega-menu-text">रामेश्वर कम्बोज 'हिमांशु'  </a></li>
-									<li><a href="<?=site_url("/home/details/prize-respect-5-3")?>" class="mega-menu-text">रोहिणी अग्रवाल   </a></li>
-									<li><a href="<?=site_url("/home/details/prize-respect-5-4")?>" class="mega-menu-text"> डॉ.शंकरलाल पुरोहित   </a></li>
+									<li><a href="<?=site_url("/home/detailpage/prize-respect-5-1")?>" class="mega-menu-text">तेजेन्द्र शर्मा   </a></li>
+									<li><a href="<?=site_url("/home/detailpage/prize-respect-5-2")?>" class="mega-menu-text">रामेश्वर कम्बोज 'हिमांशु'  </a></li>
+									<li><a href="<?=site_url("/home/detailpage/prize-respect-5-3")?>" class="mega-menu-text">रोहिणी अग्रवाल   </a></li>
+									<li><a href="<?=site_url("/home/detailpage/prize-respect-5-4")?>" class="mega-menu-text"> डॉ.शंकरलाल पुरोहित   </a></li>
 								</ul>
 							</div>
 							<!-- col-megamenu.// -->

@@ -68,9 +68,26 @@ class Home extends BaseController
 		$holifestData =  $model->where('parent', 'holifest')->find();
 		$rewardsData =  $model->where('parent', 'rewards')->find();
 		
-		return view('Home/gallery', ['kaviData'=>$kaviData, 'abharData'=>$abharData, 'annualfestData'=>$annualfestData,
+		return view('Home/gallery2', ['kaviData'=>$kaviData, 'abharData'=>$abharData, 'annualfestData'=>$annualfestData,
 		'hindifestData'=>$hindifestData,'holifestData'=>$holifestData, 'rewardsData'=>$rewardsData
 		]);
+	}
+
+	public function galleryPage($id){
+		$model = new \App\Models\NavigationNodeModel;
+		$detailPageDescriptionModel = new \App\Models\DetailPageDescriptionModel;
+		$detailPageImagesModel = new \App\Models\DetailPageImagesModel;
+
+
+		$pageData = $model->find($id);
+		$data = $model->where('parent_node', $id)->findAll();
+		$parentNode = $model->find($pageData['parent_node']);
+        
+		$detailPageDescriptionData =  $detailPageDescriptionModel->where('parent_node', $id)->find();
+		$detailPageImagesData = $detailPageImagesModel->where('parent_node', $id)->find();
+
+		return view('Home/galleryPage', ['nodes'=>$data, 'pageData'=>$pageData, 'parentNode'=>$parentNode,
+		       'detailPageDescriptionData'=> $detailPageDescriptionData, 'detailPageImagesData'=>$detailPageImagesData]);
 	}
 
 	public function introPage($id){
@@ -143,7 +160,7 @@ if ($result->success) {
 
 	public function invitations(){
 		$model = new \App\Models\InvitationsModel;
-		$data = $model->findAll();
+		$data = $model->orderBy('created_at', 'desc')->findAll();
 		return view("Home/invitationLetters", ['data'=>$data]);
 	}
 
@@ -180,6 +197,10 @@ if ($result->success) {
 	}
 
 	public function subscribeEmail(){
+        $subscribeModel = new \App\Models\SubscribeModel;
+		
+		
+
 		$emailId = $this->request->getGet('email');
 		$email = service('email');
 		$email->setTo($emailId);
@@ -190,17 +211,35 @@ if ($result->success) {
 		if($email->send()){
 			$resp = array("message"=>"email send", "flag"=>true);
 			$this->response->setContentType('application/json');
+
+			$subscribeModel->insert([
+				'email' => $this->request->getGet('email'),
+				'status' =>"success"
+			]);
 			return json_encode($resp);
 			
 		} else {
 			$resp = array("message"=>"error", "flag"=>false);
 			$this->response->setContentType('application/json');
+			$subscribeModel->insert([
+				'email' => $emailId,
+				'status' =>"fail"
+			]);
 			return json_encode($resp);
 		}
 	}
 
 	public function sponserEmail(){
+		$sponserModel = new \App\Models\SponsersModel;
+		
 		$emailId = $this->request->getGet('email');
+		$type = $this->request->getGet('type');
+		$name = $this->request->getGet('name');
+		$number = $this->request->getGet('phone_no');
+		$website = $this->request->getGet('website');
+		$logo = $this->request->getGet('image');
+        
+
 		$email = service('email');
 		$email->setTo($emailId);
 		$email->setSubject('Sponser Email');
@@ -212,10 +251,28 @@ if ($result->success) {
 		if($email->send()){
 			$resp = array("message"=>"email send", "flag"=>true);
 			$this->response->setContentType('application/json');
+			$sponserModel->insert([
+				'email'=>$emailId,
+				'type'=>$type,
+				'name'=>$name,
+				'number'=>$number,
+				'website'=>$website,
+				'logo'=>$logo,
+				'status' =>"success"
+			]);
 			return json_encode($resp);
 			
 		} else {
 			$resp = array("message"=>"error", "flag"=>false);
+			$sponserModel->insert([
+				'email'=>$emailId,
+				'type'=>$type,
+				'name'=>$name,
+				'number'=>$number,
+				'website'=>$website,
+				'logo'=>$logo,
+				'status' =>"fail"
+			]);
 			$this->response->setContentType('application/json');
 			return json_encode($resp);
 		}

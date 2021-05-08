@@ -336,6 +336,17 @@ a:hover{
     min-height: 300px;
 }
 
+.detail-tile-bg-2 {
+    background-image: url("../img/27.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+}
+
 .detail-tile-bg {
     background-image: url("../img/27.png");
     background-position: center;
@@ -599,6 +610,10 @@ a:hover{
 }
 
 @media only screen and (max-width: 600px) {
+    .sticky {
+        position: relative;
+        
+      }
     .more-info-btn{
         text-align: center;
         font-size:18px;
@@ -620,6 +635,7 @@ a:hover{
 
     .section-heading {
         width: 200px;
+        height: 90px;
     }
     .section-heading-spl{
         height: 80px;

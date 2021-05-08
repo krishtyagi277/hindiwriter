@@ -118,7 +118,7 @@
 				<div class="d-flex flex-md-column flex-lg-row  flex-sm-column flex-wrap justify-content-center"
 					>
 					<div id="accordion" class="mt-5">
-						<div class="card">
+						<!-- <div class="card">
 							<div class="card-header text-center" id="headingOne">
 								<h5 class="mb-0">
 									<button class="btn text-danger video-collapse-btn" data-toggle="collapse"
@@ -142,7 +142,7 @@
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> -->
 						<div class="card">
 							<div class="card-header text-center" id="headingTwo">
 								<h5 class="mb-0">

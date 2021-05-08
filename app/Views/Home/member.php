@@ -26,7 +26,7 @@
 	<meta property="og:type" content="website">
 	<meta property="og:description" content="हिन्दी राइटर्स गिल्ड कैनेडा-हमारे सदस्य">
 	<meta property="og:title" content="हिन्दी राइटर्स गिल्ड कैनेडा-हमारे सदस्य">
-	<meta property="og:image" content="<?=site_url("/img/HWG-LOGO-21.png") ?>">
+	<meta property="og:image" content="<?=site_url("/img/metaimage/members.jpg") ?>">
 	<meta property="og:image:width" content="1280">
 	<meta property="og:image:height" content="720">
 

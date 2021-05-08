@@ -131,7 +131,7 @@
                                     <option value="individual">Individual (व्यक्तिगत)</option>
                                 </select>
                             </div>
-                            <div class="col-sm-5 ">
+                            <!-- <div class="col-sm-5 ">
                                 <select name="rank" class="form-control select2" id="rank" style="width: 100%">
                                     <option value="" selected="selected">Rank (श्रेणी)</option>
                                     <option value="platinum">Platinum (प्लाटिनम)</option>
@@ -139,7 +139,7 @@
                                     <option value="silver">Silver (सिल्वर)</option>
                                     <option value="bronze">Bronze (ब्रॉन्ज़)</option>
                                 </select>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="form-group row">
                             <label for="name" class="col-sm-2 control-label">Name *</label>
@@ -147,10 +147,10 @@
                                 <input type="text" name="name" id="name" class="form-control" value=""
                                     placeholder="in English">
                             </div>
-                            <div class="col-sm-5 ">
+                            <!-- <div class="col-sm-5 ">
                                 <input type="text" name="name_hn" id="name_hn" class="form-control" value=""
                                     placeholder="in Hindi">
-                            </div>
+                            </div> -->
                         </div>
                         <div class="form-group row">
                             <label for="email" class="col-sm-2 control-label">Email *</label>
@@ -172,9 +172,9 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="city" class="col-sm-2 control-label">Logo/Image*</label>
+                            <label for="city" class="col-sm-2 control-label">Logo/Image</label>
                             <div class="col-sm-5 ">
-                                <input type="file" name="image" id="image" class="form-control p-1" value="" accept="image/*" onchange="validateImage()">
+                                <input type="file" name="image" id="image" class="form-control p-1" value="" accept="image/*" >
                             </div>
                         </div>
                         <div class="form-group row">

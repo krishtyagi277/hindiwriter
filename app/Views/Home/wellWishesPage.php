@@ -75,20 +75,27 @@
     <?= $this->include("components/navbar") ?>
 
     <!-- Intro Section-->
-    <div class="container-fluid" id="wishes-bg">
+    <!-- Intro Section-->
+    <div class="container-fluid " id="detail-bg">
         <div class="row">
-
-            <div class="col-12 col-sm-12 col-md-12 col-lg-12 intro-box-container">
-                <!-- <div class="intro-box-text intro-box-width">
-
-					<p class="text-center wow fadeInUp pb-5 mb-2 page-title" data-wow-delay="0.2s"><b>
-							
-						</b>
-					</p>
-
-				</div> -->
+            <div class="col-3 col-sm-2 col-md-2 col-lg-2 pl-0">
+                <img src="<?=site_url("/img/41.png")?>" class="img-fluid float-left side-flower wow fadeInLeft"
+                    data-wow-delay="0.3s" alt="side-design" />
             </div>
+            <div class="col-6 col-sm-8 col-md-8 col-lg-8 intro-box-container">
+                <div class="intro-box-text intro-box-size">
 
+                    <p class="text-center wow fadeInUp p-3 pb-5 mb-2 page-title" data-wow-delay="0.2s"><b>
+                    शुभकामनाएं सन्देश
+                        </b>
+                    </p>
+
+                </div>
+            </div>
+            <div class="col-3 col-sm-2 col-md-2 col-lg-2 pr-0">
+                <img src="<?=site_url("/img/16.png")?>" class="img-fluid float-right side-flower wow fadeInRight"
+                    data-wow-delay="0.3s" alt="side-design" />
+            </div>
         </div>
     </div>
     <!-- Detail page tile section-->

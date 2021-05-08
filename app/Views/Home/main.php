@@ -27,7 +27,7 @@
 	<meta property="og:description"
 		content="अगर आप हिन्दी साहित्य में रूचि में रखते हैं, लिखते हैं तो हिन्दी राइटर्स गिल्ड कैनेडा के निःशुल्क सदस्य बनिए। ">
 	<meta property="og:title" content="मुख्य पृष्ठ">
-	<meta property="og:image" content="<?=site_url("/img/HWG-LOGO-21.png") ?>">
+	<meta property="og:image" content="<?=site_url("/img/metaimage/main.jpg") ?>">
 	<meta property="og:image:width" content="1280">
 	<meta property="og:image:height" content="720">
 	<script type="text/javascript">
@@ -633,7 +633,7 @@
 								<a href="<?=site_url("/home/gallery")?>" class="text-danger">फोटो गैलरी</a></b>
 						</h3>
 						<div class="d-flex flex-md-row flex-lg-row flex-sm-column flex-wrap justify-content-center">
-							<a href="<?=site_url("/home/gallery")?>"><img src="../img/galleryimg.JPG" class="w-75 img-fluid wow fadeInLeft" data-wow-delay="0.3s"
+							<a href="<?=site_url("/home/gallery")?>"><img src="../img/galleryimg.JPG" style="height:238px; width:297px;" class="wow fadeInLeft" data-wow-delay="0.3s"
 								alt="photo-gallery" /></a>
 							
 						</div>

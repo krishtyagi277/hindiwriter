@@ -35,13 +35,7 @@
 	<?php } ?>
 	<meta property="og:url" content="<?=site_url("".$pageData['node_link']."")?>" />
 	<meta property="og:type" content="website">
-	
-	<?php if(!empty($pageData['meta_img'])) {?>
-	<meta property="og:image" content="<?=site_url($pageData['meta_img']) ?>">
-	<?php } else {?>
 	<meta property="og:image" content="<?=site_url("/img/HWG-LOGO-21.png") ?>">
-	<?php } ?>
-
 	<meta property="og:image:width" content="1280">
 	<meta property="og:image:height" content="720">
 	<script type="text/javascript">
@@ -109,65 +103,17 @@
 			</div>
 		</div>
 	</div>
-	<!-- Detail page tile section-->
-	<div class="container-fluid bg-light detail-tile-bg">
-		<div class="row mb-2">
 
-			<div class="d-none d-sm-block d-md-block d-lg-block col-2 col-sm-2 col-md-2 col-lg-2 pl-0">
+
+
+
+	<div class="container-fluid  detail-tile-bg-2" >
+		<div class="row">
+        <div class="col-2 col-sm-2 col-md-2 col-lg-1 pl-0">
 				<img src="<?=site_url("/img/31.png")?>" class="img-fluid float-left side-flower mt-5 wow fadeInLeft"
 					data-wow-delay="0.3s" alt="side-design" />
 			</div>
-			<div class="col-12 col-sm-8 col-md-8 col-lg-8 intro-box-container">
-				<div class="row mt-2 p-0">
-					<div class="col-sm-12 col-md-12 col-lg-12 intro-box-container ">
-						<img src="<?=site_url("/img/9.png")?>"
-							class="img-fluid mx-auto d-block wow fadeInDown detail-page-heading" data-wow-delay="0.3s"
-							alt="intro-box" />
-						<div class="intro-box-text ">
-							<p class="text-center mt-2 wow fadeInUp section-text" data-wow-delay="0.3s"><b>
-									<a href="<?=site_url("".$parentNode['node_link']."")?>"
-										class="text-white"><?= $parentNode['node_name']?></a></b>
-							</p>
-						</div>
-					</div>
-				</div>
-				<?php if(count($detailPageDescriptionData) > 0){?>
-				<div
-					class="d-flex flex-md-row flex-lg-row flex-sm-column justify-content-center flex-wrap mt-2 shadow-lg p-5 mb-5 bg-white rounded">
-					<?php foreach($detailPageDescriptionData as $detailPageData): ?>
-					<h2 class="text-center text-dark"><?= $detailPageData['heading']?> </h2>
-
-					<p class="text-dark text-left detail-description">
-						<?php if($detailPageData['description1'] != null){?>
-						<?= $detailPageData['description1']?>
-						<?php } ?>
-
-						<?php if($detailPageData['document'] != null){?>
-						<img class="detail-page-document"
-							src="<?=site_url("/img/".$detailPageData['parent_node']."/".$detailPageData['document']."")?>" alt="img-data"/>
-						<?php } ?>
-					</p>
-
-
-					<?php endforeach; ?>
-
-				</div>
-				<?php } ?>
-
-			</div>
-			<div class="d-none d-sm-block d-md-block d-lg-block col-2 col-sm-2 col-md-2 col-lg-2 pr-0">
-				<img src="<?=site_url("/img/32.png")?>" class="img-fluid float-right side-flower mt-5 wow fadeInRight"
-					data-wow-delay="0.3s" alt="side-design" />
-			</div>
-		</div>
-	</div>
-
-
-
-	<div class="container-fluid mb-4">
-		<div class="row">
-
-			<div class="col-12 col-sm-12 col-md-12 col-lg-12 pl-0 pr-0 intro-box-container">
+			<div class="col-8 col-sm-8 col-md-8 col-lg-10 pl-0 pr-0 intro-box-container">
 				<div class="d-flex flex-md-row flex-lg-row flex-sm-column flex-wrap justify-content-center"
 					id="animated-thumbnials">
 					<?php foreach($detailPageImagesData as $detailPageImage): ?>
@@ -180,6 +126,10 @@
 					<?php endforeach; ?>
 				</div>
 
+			</div>
+            <div class="col-2 col-sm-2 col-md-2 col-lg-1 pr-0">
+				<img src="<?=site_url("/img/32.png")?>" class="img-fluid float-right side-flower mt-5 wow fadeInRight"
+					data-wow-delay="0.3s" alt="side-design" />
 			</div>
 
 		</div>

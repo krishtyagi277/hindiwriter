@@ -168,7 +168,7 @@
                             <option value="BWP">BWP</option>
                             <option value="BYN">BYN</option>
                             <option value="BZD">BZD</option>
-                            <option value="CAD">CAD</option>
+                            <option value="CAD" selected>CAD</option>
                             <option value="CHF">CHF</option>
                             <option value="CLP">CLP</option>
                             <option value="CNY">CNY</option>
@@ -268,7 +268,7 @@
                             <option value="TZS">TZS</option>
                             <option value="UAH">UAH</option>
                             <option value="UGX">UGX</option>
-                            <option value="USD" selected>USD</option>
+                            <option value="USD">USD</option>
                             <option value="UYU">UYU</option>
                             <option value="UZS">UZS</option>
                             <option value="VES">VES</option>

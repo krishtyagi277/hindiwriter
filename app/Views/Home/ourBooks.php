@@ -102,19 +102,17 @@
                     data-wow-delay="0.3s" alt="side-design" />
             </div>
             <div class="col-8 col-sm-8 col-md-8 col-lg-8 intro-box-container">
-                <div class="row mt-2 p-0">
-                    <div class="col-sm-12 col-md-12 col-lg-12 intro-box-container justify-content-center">
-                        <img src="<?=site_url("/img/9.png")?>"
-                            class="img-fluid mx-auto d-block section-heading section-heading-spl wow fadeInDown" data-wow-delay="0.3s"
-                            alt="intro-box" />
-                        <div class="intro-box-text">
-                            <p class="text-center mt-2 wow fadeInUp section-text our-heading-spl" data-wow-delay="0.3s"><b>
-                                    <a href="<?=site_url("/home/ourbooks")?>" class="text-white">हमारी प्रकाशित पुस्तकें
-                                    </a></b>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+            <div class="row mt-2 p-0">
+					<div class="col-sm-12 col-md-12 col-lg-12 intro-box-container"> <img
+							src="<?=site_url("/img/9.png")?>"
+							class="img-fluid mx-auto d-block wow fadeInDown detail-page-heading" data-wow-delay="0.3s"
+							alt="intro-box" />
+						<div class="intro-box-text ">
+							<p class="text-center mt-2 wow fadeInUp section-text" data-wow-delay="0.3s"><b>
+									<a href="#" class="text-white">हमारी प्रकाशित पुस्तकें</a></b> </p>
+						</div>
+					</div>
+				</div>
 
                 <div class="d-flex flex-md-row flex-lg-row flex-sm-column justify-content-center flex-wrap"
                     id="animated-thumbnials">
@@ -174,10 +172,7 @@
                         <img src="<?=site_url(strtolower("/img/ourbooks/14.jpg"))?>" class="img-fluid h-100"
                             alt="photo-gallery" />
                     </a>
-                    <a class="our-books m-1 wow fadeInLeft" href="<?=site_url(strtolower("/img/ourbooks/15.jpeg"))?>">
-                        <img src="<?=site_url(strtolower("/img/ourbooks/15.jpeg"))?>" class="img-fluid h-100"
-                            alt="photo-gallery" />
-                    </a>
+                   
 
                 </div>
             </div>

@@ -12,18 +12,15 @@
 <body>
     <div class="sponser-email ">
         <img src="<?=site_url("/img/email/newsletter.jpg")?>" class="img-fluid w-100" alt="sponser-letter"/>
-        <div class="" style="top:80%; left:30%; width:40%; background: #6A1B4D;">
+        <div class="" style="top:80%; left:30%; width:40%; ">
+        <!--background: #6A1B4D;-->
           <table>
               <tr>
                   <td></td>
                   <td>&nbsp;&nbsp;&nbsp;</td>
                   
                   <td>&nbsp;&nbsp;&nbsp;</td>
-                  <td>
-                  <div style=" visibility: hidden;" class=" bd-highlight pointer"><a href="https://www.facebook.com/hindiwritersguildcanada"
-                    target="_blank"><img src="<?=site_url("/img/icons/facebook.png")?>" class="img-fluid w-100 m-1 p-1"
-                        alt=""></a> </div>
-                  </td>
+                  
                   <td>&nbsp;&nbsp;&nbsp;</td>
                   <td>
                   <div class=" bd-highlight pointer"><a href="https://www.facebook.com/hindiwritersguildcanada"

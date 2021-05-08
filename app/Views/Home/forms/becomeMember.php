@@ -169,10 +169,10 @@
                                 <input type="text" name="first_name" id="first_name" class="form-control" value=""
                                     placeholder="in English">
                             </div>
-                            <div class="col-sm-5 ">
+                            <!-- <div class="col-sm-5 ">
                                 <input type="text" name="first_name_hn" id="first_name_hn" class="form-control" value=""
                                     placeholder="in Hindi">
-                            </div>
+                            </div> -->
                         </div>
                         <div class="form-group row">
                             <label for="last_name" class="col-sm-2 control-label">Last Name *</label>
@@ -180,10 +180,10 @@
                                 <input type="text" name="last_name" id="last_name" class="form-control" value=""
                                     placeholder="in English">
                             </div>
-                            <div class="col-sm-5 ">
+                            <!-- <div class="col-sm-5 ">
                                 <input type="text" name="last_name_hn" id="last_name_hn" class="form-control" value=""
                                     placeholder="in Hindi">
-                            </div>
+                            </div> -->
                         </div>
                         <div class="form-group row">
                             <label for="email" class="col-sm-2 control-label">Email *</label>
@@ -257,12 +257,12 @@
                                 <input type="text" name="website" id="website" class="form-control" value=""
                                     placeholder="Website URL">
                             </div>
-                            <label for="primary_language" class="col-sm-2 control-label"
+                            <!-- <label for="primary_language" class="col-sm-2 control-label"
                                 style="font-size: 0.9em;padding-left: 0;">Primary Language*</label>
                             <div class="col-sm-3 ">
                                 <input type="text" name="primary_language" id="primary_language" class="form-control"
                                     value="" placeholder="e.g. Hindi">
-                            </div>
+                            </div> -->
                         </div>
                         <div class="form-group row">
                             <label for="blog" class="col-sm-2 control-label">Blog</label>

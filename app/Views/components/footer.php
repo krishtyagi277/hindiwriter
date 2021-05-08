@@ -46,7 +46,7 @@
 	</div>
 	<div class="row mt-4 bg-dark border-top p-3">
 		<div class="col-md-12 col-lg-12 pl-0">
-			<p class="wow fadeInUp text-white text-center" data-wow-delay="0.2s"> Copyright@2016|Designed By </p>
+			<p class="wow fadeInUp text-white text-center" data-wow-delay="0.2s"> Copyright 2021-Website designing & Development by Mapleitesolutions.com  </p>
 		</div>
 	</div>
 </div>

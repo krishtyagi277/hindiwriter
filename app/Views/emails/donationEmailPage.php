@@ -19,11 +19,7 @@
                   <td>&nbsp;&nbsp;&nbsp;</td>
                   
                   <td>&nbsp;&nbsp;&nbsp;</td>
-                  <td>
-                  <div style=" visibility: hidden;" class=" bd-highlight pointer"><a href="https://www.facebook.com/hindiwritersguildcanada"
-                    target="_blank"><img src="<?=site_url("/img/icons/facebook.png")?>" class="img-fluid w-100 m-1 p-1"
-                        alt=""></a> </div>
-                  </td>
+                 
                   <td>&nbsp;&nbsp;&nbsp;</td>
                   <td>
                   <div class=" bd-highlight pointer"><a href="https://www.facebook.com/hindiwritersguildcanada"
