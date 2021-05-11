@@ -6,12 +6,12 @@ class Home extends BaseController
 {  
 	private $gateway;
 	public function __construct() {
-		$this->gateway = new \Braintree\Gateway([
-			'environment' => 'sandbox',
-			'merchantId' => 'hytcvc86y37dd699',
-			'publicKey' => 'mpmb3j8m4bxwqn3j',
-			'privateKey' => 'dfab0ddb1e1c2d928bc2809a7b713505'
-		]);
+		// $this->gateway = new \Braintree\Gateway([
+		// 	'environment' => 'sandbox',
+		// 	'merchantId' => 'hytcvc86y37dd699',
+		// 	'publicKey' => 'mpmb3j8m4bxwqn3j',
+		// 	'privateKey' => 'dfab0ddb1e1c2d928bc2809a7b713505'
+		// ]);
    }
      
 
@@ -108,13 +108,97 @@ class Home extends BaseController
 
 
 	public function payment(){
+        $donationModel = new \App\Models\DonationModel;
+
 		$fullName = $this->request->getPost('full_name');
 		$email = $this->request->getPost('email');
 		$amount = $this->request->getPost('amount');
 		$currency = $this->request->getPost('currency');
-		$clientToken = $this->gateway->clientToken()->generate();
+		$description = $this->request->getPost('notes');
+
+		$donationModel->insert([
+			'name'=>$fullName,
+			'email'=>$email,
+			'amount'=>$amount,
+			'currency'=>$currency,
+			'description'=>$description,
+			'status'=>'initiated'
+		]);
+
+		$donationUID = $donationModel->insertID;
+		// $clientToken = $this->gateway->clientToken()->generate();
 		
-	    return view('Home/payment', ['clientToken' => $clientToken, 'fullName'=> $fullName, 'émail' => $email, 'amount'=>$amount,'currency'=>$currency]);
+	    return view('Home/paypal/paypalPayment', ['donationUid'=>$donationUID,'fullName'=> $fullName, 'émail' => $email, 'amount'=>$amount,'currency'=>$currency]);
+	}
+
+
+	public function paymentSuccess(){
+		$donationModel = new \App\Models\DonationModel;
+
+		$donationUid  =  $this->request->getVar('donationUid');
+		$paymentid = $this->request->getVar('paymentid');
+		$payload = $this->request->getVar('payload');
+
+		
+		$donationModel->update($donationUid,[
+			'payment_id'=>$paymentid,
+			'payload'=>$payload,
+			'status'=>'success',
+		]);
+
+		$donationData = $donationModel->find($donationUid);
+
+		$email = service('email');
+		$email->setTo($donationData['email']);
+		$email->setSubject('Thanks for Donation');
+		$data = view('emails/donationEmailPage');
+		$email->setMessage($data);
+
+		$mailSend = false;
+		
+		if($email->send()){
+			$mailSend = true;
+			
+		}
+
+
+
+		$resp = array("message"=>"success", "paymentid"=>$paymentid,"mailSend"=>$mailSend);
+		$this->response->setContentType('application/json');
+			
+		return json_encode($resp);
+
+	}	
+
+	public function paymentCancel(){
+		$donationModel = new \App\Models\DonationModel;
+
+		$donationUid  =  $this->request->getVar('donationUid');
+		$paymentid = $this->request->getVar('paymentid');
+		$payload = $this->request->getVar('payload');
+
+		
+		$donationModel->update($donationUid,[
+			'payment_id'=>$paymentid,
+			'payload'=>$payload,
+			'status'=>'cancel',
+		]);
+
+		$resp = array("message"=>"success", "paymentid"=>$paymentid);
+		$this->response->setContentType('application/json');
+			
+		return json_encode($resp);
+	}
+
+
+	public function paymentSuccessPage($id=null){
+
+		return view('Home/paypal/successPayment',['transactionid'=>$id!=null?$id:null]);
+	}
+
+	public function paymentCancelPage($id=null){
+
+		return view('Home/paypal/cancelPayment',['transactionid'=>$id!=null?$id:null]);
 	}
 
 	public function paymentSubmit(){
@@ -169,6 +253,7 @@ if ($result->success) {
 	}
 
 	public function donation($transaction = null){
+
 		return view('Home/forms/donationPage', ['transaction'=>$transaction]);
 		
 	}

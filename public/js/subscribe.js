@@ -80,7 +80,6 @@ function becomeMemberEmail(e){
     let city = document.getElementById('city');
     let state = document.getElementById('state');
     let country = document.getElementById('country');
-    let lang = document.getElementById('primary_language');
     let password = document.getElementById('password');
     let confirm_password = document.getElementById('confirm_password');
 
@@ -115,10 +114,7 @@ function becomeMemberEmail(e){
         country.style.border = "1px solid red";
         return;
     }
-    if(validateValue(lang.value)){
-        lang.style.border = "1px solid red";
-        return;
-    }
+   
     if(validateValue(password.value)){
         password.style.border = "1px solid red";
         return;
@@ -148,7 +144,7 @@ function becomeMemberEmail(e){
 
 function donationEmail(e){
     e.preventDefault();
-    return;
+   
     let formToSubmit = document.getElementById('donation_form');
     let full_name=  document.getElementById('full_name');
     let contact_num = document.getElementById('phone_no');

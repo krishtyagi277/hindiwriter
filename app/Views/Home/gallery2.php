@@ -97,6 +97,7 @@
 	<!-- Detail page tile section-->
 	<div class="container-fluid bg-light detail-tile-bg">
 		<div class="row mb-2">
+			
 			<div class="col-2 col-sm-2 col-md-2 col-lg-1 pl-0">
 				<img src="<?=site_url("/img/31.png")?>" class="img-fluid float-left side-flower mt-5 wow fadeInLeft"
 					data-wow-delay="0.3s" alt="side-design" />
