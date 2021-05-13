@@ -106,7 +106,7 @@
     env: 'sandbox',
     client: {
       sandbox: 'AaUwtQvn-BRNvNh3IXfMV5ar19R-aJlIMEnv8BCTkzcSu4zmxXKTW-TBTQCCVHKnoavCFSnRBzSCleH6',
-      production: 'demo_production_client_id'
+      production: 'AcKZDVCl8jQvG8xRNylwzxrgNqKp-ZNY98S6XDDFC38buQAoLSGQjQgMxw8PnjUJUgVwDOWkoO5Dlwc2'
     },
     // Customize button (optional)
     locale: 'en_US',

@@ -446,4 +446,8 @@ if ($result->success) {
 	public function sahityakunj(){
 		return view("Home/sahityakunjPage");
 	}
+
+	public function oursponsers(){
+		return view("Home/oursponserpage");
+	}
 }
