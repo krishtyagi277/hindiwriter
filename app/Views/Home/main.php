@@ -781,7 +781,7 @@
 							class="img-fluid mx-auto d-block section-heading section-heading-spl wow fadeInDown"
 							data-wow-delay="0.3s" alt="intro-box" />
 						<div class="intro-box-text">
-							<a href="<?=site_url("#")?>" class="text-center mt-2 wow fadeInUp section-text"
+							<a href="<?=site_url("/home/oursponsers")?>" class="text-center mt-2 wow fadeInUp section-text"
 								data-wow-delay="0.3s"><b>
 								हमारे प्रायोजक </b>
 							</a>

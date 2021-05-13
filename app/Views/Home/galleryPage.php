@@ -114,6 +114,18 @@
 					data-wow-delay="0.3s" alt="side-design" />
 			</div>
 			<div class="col-8 col-sm-8 col-md-8 col-lg-10 pl-0 pr-0 intro-box-container">
+			<div class="row mt-2 p-0">
+					<div class="col-sm-12 col-md-12 col-lg-12 intro-box-container ">
+						<img src="<?=site_url("/img/9.png")?>"
+							class="img-fluid mx-auto d-block wow fadeInDown detail-page-heading" data-wow-delay="0.3s"
+							alt="intro-box" />
+						<div class="intro-box-text ">
+							<p class="text-center mt-2 wow fadeInUp section-text" data-wow-delay="0.3s"><b><a
+										class="text-white" href="<?=site_url("/home/gallery")?>">फोटो गैलरी</a></b>
+							</p>
+						</div>
+					</div>
+				</div>
 				<div class="d-flex flex-md-row flex-lg-row flex-sm-column flex-wrap justify-content-center"
 					id="animated-thumbnials">
 					<?php foreach($detailPageImagesData as $detailPageImage): ?>

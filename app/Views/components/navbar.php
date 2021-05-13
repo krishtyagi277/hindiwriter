@@ -59,6 +59,7 @@
 								</ul>
 								<h6 class="title mt-3"><a href="/home/details/masik-ghoshtiya" class="mega-menu-heading">मासिक गोष्ठियाँ </a></h6>
 								<ul class="list-unstyled">
+								    <li><a href="/home/detailPage/online-masik-ghosti" class="mega-menu-text">ऑनलाइन मासिक गोष्ठी </a></li>
 									<li><a href="/home/detailPage/him-ki-chadar-2019" class="mega-menu-text">हिम की चादर पे खेले बसंत राज-2019 </a></li>
 									<li><a href="/home/detailPage/ram" class="mega-menu-text">राम तुम्हारा वृत्त स्वयं ही काव्य है-2019 </a></li>
 									<li><a href="/home/detailPage/sharad-fest-2019" class="mega-menu-text">शरद्‌ काव्योत्सव-2019  </a></li>

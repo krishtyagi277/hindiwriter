@@ -192,9 +192,10 @@
     <div class="container-fluid" id="sahtiya-kunj-energy-bg">
         
         <div class="row">
-
-            <div class="col-4 col-sm-4 col-md-4 col-lg-4 ">
-               <a href="http://sahityakunj.net/" target="_blank"><img src="<?=site_url("/img/sahityakunj/logo250x66.png") ?>" style="margin:70px;" class="img-fluid bg-white  w-50 " alt="Brand"
+        <div class="col-1 col-sm-1 col-md-1 col-lg-1" >
+    </div>
+            <div class="col-4 col-sm-4 col-md-4 col-lg-4" >
+               <a href="http://sahityakunj.net/" target="_blank"><img src="<?=site_url("/img/circle-cropped.png") ?>" style="margin:20px;" class="img-fluid w-50 " alt="Brand"
                 id="brand"></a>
                 
             </div>

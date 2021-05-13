@@ -193,10 +193,11 @@
     <!-- Intro Section-->
     <div class="container-fluid" id="star-energy-bg">
         <div class="row">
-
+        <div class="col-8 col-sm-8 col-md-8 col-lg-8 ">
+    </div>
             <div class="col-4 col-sm-4 col-md-4 col-lg-4 ">
                <a href="https://www.starenergy-solutions.com/" target="_blank" class=""><img
-                src="<?=site_url("/img/starenergy/starenergy-logo-web.png") ?>" class="img-fluid bg-white w-50 " style="margin-top:90px;" alt="Brand"
+                src="<?=site_url("/img/starenergy2.png") ?>" class="img-fluid w-50 " style="margin-top:20px;" alt="Brand"
                 ></a>
                 
             </div>

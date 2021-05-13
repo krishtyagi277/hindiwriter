@@ -1,6 +1,5 @@
 <div class="container-fluid border-top border-light bg-dark">
 	<div class="row mt-4">
-		<div class="col-md-1 col-lg-1 pl-0"> </div>
 		<div class="col-md-3 col-lg-3 pl-0">
 			<ul class="text-white font-weight-bolder m-4" style="list-style-type:circle; font-size: 22px;">
 				<li class="wow fadeInUp mb-2" data-wow-delay="0.2s"><a class="text-white" href="<?=site_url("/home/detailPage/sanstha-ka-parichai")?>" >संगठन का परिचय</a></li>
@@ -19,7 +18,16 @@
 				<li class="wow fadeInUp mb-2" data-wow-delay="0.2s"><a href="<?=site_url("/home/invitations")?>" class="text-white">निमंत्रण पत्र</li>
 			</ul>
 		</div>
-		<div class="col-md-4 col-lg-4 pl-2">
+		<div class="col-md-3 col-lg-3 pl-0">
+			<ul class="text-white font-weight-bolder m-4" style="list-style-type:circle; font-size: 22px;">
+				<li class="mb-2" data-wow-delay="0.2s"><a href="#" class="text-white">आगामी कार्यक्रम</a></li>
+				<li class="wow fadeInUp mb-2" data-wow-delay="0.2s"><a href="<?=site_url("/home/calendar")?>" class="text-white">गूगल कैलेंडर</li>
+				<li class="wow fadeInUp mb-2" data-wow-delay="0.2s"><a href="<?=site_url("/home/becomesponser")?>" class="text-white">प्रायोजक बनिये</li>
+				<li class="wow fadeInUp mb-2" data-wow-delay="0.2s"><a href="<?=site_url("/home/becomemember")?>" class="text-white">सदस्य बनिये</li>
+				<li class="wow fadeInUp mb-2" data-wow-delay="0.2s"><a href="<?=site_url("/home/donation")?>" class="text-white">आर्थिक सहयोग</li>
+			</ul>
+		</div>
+		<div class="col-md-3 col-lg-3 pl-2">
 			<div class="d-flex flex-column justify-content-center">
 				<div class="d-flex flex-wrap justify-content-center">
 					<div class="wow fadeInUp bd-highlight text-white p-2" data-wow-delay="0.2s" style="font-size: 32px;"><a href="https://www.facebook.com/hindiwritersguildcanada" class="text-white" target="_blank"><i class="fab fa-facebook-f"></i></a> </div>
@@ -42,11 +50,11 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-1 col-lg-1 pr-0"> </div>
+		
 	</div>
 	<div class="row mt-4 bg-dark border-top p-3">
 		<div class="col-md-12 col-lg-12 pl-0">
-			<p class="wow fadeInUp text-white text-center" data-wow-delay="0.2s"> Copyright 2021-Website designing & Development by Mapleitesolutions.com  </p>
+			<p class="wow fadeInUp text-white text-center" data-wow-delay="0.2s"> <a href="http://mapleitesolutions.com/" class="text-white" target="_blank"> Copyright 2021-Website designing & Development by Mapleitesolutions.com </a> </p>
 		</div>
 	</div>
 </div>
