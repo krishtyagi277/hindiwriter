@@ -52,7 +52,7 @@ if (!isset($transactionid)) {
                 
                 <div class="mt-2 shadow-lg sponser-form mb-5 bg-white rounded text-dark h-100 text-center">
                     <p style="color:red; font-size:68px;"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></p>
-                   <h3>आप फिर से कोशिश कर सकते हैं। हिन्दी राइटर्स गिल्ड कैनेडा आपका हार्दिक धन्यवाद करती हैं।</h3>
+                   <h3>आप फिर से कोशिश कर सकते हैं। हिन्दी राइटर्स गिल्ड कैनेडा</br>आपका हार्दिक धन्यवाद करती हैं।</h3>
                    <h5>Transaction Id: <?=$transactionid; ?></h5>
                    <a href="<?=site_url("/home/donation")?>" class="btn btn-warning btn-lg btn-block">आर्थिक सहयोग</a>
                 </div>

@@ -209,7 +209,7 @@
 						<div class="intro-box-text">
 							<a href="<?=site_url("/home/details/hamari-prastutiya")?>"
 								class="text-white text-center wow fadeInUp section-block-text" data-wow-delay="0.3s"><b>
-									हमरी प्रस्तुतिया </br>और नाटक</b>
+									हमरी प्रस्तुतियाँ </br>और नाटक</b>
 							</a>
 						</div>
 					</div>
@@ -436,7 +436,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="d-flex flex-column flex-md-row flex-lg-row flex-sm-column flex-wrap justify-content-center">
+				<div class="d-flex flex-column flex-md-row flex-lg-row flex-sm-column flex-wrap justify-content-center align-items-center">
 					<div class="member-card-main bg-white m-2">
 						<a href="<?=site_url("/home/introPage/2")?>"><img src="<?=site_url("/img/members/1.jpg")?>"
 								class="member-card-img-main" alt="member-image"></a>
@@ -468,7 +468,7 @@
 
 					</div>
 				</div>
-				<div class="d-flex flex-column flex-md-row flex-lg-row flex-sm-column flex-wrap justify-content-center">
+				<div class="d-flex flex-column flex-md-row flex-lg-row flex-sm-column flex-wrap justify-content-center align-items-center">
 
 					<div class="member-card-main bg-white m-2">
 						<a href="<?=site_url("/home/introPage/6")?>"><img src="<?=site_url("/img/members/7.jpg")?>"
@@ -669,7 +669,7 @@
 						<div class="intro-box-text">
 							<a href="<?=site_url("/home/ourbooks")?>" class="text-center mt-2 wow fadeInUp section-text"
 								data-wow-delay="0.3s"><b>
-									हमारी प्रकाशित पुस्तकें</b>
+									हमारी प्रकाशित</br>पुस्तकें</b>
 							</a>
 						</div>
 					</div>

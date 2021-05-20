@@ -83,8 +83,7 @@
             <div class="col-8 col-sm-8 col-md-8 col-lg-8 pl-0 pr-0 intro-box-container">
                 <div class="intro-box-text intro-box-size">
 
-                    <p class="text-center wow fadeInUp p-3 pb-5 mb-2" data-wow-delay="0.2s"
-                        style="font-size:2.8vw;color:#6A1B4D; word-wrap: break-word;"><b>
+                    <p class="text-center wow fadeInUp p-3 pb-5 mb-2 page-title" data-wow-delay="0.2s"><b>
                             आर्थिक सहयोग
                         </b>
                     </p>
@@ -101,18 +100,18 @@
     <div class="container-fluid bg-light detail-tile-bg">
         <div class="row mb-2">
 
-            <div class="d-none d-sm-block d-md-block d-lg-block col-sm-2 col-md-2 col-lg-2 pl-0">
+            <div class="d-none d-sm-none d-md-block d-lg-block col-md-2 col-lg-2 pl-0">
                 <img src="<?=site_url("/img/31.png")?>" class="img-fluid float-left side-flower mt-5 wow fadeInLeft"
                     data-wow-delay="0.3s" alt="side-design" />
             </div>
-            <div class="col-12 col-sm-8 col-md-8 col-lg-8 ">
+            <div class="col-12 col-sm-12 col-md-8 col-lg-8 ">
                 <div class="row mt-2">
                     <div class="col-sm-12 col-md-12 col-lg-12 intro-box-container ">
                         <img src="<?=site_url("/img/9.png")?>"
                             class="img-fluid mx-auto d-block wow fadeInDown detail-page-heading" data-wow-delay="0.3s"
                             alt="intro-box" />
                         <div class="intro-box-text ">
-                            <p class="text-center mt-2 wow fadeInUp section-text" data-wow-delay="0.3s"><b>
+                            <p class="text-center mt-2 wow fadeInUp section-text " data-wow-delay="0.3s"><b>
                                     आर्थिक सहयोग</b>
                             </p>
                         </div>
@@ -123,30 +122,30 @@
                     <form name="donation_form" id="donation_form" action="<?=site_url("/home/payment")?>" method="post"
                         class="form-horizontal " onsubmit="donationEmail(event)">
                         <div class="form-group row">
-                            <label for="full_name" class="col-sm-3 control-label">Full Name *</label>
-                            <div class="col-sm-5 ">
+                            <label for="full_name" class="col-sm-4 col-lg-2 control-label">Full Name *</label>
+                            <div class="col-sm-8 col-lg-5">
                                 <input type="text" name="full_name" id="full_name" class="form-control" value=""
                                     placeholder="in English">
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="email" class="col-sm-3 control-label">Email *</label>
-                            <div class="col-sm-5 ">
+                            <label for="email" class="col-sm-4 col-lg-2 control-label">Email *</label>
+                            <div class="col-sm-8 col-lg-5">
                                 <input type="text" onchange="setEmailId(event)" name="email" id="email"
                                     class="form-control" value="" placeholder="Email ID">
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="phone_no" class="col-sm-3 control-label">Contact No *</label>
-                            <div class="col-sm-5 ">
+                            <label for="phone_no" class="col-sm-4 col-lg-2 control-label">Contact No *</label>
+                            <div class="col-sm-8 col-lg-5 ">
                                 <input type="text" name="phone_no" id="phone_no" class="form-control" value=""
                                     placeholder="Phone No.">
                             </div>
                         </div>
                         
                         <div class="form-group row">
-                            <label for="type" class="col-sm-3 control-label">Currency*</label>
-                            <div class="col-sm-5">
+                            <label for="type" class="col-sm-4 col-lg-2 control-label">Currency*</label>
+                            <div class="col-sm-8 col-lg-5">
                                 <select name="currency" class="form-control select2" id="currency" style="width: 100%">
                                 <option value="AED">AED</option>
                             <option value="AMD">AMD</option>
@@ -287,8 +286,8 @@
                             </div>
                        </div>
                         <div class="form-group row">
-                            <label for="amount" class="col-sm-3 control-label">Donation Amount*</label>
-                            <div class="col-sm-2 ">
+                            <label for="amount" class="col-sm-4 col-lg-2 control-label">Donation Amount*</label>
+                            <div class="col-sm-8 col-lg-5">
                                 <input type="text" name="amount" id="amount" class="form-control" value="">
                             </div>
                         </div>
@@ -300,7 +299,7 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                            <div class="col-sm-4 col-sm-offset-3">
+                            <div class="col-sm-5 col-lg-5">
                                 <button type="submit" name="donation_submit" id="donation_submit"
                                     class="btn btn-warning btn-block btn-lg">SEND REQUEST</button>
                             </div>
@@ -309,7 +308,7 @@
                 </div>
 
             </div>
-            <div class="d-none d-sm-block d-md-block d-lg-block col-sm-2 col-md-2 col-lg-2 pr-0">
+            <div class="d-none d-sm-none d-md-block d-lg-block col-md-2 col-lg-2 pr-0">
                 <img src="<?=site_url("/img/32.png")?>" class="img-fluid float-right side-flower mt-5 wow fadeInRight"
                     data-wow-delay="0.3s" alt="side-design" />
             </div>

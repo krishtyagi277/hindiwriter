@@ -82,6 +82,24 @@ function becomeMemberEmail(e){
     let country = document.getElementById('country');
     let password = document.getElementById('password');
     let confirm_password = document.getElementById('confirm_password');
+    let office_num = document.getElementById('office_no');
+    let home_num = document.getElementById('home_no');
+    let fax_no = document.getElementById('fax_no');
+    let website = document.getElementById('website');
+    let blog = document.getElementById('blog');
+    let donation_amt = document.getElementById('donation_amount');
+    let link = document.getElementById('published_links');
+
+    let author_yes = document.getElementById('author-yes').checked;
+    let author_no = document.getElementById('author-no').checked;
+
+
+    let authorval = "no";  
+    if(author_yes){
+        authorval = document.getElementById('author-yes').value;
+    } else if(author_no){
+        authorval = document.getElementById('author-no').value;
+    }
 
     if(validateValue(first_name.value)){
         first_name.style.border = "1px solid red";
@@ -127,7 +145,7 @@ function becomeMemberEmail(e){
     
     
     
-    fetch(`http://${window.location.hostname}/home/memberEmail?email=` + emailId)
+    fetch(`http://${window.location.hostname}/home/memberEmail?email=${emailId}&&firstname=${first_name.value}&&lastname=${last_name.value}&&number=${mobile_num.value}&&writer=${authorval}&&city=${city.value}&&state=${state.value}&&country=${country.value}&&password=${password.value}&&confirmPassword=${confirm_password.value}&&officenum=${office_num.value}&&homenum=${home_num.value}&&faxnum=${fax_no.value}&&website=${website.value}&&blog=${blog.value}&&donation=${donation_amt.value}&&link=${link.value}` )
         .then(response => response.json())
         .then(data => {
           
@@ -193,6 +211,8 @@ function contactUsEmail(e){
     e.preventDefault();
     let name = document.getElementById('full_name');
     let contact_num = document.getElementById('phone_no');
+    let subject = document.getElementById('subject');
+    let message =  document.getElementById('message');
     
     if(validateValue(name.value) ){
         name.style.border = "1px solid red";
@@ -207,7 +227,7 @@ function contactUsEmail(e){
         return;
     }
     
-    fetch(`http://${window.location.hostname}/home/contactusEmail?email=` + emailId)
+    fetch(`http://${window.location.hostname}/home/contactusEmail?email=${emailId}&&name=${name.value}&&number=${contact_num.value}&&subject=${subject.value}&&message=${message.value}`)
         .then(response => response.json())
         .then(data => {
           

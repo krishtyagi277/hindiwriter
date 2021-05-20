@@ -247,7 +247,7 @@
 							<div class="col-megamenu">
 								<h6 class="title"><a href="#" class="mega-menu-heading">साहित्य गौरव सम्मान </a></h6>
 								<ul class="list-unstyled">
-									<li><a href="<?=site_url("/home/detailPage/prize-respect-1-1")?>" class="mega-menu-text">भारत के शिक्षा मंत्री, यशस्वी साहित्यकार डॉ. रमेश पोखारियाल ’निशंक’   </a></li>
+									<li><a href="<?=site_url("/home/galleryPage/prize-respect-1-1")?>" class="mega-menu-text">भारत के शिक्षा मंत्री, यशस्वी साहित्यकार डॉ. रमेश पोखारियाल ’निशंक’   </a></li>
 								</ul>
 							</div>
 							<!-- col-megamenu.// -->
@@ -339,8 +339,7 @@
 	<script src="<?=site_url("js/lightgallery.min.js")?>"></script>
 
 	<!-- lightgallery plugins -->
-	<script src="<?=site_url("js/lg-thumbnail.min.js")?>"></script>
-	<script src="<?=site_url("js/lg-fullscreen.min.js")?>"></script>
+	
 	<script>
 		new WOW().init();
 	</script>

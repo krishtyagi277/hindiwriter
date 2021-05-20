@@ -83,7 +83,8 @@
 	</div>
 
 
-
+    <script src="<?=site_url("/js/subscribe.js")?>"></script>
+	
 	<script type="text/javascript">
 		function googleTranslateElementInit() {
 			new google.translate.TranslateElement({

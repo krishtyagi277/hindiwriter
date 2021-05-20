@@ -114,7 +114,7 @@
 					</div>
 				</div>
 
-                <div class="d-flex flex-md-row flex-lg-row flex-sm-column justify-content-center flex-wrap"
+                <div class="d-flex flex-md-row flex-lg-row flex-sm-column justify-content-center align-items-center flex-wrap"
                     id="animated-thumbnials">
                     <a class="our-books m-1 wow fadeInLeft" href="<?=site_url(strtolower("/img/ourbooks/1.jpg"))?>">
                         <img src="<?=site_url(strtolower("/img/ourbooks/1.jpg"))?>" class="img-fluid h-100"
@@ -198,8 +198,7 @@
     <script src="<?=site_url("js/lightgallery.min.js")?>"></script>
 
     <!-- lightgallery plugins -->
-    <script src="<?=site_url("js/lg-thumbnail.min.js")?>"></script>
-    <script src="<?=site_url("js/lg-fullscreen.min.js")?>"></script>
+   
     <script>
         new WOW().init();
     </script>

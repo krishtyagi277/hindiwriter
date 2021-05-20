@@ -614,22 +614,60 @@ a:hover{
 .prize-respect-height{
     height: 320px;
    }
+
+   .google-calendar{
+       width:800px;
+       height: 600px;
+   }
+   .sahitya-kunj-logo{
+    margin: 60px;
+    width:200px;
+}
+.star-energy-logo{
+    width:200px;
+}
 @media only screen and (max-width: 768px) {
     .section-heading {
         width: 40%;
     }
-}
-
-@media only screen and (max-width: 600px) {
     .sticky {
         position: relative;
         
       }
+}
+@media only screen and (max-width: 640px) {
+    .sticky {
+        position: relative;
+        
+      }
+      .google-calendar{
+        width:500px;
+        height: 500px;
+    }
+    .sahitya-kunj-logo{
+        margin: 60px;
+        width:200px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    #star-energy-bg{
+        background-position:right;
+        background-size: cover;
+    }
+    /* .sticky {
+        position: relative;
+        
+      } */
     .more-info-btn{
         text-align: center;
         font-size:18px;
         padding: 12px 38px;
         text-decoration: none;
+    }
+    .google-calendar{
+        width:400px;
+        height: 300px;
     }
     .wishes-detail{
         width:100%;

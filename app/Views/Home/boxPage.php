@@ -127,7 +127,7 @@
 					</div>
 				</div>
 
-				<div class="d-flex flex-md-row flex-lg-row flex-sm-column justify-content-center flex-wrap">
+				<div class="d-flex flex-md-row flex-lg-row flex-sm-column justify-content-center align-items-center flex-wrap">
 					<?php foreach($nodes as $node):?>
 						<?php if($node['display_node']) {?>
 					<div class="m-2 intro-box-container">
@@ -178,8 +178,7 @@
 	<script src="<?=site_url("js/lightgallery.min.js")?>"></script>
 
 	<!-- lightgallery plugins -->
-	<script src="<?=site_url("js/lg-thumbnail.min.js")?>"></script>
-	<script src="<?=site_url("js/lg-fullscreen.min.js")?>"></script>
+	
 	<script>
 		new WOW().init();
 	</script>

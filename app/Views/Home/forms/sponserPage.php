@@ -83,8 +83,7 @@
             <div class="col-8 col-sm-8 col-md-8 col-lg-8 pl-0 pr-0 intro-box-container">
                 <div class="intro-box-text intro-box-size">
 
-                    <p class="text-center wow fadeInUp p-3 pb-5 mb-2" data-wow-delay="0.2s"
-                        style="font-size:2.8vw;color:#6A1B4D; word-wrap: break-word;"><b>
+                    <p class="text-center wow fadeInUp p-3 pb-5 mb-2 page-title" data-wow-delay="0.2s"><b>
                             प्रायोजक बनिये
                         </b>
                     </p>
@@ -101,11 +100,11 @@
     <div class="container-fluid bg-light detail-tile-bg">
         <div class="row mb-2">
 
-            <div class="col-2 col-sm-2 col-md-2 col-lg-2 pl-0">
+            <div class="d-none d-sm-none d-md-block d-lg-block col-md-2 col-lg-2 pl-0">
                 <img src="<?=site_url("/img/31.png")?>" class="img-fluid float-left side-flower mt-5 wow fadeInLeft"
                     data-wow-delay="0.3s" alt="side-design" />
             </div>
-            <div class="col-8 col-sm-8 col-md-8 col-lg-8 ">
+            <div class="col-12 col-sm-12 col-md-8 col-lg-8 ">
                 <div class="row mt-2 p-0">
                     <div class="col-sm-12 col-md-12 col-lg-12 intro-box-container ">
                         <img src="<?=site_url("/img/9.png")?>"
@@ -123,8 +122,8 @@
                     <form name="member_registration_form" id="sponse-form" onsubmit="sponserEmail(event)"
                         method="post" class="form-horizontal" enctype="multipart/form-data">
                         <div class="form-group row">
-                            <label for="type" class="col-sm-2 control-label">Type *</label>
-                            <div class="col-sm-5">
+                            <label for="type" class="col-sm-4 col-lg-2 control-label">Type *</label>
+                            <div class="col-sm-8 col-lg-5">
                                 <select name="type" class="form-control select2" id="type" style="width: 100%">
                                     <option value="business">व्यवसायिक (Business)</option>
                                     <option value="media">Media (मीडिया)</option>
@@ -142,8 +141,8 @@
                             </div> -->
                         </div>
                         <div class="form-group row">
-                            <label for="name" class="col-sm-2 control-label">Name *</label>
-                            <div class="col-sm-5 ">
+                            <label for="name" class="col-sm-4 col-lg-2 control-label">Name *</label>
+                            <div class="col-sm-8 col-lg-5">
                                 <input type="text" name="name" id="name" class="form-control" value=""
                                     placeholder="in English">
                             </div>
@@ -153,32 +152,35 @@
                             </div> -->
                         </div>
                         <div class="form-group row">
-                            <label for="email" class="col-sm-2 control-label">Email *</label>
-                            <div class="col-sm-5 ">
+                            <label for="email" class="col-sm-4 col-lg-2 control-label">Email *</label>
+                            <div class="col-sm-8 col-lg-5 ">
                                 <input type="text" name="email" id="email" onchange="setEmailId(event)" class="form-control"
                                     placeholder="Email ID">
                             </div>
-                            <label for="office_no" class="col-sm-1 control-label">Contact No *</label>
-                            <div class="col-sm-4 ">
+                            
+                        </div>
+                        <div class="form-group row">
+                        <label for="office_no" class="col-sm-4 col-lg-2 control-label">Contact No *</label>
+                            <div class="col-sm-8 col-lg-5">
                                 <input type="text" name="phone_no" id="phone_no" class="form-control" value=""
                                     placeholder="Phone No.">
                             </div>
-                        </div>
+                         </div>   
                         <div class="form-group row">
-                            <label for="website" class="col-sm-2 control-label">Website</label>
-                            <div class="col-sm-5">
+                            <label for="website" class="col-sm-4 col-lg-2 control-label">Website</label>
+                            <div class="col-sm-8 col-lg-5">
                                 <input type="text" name="website" id="website" class="form-control" value=""
                                     placeholder="Website URL">
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="city" class="col-sm-2 control-label">Logo/Image</label>
-                            <div class="col-sm-5 ">
+                            <label for="city" class="col-sm-4 col-lg-2 control-label">Logo/Image</label>
+                            <div class="col-sm-8 col-lg-5 ">
                                 <input type="file" name="image" id="image" class="form-control p-1" value="" accept="image/*" >
                             </div>
                         </div>
                         <div class="form-group row">
-                            <div class="col-sm-4 col-sm-offset-2">
+                            <div class="col-sm-6">
                                 <button type="submit" name="sponsor_registration_submit"
                                     id="sponsor_registration_submit"
                                     class="btn btn-warning btn-block btn-lg m-2">APPLY</button>
@@ -188,7 +190,7 @@
                 </div>
 
             </div>
-            <div class="col-2 col-sm-2 col-md-2 col-lg-2 pr-0">
+            <div class="d-none d-sm-none d-md-block d-lg-block col-md-2 col-lg-2 pr-0">
                 <img src="<?=site_url("/img/32.png")?>" class="img-fluid float-right side-flower mt-5 wow fadeInRight"
                     data-wow-delay="0.3s" alt="side-design" />
             </div>
@@ -208,8 +210,7 @@
     <script src="<?=site_url("js/lightgallery.min.js")?>"></script>
 
     <!-- lightgallery plugins -->
-    <script src="<?=site_url("js/lg-thumbnail.min.js")?>"></script>
-    <script src="<?=site_url("js/lg-fullscreen.min.js")?>"></script>
+    
     <script>
         new WOW().init();
     </script>

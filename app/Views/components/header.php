@@ -14,7 +14,7 @@
 			
 			</div>
 			<div class="d-flex flex-lg-row flex-md-row flex-sm-column flex-wrap justify-content-center">
-			<div class="p-2 bd-highlight pointer"><a href="#" class="text-danger"><b>आगामी कार्यक्रम</b> </a></div>
+			<div class="p-2 bd-highlight pointer"><a href="<?=site_url("/home/upcomingevents")?>" class="text-danger"><b>आगामी कार्यक्रम</b> </a></div>
 			<div class="p-2 bd-highlight pointer"><a href="<?=site_url("/home/calendar")?>" class="text-danger"><b>गूगल कैलेंडर</b></a></div>
 				
 				<div class="p-2 bd-highlight pointer"><a href="<?=site_url("/home/becomesponser")?>" class="text-dark">प्रायोजक बनिये</a></div>

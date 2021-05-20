@@ -52,8 +52,9 @@ if (!isset($transactionid)) {
                 
                 <div class="mt-2 shadow-lg sponser-form mb-5 bg-white rounded text-dark h-100 text-center">
                     <p style="color:green; font-size:68px;"><i class="fa fa-check-circle" aria-hidden="true"></i></p>
-                   <h3>इस अधिक सहयोग के लिए हिन्दी राइटर्स गिल्ड कैनेडा आपका हार्दिक धन्यवाद करती हैं।</h3>
+                   <h3>इस आर्थिक सहयोग के लिए हिन्दी राइटर्स गिल्ड कैनेडा</br>आपका हार्दिक धन्यवाद करती हैं।</h3>
                    <h5>Transaction Id: <?=$transactionid; ?></h5>
+                   <a href="<?=site_url("/home/main")?>" class="btn btn-warning btn-lg btn-block">मुख्य पृष्ठ</a>
                 </div>
 
             </div>

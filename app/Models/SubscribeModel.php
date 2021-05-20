@@ -6,5 +6,5 @@ class SubscribeModel extends \CodeIgniter\Model
 {
    protected $table = 'subscribe';
 
-   protected $allowedFields = ['email', 'status'];
+   protected $allowedFields = ['id','email', 'status'];
 }

@@ -98,11 +98,11 @@
     <!-- Detail page tile section-->
     <div class="container-fluid bg-light detail-tile-bg">
         <div class="row mb-2">
-            <div class="col-2 col-sm-2 col-md-2 col-lg-2 pl-0">
+            <div class="d-none d-sm-none d-md-block col-2 col-sm-2 col-md-2 col-lg-2 pl-0">
                 <img src="<?=site_url("/img/31.png")?>" class="img-fluid float-left side-flower mt-5 wow fadeInLeft"
                     data-wow-delay="0.3s" alt="side-design" />
             </div>
-            <div class="col-8 col-sm-8 col-md-8 col-lg-8 intro-box-container">
+            <div class="col-12 col-sm-12 col-md-8 col-lg-8 intro-box-container">
                 <div class="row mt-2 p-0">
                     <div class="col-sm-12 col-md-12 col-lg-12 intro-box-container ">
                         <img src="<?=site_url("/img/9.png")?>"
@@ -119,10 +119,10 @@
 
                 <div class="d-flex flex-md-column flex-lg-row flex-sm-column justify-content-center align-items-center flex-wrap p-5">
                 <!-- <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ff3354&amp;ctz=Asia%2FKolkata&amp;src=a3Jpc2h0eWFnaTI3N0BnbWFpbC5jb20&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZW4uaW5kaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=Y2xhc3Nyb29tMTE2NzYwNzY0NDUzNzkwNDg2OTI1QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%237986CB&amp;color=%2333B679&amp;color=%230B8043&amp;color=%237627bb" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
-                    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ff3353&amp;ctz=America%2FToronto&amp;src=aGluZGl3Z0BnbWFpbC5jb20&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%237986CB&amp;color=%237986CB" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ff3353&amp;ctz=America%2FToronto&amp;src=aGluZGl3Z0BnbWFpbC5jb20&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%237986CB&amp;color=%237986CB" style="border:solid 1px #777" class="google-calendar" frameborder="0" scrolling="no"></iframe>
                 </div>
             </div>
-            <div class="col-2 col-sm-2 col-md-2 col-lg-2 pr-0">
+            <div class="d-none d-sm-none d-md-block col-2 col-sm-2 col-md-2 col-lg-2 pr-0">
                 <img src="<?=site_url("/img/32.png")?>" class="img-fluid float-right side-flower mt-5 wow fadeInRight"
                     data-wow-delay="0.3s" alt="side-design" />
             </div>
@@ -144,8 +144,7 @@
     <script src="<?=site_url("js/lightgallery.min.js")?>"></script>
 
     <!-- lightgallery plugins -->
-    <script src="<?=site_url("js/lg-thumbnail.min.js")?>"></script>
-    <script src="<?=site_url("js/lg-fullscreen.min.js")?>"></script>
+    
     <script>
         new WOW().init();
     </script>
@@ -154,22 +153,7 @@
             thumbnail: true
         });
     </script>
-    <script>
-		/*
-		 *Scroll effect
-		 */
-        $(document).ready(function () {
-		setTimeout(function () {
-			let myParam = location.search.split('id=')[1] ? location.search.split('id=')[1] : false;
-			if (myParam) {
-				document.getElementById(myParam).scrollIntoView({
-					behavior: 'smooth',
-					delay: 3000
-				});
-			}
-		}, 10000);
-        });
-	</script>
+    
     <script type="text/javascript">
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({

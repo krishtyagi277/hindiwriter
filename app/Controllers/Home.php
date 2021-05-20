@@ -150,7 +150,7 @@ class Home extends BaseController
 
 		$email = service('email');
 		$email->setTo($donationData['email']);
-		$email->setSubject('Thanks for Donation');
+		$email->setSubject('अनुदान के लिए आपका हार्दिक धन्यवाद।');
 		$data = view('emails/donationEmailPage');
 		$email->setMessage($data);
 
@@ -289,7 +289,7 @@ if ($result->success) {
 		$emailId = $this->request->getGet('email');
 		$email = service('email');
 		$email->setTo($emailId);
-		$email->setSubject('Thanks for subscribing us');
+		$email->setSubject('हमें सब्सक्राइब करने के लिए आपका हार्दिक धन्यवाद।');
 		$data = view('emails/subscribeEmail.php');
 		$email->setMessage($data);
 		
@@ -304,13 +304,14 @@ if ($result->success) {
 			return json_encode($resp);
 			
 		} else {
-			$resp = array("message"=>"error", "flag"=>false);
-			$this->response->setContentType('application/json');
-			$subscribeModel->insert([
-				'email' => $emailId,
-				'status' =>"fail"
-			]);
-			return json_encode($resp);
+			echo $email->printDebugger();
+			// $resp = array("message"=>"error", "flag"=>false);
+			// $this->response->setContentType('application/json');
+			// $subscribeModel->insert([
+			// 	'email' => $emailId,
+			// 	'status' =>"fail"
+			// ]);
+			// return json_encode($resp);
 		}
 	}
 
@@ -327,7 +328,7 @@ if ($result->success) {
 
 		$email = service('email');
 		$email->setTo($emailId);
-		$email->setSubject('Sponser Email');
+		$email->setSubject('हमसे सम्पर्क के लिए हार्दिक धन्यवाद।');
 		
 		$data = view('emails/sponserEmail.php');
 		$email->setMessage($data);
@@ -364,20 +365,77 @@ if ($result->success) {
 	}
 
 	public function memberEmail(){
+		$regsiterModel = new \App\Models\RegisterMembersModel;
+
 		$emailId = $this->request->getGet('email');
+		$firstName = $this->request->getGet('firstname');
+		$lastName = $this->request->getGet('lastname');
+		$number = $this->request->getGet('number');
+		$writer = $this->request->getGet('writer');
+		$city = $this->request->getGet('city');
+		$state = $this->request->getGet('state');
+		$country = $this->request->getGet('country');
+		$password = $this->request->getGet('password');
+		$officenum = $this->request->getGet('officenum');
+		$homenum = $this->request->getGet('homenum');
+		$faxnum = $this->request->getGet('faxnum');
+		$website = $this->request->getGet('website');
+		$blog = $this->request->getGet('blog');
+		$donation = $this->request->getGet('donation');
+		$link = $this->request->getGet('link');
+
+
 		$email = service('email');
 		$email->setTo($emailId);
-		$email->setSubject('Member Email');
+		$email->setSubject('सदस्यता के आवेदन के लिए आपका हार्दिक धन्यवाद।');
 		
 		$data = view('emails/memberEmailPage.php');
 		$email->setMessage($data);
 		
 		if($email->send()){
+			$regsiterModel->insert([
+				'firstname'=>$firstName,
+				'lastname'=>$lastName,
+				'email'=>$emailId,
+				'writer'=>$writer,
+				'mobilenum'=>$number,
+				'officenum'=>$officenum,
+				'homenum'=>$homenum,
+				'faxno'=>$faxnum,
+				'city'=>$city,
+				'state'=>$state,
+				'country'=>$country,
+				'website'=>$website,
+				'blog'=>$blog,
+				'password'=>$password,
+				'links'=>$link,
+				'donation'=>$donation,
+				'status'=>'success'
+			]);
 			$resp = array("message"=>"email send", "flag"=>true);
 			$this->response->setContentType('application/json');
 			return json_encode($resp);
 			
 		} else {
+			$regsiterModel->insert([
+				'firstname'=>$firstName,
+				'lastname'=>$lastName,
+				'email'=>$emailId,
+				'writer'=>$writer,
+				'mobilenum'=>$number,
+				'officenum'=>$officenum,
+				'homenum'=>$homenum,
+				'faxno'=>$faxnum,
+				'city'=>$city,
+				'state'=>$state,
+				'country'=>$country,
+				'website'=>$website,
+				'blog'=>$blog,
+				'password'=>$password,
+				'links'=>$link,
+				'donation'=>$donation,
+				'status'=>'fail'
+			]);
 			$resp = array("message"=>"error", "flag"=>false);
 			$this->response->setContentType('application/json');
 			return json_encode($resp);
@@ -406,20 +464,43 @@ if ($result->success) {
 	}
 
 	public function contactusEmail(){
+		$contactusModel = new \App\Models\ContactUsModel;
+
 		$emailId = $this->request->getGet('email');
+		$name = $this->request->getGet('name');
+		$number = $this->request->getGet('number');
+		$subject = $this->request->getGet('subject');
+		$message =$this->request->getGet('message');
+
 		$email = service('email');
 		$email->setTo($emailId);
-		$email->setSubject('Contactus Email');
+		$email->setSubject('हमसे सम्पर्क करने के लिए आपका हार्दिक धन्यवाद।');
 		
 		$data = view('emails/contactusEmailPage.php');
 		$email->setMessage($data);
 		
 		if($email->send()){
+			$contactusModel->insert([
+				'name'=>$name,
+				'email'=>$emailId,
+				'contactnumber'=>$number,
+				'subject'=>$subject,
+				'message'=>$message,
+				'status'=>'success'
+			]);
 			$resp = array("message"=>"email send", "flag"=>true);
 			$this->response->setContentType('application/json');
 			return json_encode($resp);
 			
 		} else {
+			$contactusModel->insert([
+				'name'=>$name,
+				'email'=>$emailId,
+				'contactnumber'=>$number,
+				'subject'=>$subject,
+				'message'=>$message,
+				'status'=>'fail'
+			]);
 			$resp = array("message"=>"error", "flag"=>false);
 			$this->response->setContentType('application/json');
 			return json_encode($resp);
@@ -450,4 +531,10 @@ if ($result->success) {
 	public function oursponsers(){
 		return view("Home/oursponserpage");
 	}
+
+	public function upcomingevents(){
+		return view("Home/upcomingEvents");
+	}
+
+	
 }

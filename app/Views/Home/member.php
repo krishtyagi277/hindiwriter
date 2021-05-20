@@ -100,7 +100,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="d-flex flex-md-row flex-lg-row flex-sm-column justify-content-center flex-wrap mt-2 mb-5">
+				<div class="d-flex flex-md-row flex-lg-row flex-sm-column justify-content-center align-items-center flex-wrap mt-2 mb-5">
 					<?php foreach($member1Data as $member): ?>
 					<div class="member-card bg-white m-2">
 						<img src="<?=site_url("/img/members/".$member['image']."")?>" class="member-card-img"
@@ -138,7 +138,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="d-flex flex-md-row flex-lg-row flex-sm-column justify-content-center flex-wrap mt-2 mb-5">
+				<div class="d-flex flex-md-row flex-lg-row flex-sm-column justify-content-center align-items-center flex-wrap mt-2 mb-5">
 					<?php foreach($member2Data as $member): ?>
 					<div class="member-card bg-white m-2">
 						<img src="<?=site_url("/img/members/".$member['image']."")?>" class="member-card-img"
@@ -176,7 +176,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="d-flex flex-md-row flex-lg-row flex-sm-column justify-content-center flex-wrap mt-2 mb-5">
+				<div class="d-flex flex-md-row flex-lg-row flex-sm-column justify-content-center align-items-center flex-wrap mt-2 mb-5">
 					<?php foreach($member3Data as $member): ?>
 					<div class="member-card bg-white m-2">
 						<img src="<?=site_url("/img/members/".$member['image']."")?>" class="member-card-img"
@@ -214,7 +214,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="d-flex flex-md-row flex-lg-row flex-sm-column justify-content-center flex-wrap mt-2 mb-5">
+				<div class="d-flex flex-md-row flex-lg-row flex-sm-column justify-content-center align-items-center flex-wrap mt-2 mb-5">
 					<?php foreach($member4Data as $member): ?>
 					<div class="member-card bg-white m-2">
 						<img src="<?=site_url("/img/members/".$member['image']."")?>" class="member-card-img"
@@ -242,8 +242,7 @@
 	<script src="<?=site_url("/js/wow.min.js ")?>"></script>
 	<script src="<?=site_url("js/lightgallery.min.js ")?>"></script>
 	<!-- lightgallery plugins -->
-	<script src="<?=site_url("js/lg-thumbnail.min.js ")?>"></script>
-	<script src="<?=site_url("js/lg-fullscreen.min.js ")?>"></script>
+
 	<script>
 		new WOW().init();
 	</script>

@@ -251,7 +251,7 @@ E-mail:<a href="mailto:shailjasaksena@gmail.com">shailjasaksena@gmail.com</a>   
                         </div>
                     </div>
                 </div>
-                <div class="d-flex flex-md-row flex-lg-row flex-sm-column flex-wrap justify-content-center mt-5">
+                <div class="d-flex flex-md-row flex-lg-row flex-sm-column flex-wrap justify-content-center align-items-center mt-5">
                     <div class="intro-box-container intor-page-book-section">
                         <img src="<?=site_url("/img/books/1.jpg")?>"
                             class="img-fluid shadow-lg w-75 wow fadeInLeft" data-wow-delay="0.3s"

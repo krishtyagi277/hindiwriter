@@ -197,7 +197,7 @@
     </div>
             <div class="col-4 col-sm-4 col-md-4 col-lg-4 ">
                <a href="https://www.starenergy-solutions.com/" target="_blank" class=""><img
-                src="<?=site_url("/img/starenergy2.png") ?>" class="img-fluid w-50 " style="margin-top:20px;" alt="Brand"
+                src="<?=site_url("/img/starenergy2.png") ?>" class="img-fluid star-energy-logo " style="margin-top:20px;" alt="Brand"
                 ></a>
                 
             </div>
@@ -316,7 +316,7 @@
                     class="d-flex flex-column flex-md-column flex-lg-row flex-sm-column flex-wrap justify-content-between testimonial-text">
                     <div class="star-energy-left-section">
                         <div class="star-energy-left-section-detail">
-                            <img src="<?=site_url("/img/starenergy/05.jpg")?>" class="img-fluid w-50"
+                            <img src="<?=site_url("/img/starenergy/05.jpg")?>" class="img-fluid w-75"
                                 alt="img/starenergy/05.jpg" />
                             <p>This is where we typically see the biggest cost savings for you – changing how you use
                                 energy. This takes on an urgent priority given the typical upward pressure on
@@ -324,7 +324,7 @@
 
                         </div>
                         <div class="star-energy-left-section-detail">
-                            <img src="<?=site_url("/img/starenergy/06.jpg")?>" class="img-fluid w-50"
+                            <img src="<?=site_url("/img/starenergy/06.jpg")?>" class="img-fluid w-75"
                                 alt="img/starenergy/06.jpg" />
                             <p>You can improve your energy security and decrease your operational costs by using
                                 alternative energy technologies, such as fuel cells co-gen systems, solar panels,
@@ -332,7 +332,7 @@
 
                         </div>
                         <div class="star-energy-left-section-detail">
-                            <img src="<?=site_url("/img/starenergy/07.jpg")?>" class="img-fluid w-50"
+                            <img src="<?=site_url("/img/starenergy/07.jpg")?>" class="img-fluid w-75"
                                 alt="img/starenergy/07.jpg" />
                             <p>Capturing energy consumption data is the key to your successful deployment of Sustainable
                                 Energy Solutions. This forms the basis upon which everything else is driven.</p>
@@ -410,7 +410,7 @@
                 responsive: [{
                     breakpoint: 768,
                     settings: {
-                        slidesToShow: 4
+                        slidesToShow: 2
                     }
                 }, {
                     breakpoint: 520,

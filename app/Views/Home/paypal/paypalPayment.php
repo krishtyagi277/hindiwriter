@@ -40,32 +40,32 @@
        <div class="container-fluid bg-light detail-tile-bg">
         <div class="row mb-2">
 
-            <div class="d-none d-sm-block d-md-block d-lg-block col-sm-2 col-md-2 col-lg-2 pl-0">
+            <div class="d-none d-sm-none d-md-block d-lg-block col-md-2 col-lg-2 pl-0">
                 <img src="<?=site_url("/img/31.png")?>" class="img-fluid float-left side-flower mt-5 wow fadeInLeft"
                     data-wow-delay="0.3s" alt="side-design" />
             </div>
-            <div class="col-12 col-sm-8 col-md-8 col-lg-8 ">
+            <div class="col-12 col-sm-12 col-md-8 col-lg-8 ">
                 
                 <div class="mt-2 shadow-lg sponser-form mb-5 bg-white rounded text-dark">
 
                    
                         <div class="form-group row">
-                            <label for="full_name" class="col-sm-3 control-label">Full Name *</label>
-                            <div class="col-sm-5 ">
+                            <label for="full_name" class="col-sm-4 control-label">Full Name *</label>
+                            <div class="col-sm-8 ">
                                 <input type="text" name="full_name" id="full_name" class="form-control" value="<?=$fullName;?>"
                                     placeholder="in English" disabled>
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="email" class="col-sm-3 control-label">Email *</label>
-                            <div class="col-sm-5 ">
+                            <label for="email" class="col-sm-4 control-label">Email *</label>
+                            <div class="col-sm-8 ">
                                 <input type="text" name="email" id="email"
                                     class="form-control" value="<?=$émail;?>" placeholder="Email ID" disabled>
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="phone_no" class="col-sm-3 control-label">Currency *</label>
-                            <div class="col-sm-5 ">
+                            <label for="phone_no" class="col-sm-4 control-label">Currency *</label>
+                            <div class="col-sm-8 ">
                                 <input type="text" name="currency" id="phone_no" class="form-control" value="<?=$currency;?>"
                                     placeholder="Phone No." disabled>
                             </div>
@@ -73,8 +73,8 @@
                         
                     
                         <div class="form-group row">
-                            <label for="amount" class="col-sm-3 control-label">Donation Amount*</label>
-                            <div class="col-sm-2 ">
+                            <label for="amount" class="col-sm-4 control-label">Donation Amount*</label>
+                            <div class="col-sm-8 ">
                                 <input type="text" name="amount" id="amount" class="form-control" value="<?=$amount;?>" disabled>
                             </div>
                         </div>
@@ -89,7 +89,7 @@
                 </div>
 
             </div>
-            <div class="d-none d-sm-block d-md-block d-lg-block col-sm-2 col-md-2 col-lg-2 pr-0">
+            <div class="d-none d-sm-none d-md-block d-lg-block col-md-2 col-lg-2 pr-0">
                 <img src="<?=site_url("/img/32.png")?>" class="img-fluid float-right side-flower mt-5 wow fadeInRight"
                     data-wow-delay="0.3s" alt="side-design" />
             </div>
@@ -112,7 +112,7 @@
     locale: 'en_US',
     style: {
       label:'paypal',
-      size: 'large',
+      size: 'responsive',
       color: 'gold',
       shape: 'pill',
     },

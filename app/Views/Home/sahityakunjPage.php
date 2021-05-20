@@ -195,7 +195,7 @@
         <div class="col-1 col-sm-1 col-md-1 col-lg-1" >
     </div>
             <div class="col-4 col-sm-4 col-md-4 col-lg-4" >
-               <a href="http://sahityakunj.net/" target="_blank"><img src="<?=site_url("/img/circle-cropped.png") ?>" style="margin:20px;" class="img-fluid w-50 " alt="Brand"
+               <a href="http://sahityakunj.net/" target="_blank"><img src="<?=site_url("/img/circle-cropped.png") ?>" style="margin:20px;" class="img-fluid sahitya-kunj-logo" alt="Brand"
                 id="brand"></a>
                 
             </div>
@@ -467,7 +467,7 @@
                     class="d-flex flex-column flex-md-column flex-lg-row flex-sm-column flex-wrap justify-content-between testimonial-text">
                     <div class="star-energy-left-section">
                         <div class="sahitya-left-section-detail p-4">
-                            <img src="<?=site_url("/img/sahityakunj/person.jpg")?>" class="img-fluid w-50 float-left"
+                            <img src="<?=site_url("/img/sahityakunj/person.jpg")?>" class="img-fluid  float-left"
                                 alt="05.jpg" />
                             <p class="">समीक्षक और सम्पादक
                                 सम्पादन की परिभाषा क्या है? मैं किताब में दी गई परिभाषा की बात नहीं करता; वह क्या है हम
@@ -561,7 +561,7 @@
                 responsive: [{
                     breakpoint: 768,
                     settings: {
-                        slidesToShow: 4
+                        slidesToShow: 2
                     }
                 }, {
                     breakpoint: 520,

@@ -182,8 +182,6 @@
     <script src="<?=site_url("js/lightgallery.min.js")?>"></script>
 
     <!-- lightgallery plugins -->
-    <script src="<?=site_url("js/lg-thumbnail.min.js")?>"></script>
-    <script src="<?=site_url("js/lg-fullscreen.min.js")?>"></script>
     <script>
         new WOW().init();
     </script>

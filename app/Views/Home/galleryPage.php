@@ -126,7 +126,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="d-flex flex-md-row flex-lg-row flex-sm-column flex-wrap justify-content-center"
+				<div class="d-flex flex-md-row flex-lg-row flex-sm-column flex-wrap justify-content-center align-items-center"
 					id="animated-thumbnials">
 					<?php foreach($detailPageImagesData as $detailPageImage): ?>
 					<a class="detail-page-img m-1 bg-dark"
@@ -160,8 +160,7 @@
 	<script src="<?=site_url("js/lightgallery.min.js")?>"></script>
 
 	<!-- lightgallery plugins -->
-	<script src="<?=site_url("js/lg-thumbnail.min.js")?>"></script>
-	<script src="<?=site_url("js/lg-fullscreen.min.js")?>"></script>
+	
 	<script>
 		new WOW().init();
 	</script>

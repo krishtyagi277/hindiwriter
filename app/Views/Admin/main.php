@@ -13,7 +13,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   
-  
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.24/js/dataTables.bootstrap4.min.js"></script>
+  <script>
+    localStorage.setItem('auth',JSON.stringify(<?=$id;?>));
+  </script>
 </head>
 <style>
   #brand {
@@ -28,6 +33,7 @@
 </style>
 
 <body style="background:whitesmoke;">
+
 <nav class="navbar navbar-expand-lg navbar-light bg-dark">
 <a href="/"><img src="<?=site_url("/img/HWG-LOGO-21.png") ?>" class="img-fluid" alt="Brand" id="brand"></a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,33 +42,40 @@
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link nav-font text-white" href="<?=site_url("/admin/main")?>">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link nav-font text-white" href="<?=site_url("/admin/main/".$id)?>">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav-font text-white" href="<?=site_url("/admin/main")?>">Subscribers</a>
+        <a class="nav-link nav-font text-white" href="<?=site_url("/admin/subscribe/".$id)?>">Subscribers</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav-font text-white" href="#">Donatiors</a>
+        <a class="nav-link nav-font text-white" href="<?=site_url("/admin/donations/".$id)?>">Donations</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav-font text-white" href="<?=site_url("/admin/sponsers")?>">Sponsers</a>
+        <a class="nav-link nav-font text-white" href="<?=site_url("/admin/sponsers/".$id)?>">Sponsers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-font text-white" href="<?=site_url("/admin/registerMembers/".$id)?>">Members</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-font text-white" href="<?=site_url("/admin/contactUs/".$id)?>">Contact Us</a>
       </li>
     </ul>
     <span class="navbar-text">
-    <a class="nav-link nav-font text-white" href="#">Logout</a>
+    <a class="nav-link nav-font text-white" href="<?=site_url("/admin/logout")?>">Logout</a>
     </span>
   </div>
 </nav>
 
-<div class="container" style="cursor:pointer;" >
-  <h2>Subscribers Data</h2>
-  <table class="table table-striped">
+<div class="container-fluid" style="cursor:pointer;" >
+  <h2 style="text-align:center;">Subscribers Data</h2>
+  <table  id="example" class="table table-striped w-100">
     <thead>
       <tr>
       <th>no.</th>
         <th>email</th>
         <th>status</th>
         <th>Creation Date</th>
+       
       </tr>
     </thead>
     <tbody>
@@ -71,9 +84,16 @@
       <tr>
       <td><?=$count++;?></td>  
         <td><?=$data['email']?></td>
-        <td><?=$data['status']?></td>
+        <td><?php
+         if($data['status']=='success')
+         echo "<p style='color:green; font-weight:600;'>Success</p>";
+         else if($data['status']=='cancel')
+         echo "<p style='color:orange; font-weight:600;'>Cancel</p>";
+         else 
+         echo "<p style='color:red; font-weight:600;'>Fail</p>";
+        ?></td>
         <td><?=$data['created_at']?></td>
-      </tr>
+       </tr>
       <?php endforeach; ?>
       
     </tbody>
@@ -81,7 +101,11 @@
 </div>
 
 
+<script>
+$(document).ready(function() {
+    $('#example').DataTable();
+} );
+</script>
 
 </body>
-
 </html>

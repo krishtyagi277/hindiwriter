@@ -116,7 +116,7 @@
                     </div>
                 </div>
 
-                <div class="d-flex flex-md-row flex-lg-row flex-sm-column justify-content-center flex-wrap mt-4"
+                <div class="d-flex flex-md-row flex-lg-row flex-sm-column justify-content-center align-items-center flex-wrap mt-4"
                     id="animated-thumbnials">
                     <?php foreach($data as $imgData): ?>
                     <a class="invitations-page m-1 wow fadeInLeft" href="<?=site_url(strtolower("/img/invitations/".$imgData['img_url'].""))?>">
@@ -148,8 +148,7 @@
     <script src="<?=site_url("js/lightgallery.min.js")?>"></script>
 
     <!-- lightgallery plugins -->
-    <script src="<?=site_url("js/lg-thumbnail.min.js")?>"></script>
-    <script src="<?=site_url("js/lg-fullscreen.min.js")?>"></script>
+ 
     <script>
         new WOW().init();
     </script>

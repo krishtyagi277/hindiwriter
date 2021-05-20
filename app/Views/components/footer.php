@@ -20,7 +20,7 @@
 		</div>
 		<div class="col-md-3 col-lg-3 pl-0">
 			<ul class="text-white font-weight-bolder m-4" style="list-style-type:circle; font-size: 22px;">
-				<li class="mb-2" data-wow-delay="0.2s"><a href="#" class="text-white">आगामी कार्यक्रम</a></li>
+				<li class="mb-2" data-wow-delay="0.2s"><a href="<?=site_url("/home/upcomingevents")?>" class="text-white">आगामी कार्यक्रम</a></li>
 				<li class="wow fadeInUp mb-2" data-wow-delay="0.2s"><a href="<?=site_url("/home/calendar")?>" class="text-white">गूगल कैलेंडर</li>
 				<li class="wow fadeInUp mb-2" data-wow-delay="0.2s"><a href="<?=site_url("/home/becomesponser")?>" class="text-white">प्रायोजक बनिये</li>
 				<li class="wow fadeInUp mb-2" data-wow-delay="0.2s"><a href="<?=site_url("/home/becomemember")?>" class="text-white">सदस्य बनिये</li>

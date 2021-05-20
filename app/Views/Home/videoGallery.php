@@ -102,6 +102,18 @@
 					data-wow-delay="0.3s" alt="side-design" />
 			</div>
 			<div class="col-8 col-sm-8 col-md-8 col-lg-8 ">
+			<div class="row mt-2 p-0">
+					<div class="col-sm-12 col-md-12 col-lg-12 intro-box-container ">
+						<img src="<?=site_url("/img/9.png")?>"
+							class="img-fluid mx-auto d-block wow fadeInDown detail-page-heading" data-wow-delay="0.3s"
+							alt="intro-box" />
+						<div class="intro-box-text ">
+							<p class="text-center mt-2 wow fadeInUp section-text" data-wow-delay="0.3s"><b><a
+										class="text-white" href="<?=site_url("/home/detail/dirgha")?>">दीर्घा</a></b>
+							</p>
+						</div>
+					</div>
+				</div>
 				<div id="accordion" class="mt-5">
 					<div class="card">
 						<div class="card-header text-center" id="headingOne">
@@ -305,8 +317,7 @@
 	<script src="<?=site_url("js/lightgallery.min.js")?>"></script>
 
 	<!-- lightgallery plugins -->
-	<script src="<?=site_url("js/lg-thumbnail.min.js")?>"></script>
-	<script src="<?=site_url("js/lg-fullscreen.min.js")?>"></script>
+
 	<script>
 		new WOW().init();
 	</script>

@@ -12,7 +12,15 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.24/js/dataTables.bootstrap4.min.js"></script>
+  <script>
+    if(JSON.parse(localStorage.getItem('auth')) == null || JSON.parse(localStorage.getItem('auth')) == ""){
+        window.location.replace(`http://${window.location.hostname}/admin/login`);
+    }
+  </script>
   
 </head>
 <style>
@@ -36,40 +44,70 @@
   <div class="collapse navbar-collapse" id="navbarText">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link nav-font text-white" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link nav-font text-white" href="<?=site_url("/admin/main/".$id)?>">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav-font text-white" href="#">Subscribers</a>
+        <a class="nav-link nav-font text-white" href="<?=site_url("/admin/subscribe/".$id)?>">Subscribers</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav-font text-white" href="#">Donatiors</a>
+        <a class="nav-link nav-font text-white" href="<?=site_url("/admin/donations/".$id)?>">Donatiors</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav-font text-white" href="#">Sponsers</a>
+        <a class="nav-link nav-font text-white" href="<?=site_url("/admin/sponsers/".$id)?>">Sponsers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-font text-white" href="<?=site_url("/admin/registerMembers/".$id)?>">Members</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-font text-white" href="<?=site_url("/admin/contactUs/".$id)?>">Contact Us</a>
       </li>
     </ul>
     <span class="navbar-text">
-    <a class="nav-link nav-font text-white" href="#">Logout</a>
+    <a class="nav-link nav-font text-white" href="<?=site_url("/admin/logout")?>">Logout</a>
     </span>
   </div>
 </nav>
 
-<div class="container" style="cursor:pointer;" >
-  <h2>Donations Data</h2>
-  <table class="table table-striped">
+<div class="container-fluid" style="cursor:pointer;" >
+  <h2 style="text-align:center;">Donations Data</h2>
+  <table  id="example" class="table table-striped">
     <thead>
       <tr>
-        <th>email</th>
-        <th>status</th>
-        <th>Creation Date</th>
+       <th>No.</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Contact Number</th>
+        <th>Amount</th>
+        <th>Currency</th>
+        <th>Description</th>
+        <th>Payment Id</th>
+        <th>Status</th>
+        <th>Created At</th>
       </tr>
     </thead>
     <tbody>
-      <?php foreach($subscribersData as $data): ?>
+        <?php $count=1?>
+      <?php foreach($donationData as $data): ?>
       <tr>
-        <td><?=$data['email']?></td>
-        <td><?=$data['status']?></td>
-        <td><?=$data['created_at']?></td>
+      <td><?=$count++;?></td>  
+      <td><?=$data['name']?></td>
+      <td><?=$data['email']?></td>
+      <td><?=$data['number']?></td>
+      <td><?=$data['amount']?></td>
+      <td><?=$data['currency']?></td>
+      <td><?=$data['description']?></td>
+      <td><?=$data['payment_id']?></td>
+     <td>
+        <?php
+         if($data['status']=='success')
+         echo "<p style='color:green; font-weight:600;'>Success</p>";
+         else if($data['status']=='cancel')
+         echo "<p style='color:orange; font-weight:600;'>Cancel</p>";
+         else 
+         echo "<p style='color:red; font-weight:600;'>Fail</p>";
+        ?>
+      </td>
+      <td><?=$data['created_at']?></td>
       </tr>
       <?php endforeach; ?>
       
@@ -77,7 +115,11 @@
   </table>
 </div>
 
-
+<script>
+$(document).ready(function() {
+    $('#example').DataTable();
+} );
+</script>
 
 </body>
 
