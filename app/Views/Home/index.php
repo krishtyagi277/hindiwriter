@@ -83,7 +83,19 @@
 	</div>
 
 
-    <script src="<?=site_url("/js/subscribe.js")?>"></script>
+   <script>
+    if(window.innerWidth > 992) {
+    let navLinksArr = document.querySelectorAll(".nav-link.dropdown-toggle.mega-menu-main-heading");
+    for(let navlink of navLinksArr){
+        navlink.removeAttribute("data-toggle");
+    }
+} else{
+    let navLinksArr = document.querySelectorAll(".nav-link.dropdown-toggle.mega-menu-main-heading");
+    for(let navlink of navLinksArr){
+        navlink.setAttribute("data-toggle", "dropdown");
+    }
+}
+   </script>
 	
 	<script type="text/javascript">
 		function googleTranslateElementInit() {

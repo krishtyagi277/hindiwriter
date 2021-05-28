@@ -624,7 +624,7 @@
 						<h3 class="w-100 text-center text-black-50 wow fadeInLeft" data-wow-delay="0.3s"><b>
 						<a href="<?=site_url("/home/videogallery")?>" class="text-danger">वीडियो गैलरी</a></b>
 						</h3>
-						<a href="<?=site_url("/home/videogallery")?>" class="text-danger video-gallery-icon"><img src="../img/video.jpg" class="w-100 img-fluid wow fadeInLeft" data-wow-delay="0.3s"
+						<a href="<?=site_url("/home/videogallery")?>" class="text-danger video-gallery-icon"><img src="../img/video.JPG" class="w-100 img-fluid wow fadeInLeft" data-wow-delay="0.3s"
 								alt="photo-gallery" /></a>
 
 					</div>
@@ -643,7 +643,7 @@
 						<h3 class="w-100 text-center text-black-50 wow fadeInLeft" data-wow-delay="0.3s"><b>
 						<a href="<?=site_url("/home/audiogallery")?>" class="text-danger">ऑडियो गैलरी </a></b>
 						</h3>
-						<a href="<?=site_url("/home/audiogallery")?>" class="text-danger video-gallery-icon"><img src="../img/audio.jpg" class="w-100 img-fluid wow fadeInLeft" data-wow-delay="0.3s"
+						<a href="<?=site_url("/home/audiogallery")?>" class="text-danger video-gallery-icon"><img src="../img/audio.JPG" class="w-100 img-fluid wow fadeInLeft" data-wow-delay="0.3s"
 								alt="photo-gallery" /></a>
 
 					</div>
@@ -896,7 +896,7 @@
 	</div>
 	-->
 
-	<script src="../js/wow.min.js"></script>
+	<script src="<?=site_url("/js/wow.min.js")?>"></script>
 	<?= $this->include("components/successMessage") ?>
     <script src="<?=site_url("/js/subscribe.js")?>"></script>
 	<script>

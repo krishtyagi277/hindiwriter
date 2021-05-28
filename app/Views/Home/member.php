@@ -103,8 +103,8 @@
 				<div class="d-flex flex-md-row flex-lg-row flex-sm-column justify-content-center align-items-center flex-wrap mt-2 mb-5">
 					<?php foreach($member1Data as $member): ?>
 					<div class="member-card bg-white m-2">
-						<img src="<?=site_url("/img/members/".$member['image']."")?>" class="member-card-img"
-							alt="member-image">
+						<div class="member-card-block-img"><img src="<?=site_url("/img/members/".$member['image']."")?>" class="member-card-img"
+							alt="member-image"></div>
 						<div class="member-card-name text-center text-dark">
 							<a href="<?=site_url("/home/introPage/".$member['id']."")?>">
 								<p><?= $member['name'] ?></p>
@@ -141,8 +141,8 @@
 				<div class="d-flex flex-md-row flex-lg-row flex-sm-column justify-content-center align-items-center flex-wrap mt-2 mb-5">
 					<?php foreach($member2Data as $member): ?>
 					<div class="member-card bg-white m-2">
-						<img src="<?=site_url("/img/members/".$member['image']."")?>" class="member-card-img"
-							alt="member-image">
+					<div class="member-card-block-img"><img src="<?=site_url("/img/members/".$member['image']."")?>" class="member-card-img"
+							alt="member-image"></div>
 						<div class="member-card-name text-center text-dark">
 							<a href="<?=site_url("/home/introPage/".$member['id']."")?>">
 								<p><?= $member['name'] ?></p>
@@ -179,8 +179,8 @@
 				<div class="d-flex flex-md-row flex-lg-row flex-sm-column justify-content-center align-items-center flex-wrap mt-2 mb-5">
 					<?php foreach($member3Data as $member): ?>
 					<div class="member-card bg-white m-2">
-						<img src="<?=site_url("/img/members/".$member['image']."")?>" class="member-card-img"
-							alt="member-image">
+					<div class="member-card-block-img"><img src="<?=site_url("/img/members/".$member['image']."")?>" class="member-card-img"
+							alt="member-image"></div>
 						<div class="member-card-name text-center text-dark">
 							<a href="<?=site_url("/home/introPage/".$member['id']."")?>">
 								<p><?= $member['name'] ?></p>
@@ -217,8 +217,8 @@
 				<div class="d-flex flex-md-row flex-lg-row flex-sm-column justify-content-center align-items-center flex-wrap mt-2 mb-5">
 					<?php foreach($member4Data as $member): ?>
 					<div class="member-card bg-white m-2">
-						<img src="<?=site_url("/img/members/".$member['image']."")?>" class="member-card-img"
-							alt="member-image">
+					<div class="member-card-block-img"><img src="<?=site_url("/img/members/".$member['image']."")?>" class="member-card-img"
+							alt="member-image"/></div>
 						<div class="member-card-name text-center text-dark">
 							<a href="<?=site_url("/home/introPage/".$member['id']."")?>">
 								<p><?= $member['name'] ?></p>
@@ -239,8 +239,8 @@
 	<?= $this->include("components/footer") ?>
 	<?= $this->include("components/successMessage") ?>
     <script src="<?=site_url("/js/subscribe.js")?>"></script>
-	<script src="<?=site_url("/js/wow.min.js ")?>"></script>
-	<script src="<?=site_url("js/lightgallery.min.js ")?>"></script>
+	<script src="<?=site_url("/js/wow.min.js")?>"></script>
+	<script src="<?=site_url("/js/lightgallery.min.js")?>"></script>
 	<!-- lightgallery plugins -->
 
 	<script>

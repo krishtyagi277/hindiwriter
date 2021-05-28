@@ -275,6 +275,7 @@ E-mail:<a href="mailto:shailjasaksena@gmail.com">shailjasaksena@gmail.com</a>   
 
     <!-- footer section-->
     <?= $this->include("components/footer") ?>
+    <script src="<?=site_url("/js/subscribe.js")?>"></script>
 
     <script src="<?=site_url("/js/wow.min.js")?>"></script>
 

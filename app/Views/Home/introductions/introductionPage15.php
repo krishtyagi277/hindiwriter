@@ -1161,44 +1161,46 @@
                     </div>
                 </div>
                 <div class="d-flex flex-md-row flex-lg-row flex-sm-column flex-wrap justify-content-center align-items-center mt-5">
-                    <div class="intro-box-container intor-page-book-section">
+                    <div class=" intor-page-book-section">
                         <img src="<?=site_url("/img/books/30.jpg")?>"
                             class="img-fluid shadow-lg w-75 wow fadeInLeft" data-wow-delay="0.3s"
                             alt="activity-cricle" />
 
                     </div>
-                    <div class="intro-box-container intor-page-book-section">
+                    <div class=" intor-page-book-section">
                         <img src="<?=site_url("/img/books/31.jpg")?>"
                             class="img-fluid shadow-lg w-75 wow fadeInLeft" data-wow-delay="0.3s"
                             alt="activity-cricle" />
 
                     </div>
-                    <div class="intro-box-container intor-page-book-section">
+                    
+                    <div class="  intor-page-book-section">
                         <img src="<?=site_url("/img/books/32.jpg")?>"
                             class="img-fluid shadow-lg w-75 wow fadeInLeft" data-wow-delay="0.3s"
                             alt="activity-cricle" />
 
                     </div>
-                    <div class="intro-box-container intor-page-book-section">
-                        <img src="<?=site_url("/img/books/33.jpg")?>"
-                            class="img-fluid shadow-lg w-75 wow fadeInLeft" data-wow-delay="0.3s"
-                            alt="activity-cricle" />
-
-                    </div>
-                    <div class="intro-box-container intor-page-book-section">
+                   
+                    <div class=" intor-page-book-section">
                         <img src="<?=site_url("/img/books/34.jpg")?>"
                             class="img-fluid shadow-lg w-75 wow fadeInLeft" data-wow-delay="0.3s"
                             alt="activity-cricle" />
 
                     </div>
-                    <div class="intro-box-container intor-page-book-section">
+                    <div class=" intor-page-book-section">
                         <img src="<?=site_url("/img/books/35.jpg")?>"
                             class="img-fluid shadow-lg w-75 wow fadeInLeft" data-wow-delay="0.3s"
                             alt="activity-cricle" />
 
                     </div>
-                    <div class="intro-box-container intor-page-book-section">
+                    <div class="  intor-page-book-section">
                         <img src="<?=site_url("/img/books/36.jpg")?>"
+                            class="img-fluid shadow-lg w-75 wow fadeInLeft" data-wow-delay="0.3s"
+                            alt="activity-cricle" />
+
+                    </div>
+                    <div class=" intor-page-book-section">
+                        <img src="<?=site_url("/img/books/33.jpg")?>"
                             class="img-fluid shadow-lg w-75 wow fadeInLeft" data-wow-delay="0.3s"
                             alt="activity-cricle" />
 
@@ -1218,7 +1220,7 @@
 
     <!-- footer section-->
     <?= $this->include("components/footer") ?>
-
+    <script src="<?=site_url("/js/subscribe.js")?>"></script>
     <script src="<?=site_url("/js/wow.min.js")?>"></script>
 
     <script src="<?=site_url("js/lightgallery.min.js")?>"></script>

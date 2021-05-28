@@ -199,7 +199,7 @@
 
     <!-- footer section-->
     <?= $this->include("components/footer") ?>
-
+    <script src="<?=site_url("/js/subscribe.js")?>"></script>
     <script src="<?=site_url("/js/wow.min.js")?>"></script>
 
     <script src="<?=site_url("js/lightgallery.min.js")?>"></script>

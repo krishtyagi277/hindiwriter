@@ -155,7 +155,7 @@
     <script src="<?=site_url("/js/wow.min.js")?>"></script>
 
     <script src="<?=site_url("js/lightgallery.min.js")?>"></script>
-
+    <script src="<?=site_url("/js/subscribe.js")?>"></script>
     <!-- lightgallery plugins -->
     <script src="<?=site_url("js/lg-thumbnail.min.js")?>"></script>
     <script src="<?=site_url("js/lg-fullscreen.min.js")?>"></script>
