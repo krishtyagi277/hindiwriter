@@ -92,11 +92,11 @@
 					</ul>
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img src="<?=site_url("/img/a.jpg")?>" alt="Los Angeles" width="1100" height="500">
+							<img src="<?=site_url("/img/b1.jpg")?>" alt="Los Angeles" width="1100" height="500">
 
 						</div>
 						<div class="carousel-item">
-							<img src="<?=site_url("/img/b.jpg")?>" alt="Chicago" width="1100" height="500">
+							<img src="<?=site_url("/img/a1.jpg")?>" alt="Chicago" width="1100" height="500">
 
 						</div>
 
@@ -135,9 +135,9 @@
 					<p class="text-center wow fadeInUp p-3 pb-5 mb-2 intro-detail-text" data-wow-delay="0.2s"><b>
 							हमारा परिचय</br>
 							हिन्दी राइटर्स गिल्ड का उद्देश्य कैनेडा में हिन्दी साहित्य के प्रति लोगों में रुचि
-							जगाना</br> लेखकों को केनेडा की पृष्ठभूमि को ध्यान में रखते हुए लेखन के लिए प्रोत्साहित</br>
-							करना केनेडा में हिन्दी पुस्तकों के प्रकाशन को स्थापित करना इत्यादि है।
-							</br><a href="<?=site_url("/home/detailPage/sanstha-ka-parichai")?>" class="text-white">
+							जगाना</br> लेखकों को कैनेडा की पृष्ठभूमि को ध्यान में रखते हुए लेखन के लिए प्रोत्साहित</br>
+							करना कैनेडा में हिन्दी पुस्तकों के प्रकाशन को स्थापित करना इत्यादि है।
+							</br><a href="<?=site_url("/home/detailPage/sanstha-ka-parichai")?>" class="text-white btn btn-sm font-weight-bold more-read">
 							आगे पढ़ें ...</a>
 						</b>
 					</p>
@@ -209,7 +209,7 @@
 						<div class="intro-box-text">
 							<a href="<?=site_url("/home/details/hamari-prastutiya")?>"
 								class="text-white text-center wow fadeInUp section-block-text" data-wow-delay="0.3s"><b>
-									हमरी प्रस्तुतियाँ </br>और नाटक</b>
+								हमारी प्रस्तुतियाँ </br>और नाटक</b>
 							</a>
 						</div>
 					</div>
@@ -341,7 +341,7 @@
 					<div class="m-2 intro-box-container">
 						<img src="../img/17.png" class="img-fluid wow fadeInDown" data-wow-delay="0.3s"
 							alt="activity-cricle" />
-						<div class="intro-box-text">
+						<div class="intro-box-text intro-box-text-special">
 							<a href="<?=site_url("/home/detailPage/international-sammelan-2020")?>"
 								class="text-white text-center wow fadeInUp section-block-text" data-wow-delay="0.3s"><b>
 									अंतरराष्ट्रीय हिन्दी सम्मेलन भारत</b>
@@ -351,7 +351,7 @@
 					<div class="m-2 intro-box-container">
 						<img src="../img/17.png" class="img-fluid wow fadeInDown" data-wow-delay="0.3s"
 							alt="activity-cricle" />
-						<div class="intro-box-text">
+						<div class="intro-box-text intro-box-text-special">
 							<a href="<?=site_url("/home/detailPage/international-sammelan-2015")?>"
 								class="text-white text-center wow fadeInUp section-block-text" data-wow-delay="0.3s"><b>
 									अंतरराष्ट्रीय हिन्दी सम्मेलन
@@ -362,7 +362,7 @@
 					<div class="m-2 intro-box-container">
 						<img src="../img/17.png" class="img-fluid wow fadeInDown" data-wow-delay="0.3s"
 							alt="activity-cricle" />
-						<div class="intro-box-text">
+						<div class="intro-box-text intro-box-text-special">
 							<a href="<?=site_url("/home/detailPage/vishwa-hindi")?>"
 								class="text-white text-center wow fadeInUp section-block-text" data-wow-delay="0.3s"><b>
 									विश्व हिन्दी
@@ -376,7 +376,7 @@
 					<div class="m-2 intro-box-container">
 						<img src="../img/17.png" class="img-fluid wow fadeInDown" data-wow-delay="0.3s"
 							alt="activity-cricle" />
-						<div class="intro-box-text">
+						<div class="intro-box-text intro-box-text-special">
 							<a href="<?=site_url("/home/details/international-sammelan")?>"
 								class="text-white text-center wow fadeInUp section-block-text" data-wow-delay="0.3s"><b>
 									अंतरराष्ट्रीय क्षेत्रीय हिन्दी सम्मेलन</b>
@@ -386,7 +386,7 @@
 					<div class="m-2 intro-box-container">
 						<img src="../img/17.png" class="img-fluid wow fadeInDown" data-wow-delay="0.3s"
 							alt="activity-cricle" />
-						<div class="intro-box-text">
+						<div class="intro-box-text intro-box-text-special">
 							<a href="<?=site_url("/home/detailPage/conusell-fest")?>"
 								class="text-white text-center wow fadeInUp section-block-text" data-wow-delay="0.3s"><b>
 									भारतीय
@@ -399,7 +399,7 @@
 					<div class="m-2 intro-box-container">
 						<img src="../img/17.png" class="img-fluid wow fadeInDown" data-wow-delay="0.3s"
 							alt="activity-cricle" />
-						<div class="intro-box-text">
+						<div class="intro-box-text intro-box-text-special">
 							<a href="<?=site_url("/home/details/e-prakashan")?>"
 								class="text-white text-center wow fadeInUp section-block-text"
 								data-wow-delay="0.3s"><b>ई-संकलन प्रकाशन </b>
@@ -858,8 +858,7 @@
 						<div class="intro-box-text">
 							<a href="" class="text-white text-center wow fadeInUp section-block-text"
 								data-wow-delay="0.3s"><b>
-									शुभकामनाएं
-									संदेश</b>
+								शुभकामनाएँ सन्देश</b>
 							</a>
 						</div>
 					</div>

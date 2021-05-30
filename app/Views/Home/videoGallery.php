@@ -273,7 +273,7 @@
 											allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 											allowfullscreen=""></iframe>
 										<p class="mt-2">
-										अश्वथामा  
+										अश्वत्थामा 
 										</p>
 									</div>
 									<div 
@@ -283,7 +283,7 @@
 											allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 											allowfullscreen=""></iframe>
 										<p class="mt-2">
-										चीफ की दावत
+										चीफ़ की दावत
 										</p>
 									</div>
 

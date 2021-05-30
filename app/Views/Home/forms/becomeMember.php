@@ -121,7 +121,7 @@
                     <div class="row">
                         <div
                             class="col-sm-10 col-md-10 col-lg-10 col-xs-12 col-sm-offset-2 col-md-offset-2 col-lg-offset-2 text-justify">
-                            <p style="font-size:19px; font-weight:600;">हिन्दी राइटर्स गिल्ड का स्दस्य बनने में रुचि दिखाने के लिए धन्यवाद। हमारी की सदस्त्या की
+                            <p style="font-size:19px; font-weight:600;">हिन्दी राइटर्स गिल्ड का सदस्य बनने में रुचि दिखाने के लिए धन्यवाद। हमारी की सदस्यता की
                                 जानकारी निम्नलिखित है -</p>
 
                             <ul>

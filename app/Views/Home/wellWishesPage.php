@@ -86,7 +86,7 @@
                 <div class="intro-box-text intro-box-size">
 
                     <p class="text-center wow fadeInUp p-3 pb-5 mb-2 page-title" data-wow-delay="0.2s"><b>
-                    शुभकामनाएं सन्देश
+                    शुभकामनाएँ सन्देश
                         </b>
                     </p>
 
@@ -122,7 +122,7 @@
                 <div
                     class="d-flex flex-md-row flex-lg-row flex-sm-column justify-content-center flex-wrap mt-2 shadow-lg p-4 mb-5 bg-white rounded">
 
-                    <h2 class="text-dark">शुभकामनाएं सन्देश</h2>
+                    <h2 class="text-dark">शुभकामनाएँ सन्देश</h2>
 
                     <div class="text-dark d-flex flex-md-row flex-lg-row flex-sm-row flex-wrap wishes-section-1 pb-4">
                         <div class="wishes-page-side-img">

@@ -4,6 +4,7 @@
 <head>
 	<title>HWG Web Page</title>
 	<meta charset="utf-8">
+	<link rel="icon" href="<?=site_url("/img/HWG-LOGO-21.png") ?>" sizes="196x196">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -137,7 +138,7 @@
 										<?php if($pageData['id'] == 'pustak-vimochan' ) {?>
 											<img src="<?=empty($node['tile_img_url'])? site_url("/img/40.png"): site_url($node['tile_img_url']) ?>" class="img-fluid wow fadeInDown pustak-box-section-tile-img"
 							data-wow-delay="0.3s" alt="activity-cricle" />
-							            <?php } else if($pageData['parent_node'] == 'prize-respect'){ ?>
+							            <?php } else if($pageData['parent_node'] == 'prize-respect' || ($pageData['parent_node'] == 'gatividhiya' && $pageData['id'] == 'hamari-prastutiya')){ ?>
 											<div class="member-card bg-white m-2 <?=$node['id']=="prize-respect-1-1"?"prize-respect-height-special":"prize-respect-height"?>" >
 						<img src="<?=site_url($node['tile_img_url'])?>" class="member-card-img"
 							alt="member-image">

@@ -3,6 +3,7 @@
 
 <head>
 	<title>HWG Web Page</title>
+	<link rel="icon" href="<?=site_url("/img/HWG-LOGO-21.png") ?>" sizes="196x196">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -94,7 +95,15 @@
     for(let navlink of navLinksArr){
         navlink.setAttribute("data-toggle", "dropdown");
     }
+	
 }
+
+
+$(document).ready(()=>{
+	document.getElementById('intro-video').play();
+})
+    
+
    </script>
 	
 	<script type="text/javascript">
@@ -108,6 +117,7 @@
 
 	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
 	</script>
+	
 	
 </body>
 

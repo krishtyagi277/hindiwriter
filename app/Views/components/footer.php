@@ -2,17 +2,17 @@
 	<div class="row mt-4">
 		<div class="col-md-3 col-lg-3 pl-0">
 			<ul class="text-white font-weight-bolder m-4" style="list-style-type:circle; font-size: 22px;">
-				<li class="wow fadeInUp mb-2" data-wow-delay="0.2s"><a class="text-white" href="<?=site_url("/home/detailPage/sanstha-ka-parichai")?>" >संगठन का परिचय</a></li>
+				<li class="wow fadeInUp mb-2" data-wow-delay="0.2s"><a class="text-white" href="<?=site_url("/home/detailPage/sanstha-ka-parichai")?>" >संस्था का परिचय</a></li>
 				<li class="wow fadeInUp mb-2" data-wow-delay="0.2s"><a class="text-white" href="<?=site_url("/home/detail/gatividhiya")?>" >गतिविधियाँ</a</li>
-				<li class="wow fadeInUp mb-2" data-wow-delay="0.2s"><a class="text-white" href="<?=site_url("/home/detail/uplabhdiya")?>" >उपलब्धियां</a></li>
+				<li class="wow fadeInUp mb-2" data-wow-delay="0.2s"><a class="text-white" href="<?=site_url("/home/detail/uplabhdiya")?>" >उपलब्धियाँ</a></li>
 				<li class="wow fadeInUp mb-2" data-wow-delay="0.2s"><a class="text-white" href="<?=site_url("/home/detail/festival")?>" >उत्सव</a></li>
 				<li class="wow fadeInUp mb-2" data-wow-delay="0.2s"><a class="text-white" href="<?=site_url("/home/members")?>" >सदस्य</a></li>
 			</ul>
 		</div>
 		<div class="col-md-3 col-lg-3 pl-0">
 			<ul class="text-white font-weight-bolder m-4" style="list-style-type:circle; font-size: 22px;">
-				<li class="mb-2" data-wow-delay="0.2s"><a href="<?=site_url("/home/detail/prize-respect")?>" class="text-white">पुरस्कार/ सम्मन</a></li>
-				<li class="wow fadeInUp mb-2" data-wow-delay="0.2s"><a href="<?=site_url("/home/detail/gatividhiya")?>" class="text-white">गतिविधियाँ</li>
+				<li class="mb-2" data-wow-delay="0.2s"><a href="<?=site_url("/home/detail/prize-respect")?>" class="text-white">पुरस्कार/सम्मान</a></li>
+				<li class="wow fadeInUp mb-2" data-wow-delay="0.2s"><a href="<?=site_url("/home/detailpage/Udghatan-samroh")?>" class="text-white">उद्‌घाटन समारोह</li>
 				<li class="wow fadeInUp mb-2" data-wow-delay="0.2s"><a href="<?=site_url("/home/gallery")?>" class="text-white">दीर्घा</li>
 				<li class="wow fadeInUp mb-2" data-wow-delay="0.2s"><a href="<?=site_url("/home/ourbooks")?>" class="text-white">हमारी प्रकाशित पुस्तकें</li>
 				<li class="wow fadeInUp mb-2" data-wow-delay="0.2s"><a href="<?=site_url("/home/invitations")?>" class="text-white">निमंत्रण पत्र</li>
@@ -54,6 +54,7 @@
 	</div>
 	<div class="row mt-4 bg-dark border-top p-3">
 		<div class="col-md-12 col-lg-12 pl-0">
+		<p class="wow fadeInUp text-white text-center">Visitors: <a href="https://www.freecounterstat.com" title="free counters"><img src="https://counter6.stat.ovh/private/freecounterstat.php?c=nw7lsmqjb4rnnlmrae4cc3hs64q7cl8c" border="0" title="free counters" alt="free counters"></a></p>
 			<p class="wow fadeInUp text-white text-center" data-wow-delay="0.2s"> <a href="http://mapleitesolutions.com/" class="text-white" target="_blank"> Copyright 2021-Website designing & Development by Mapleitesolutions.com </a> </p>
 		</div>
 	</div>

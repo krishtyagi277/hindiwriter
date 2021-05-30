@@ -4,6 +4,7 @@
 <head>
     <title>HWG Web Page</title>
     <meta charset="utf-8">
+    	<link rel="icon" href="<?=site_url("/img/HWG-LOGO-21.png") ?>" sizes="196x196">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -73,7 +74,7 @@
                 <div class="intro-box-text intro-box-size">
 
                     <p class="text-center wow fadeInUp p-3 pb-5 mb-2 page-title" data-wow-delay="0.2s"><b>
-                            <?= $pageData['name']?>
+                            कृष्णा वर्मा
                         </b>
                     </p>
 

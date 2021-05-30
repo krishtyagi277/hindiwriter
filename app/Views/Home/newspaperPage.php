@@ -120,7 +120,7 @@
                     id="animated-thumbnials">
                     <?php foreach($data as $imgData): ?>
                     <a class="invitations-page m-1 wow fadeInLeft" href="<?=site_url(strtolower("/img/newspaper1/".$imgData['img_url'].""))?>">
-                        <img src="<?=site_url(strtolower("/img/newspaper1/".$imgData['img_url'].""))?>" class="img-fluid h-100 wow fadeInRight"
+                        <img src="<?=site_url(strtolower("/img/newspaper1/".$imgData['img_url'].""))?>" class="img-fluid h-100 wow w-100 fadeInRight" style="object-fit:contain;"
                             alt="photo-gallery" />
                     </a>
                     <?php endforeach; ?>
@@ -155,10 +155,10 @@
                 </div>
 
                 <div class="d-flex flex-md-row flex-lg-row flex-sm-column justify-content-center align-items-center flex-wrap "
-                    id="animated-thumbnials">
+                    id="animated-thumbnials-1">
                     <?php foreach($data2 as $imgData): ?>
                     <a class="invitations-page m-1 wow fadeInLeft" href="<?=site_url(strtolower("/img/newspaper2/".$imgData['img_url'].""))?>">
-                        <img src="<?=site_url(strtolower("/img/newspaper2/".$imgData['img_url'].""))?>" class="img-fluid h-100 wow fadeInRight"
+                        <img src="<?=site_url(strtolower("/img/newspaper2/".$imgData['img_url'].""))?>" class="img-fluid w-100 h-100 wow fadeInRight" style="object-fit:contain;"
                             alt="photo-gallery" />
                     </a>
                     <?php endforeach; ?>
@@ -192,6 +192,9 @@
     </script>
     <script>
         lightGallery(document.getElementById('animated-thumbnials'), {
+            thumbnail: true
+        });
+        lightGallery(document.getElementById('animated-thumbnials-1'), {
             thumbnail: true
         });
     </script>

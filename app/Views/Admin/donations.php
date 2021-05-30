@@ -92,7 +92,7 @@
       <td><?=$count++;?></td>  
       <td><?=$data['name']?></td>
       <td><?=$data['email']?></td>
-      <td><?=$data['number']?></td>
+      <td><?=preg_replace('/\s+/', '',$data['number'])?></td>
       <td><?=$data['amount']?></td>
       <td><?=$data['currency']?></td>
       <td><?=$data['description']?></td>

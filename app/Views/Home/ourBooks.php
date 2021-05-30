@@ -172,6 +172,18 @@
                         <img src="<?=site_url(strtolower("/img/ourbooks/14.jpg"))?>" class="img-fluid h-100"
                             alt="photo-gallery" />
                     </a>
+                    <a class="our-books m-1 wow fadeInLeft" href="<?=site_url(strtolower("/img/ourbooks/15.png"))?>">
+                        <img src="<?=site_url(strtolower("/img/ourbooks/15.png"))?>" class="img-fluid h-100"
+                            alt="photo-gallery" />
+                    </a>
+                    <a class="our-books m-1 wow fadeInLeft" href="<?=site_url(strtolower("/img/ourbooks/16.png"))?>">
+                        <img src="<?=site_url(strtolower("/img/ourbooks/16.png"))?>" class="img-fluid h-100"
+                            alt="photo-gallery" />
+                    </a>
+                    <a class="our-books m-1 wow fadeInLeft" href="<?=site_url(strtolower("/img/ourbooks/17.png"))?>">
+                        <img src="<?=site_url(strtolower("/img/ourbooks/17.png"))?>" class="img-fluid h-100"
+                            alt="photo-gallery" />
+                    </a>
                    
 
                 </div>

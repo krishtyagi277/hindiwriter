@@ -82,7 +82,7 @@
 								<ul class="list-unstyled">
 									<li><a href="/home/detailPage/sharad-ritu" class="mega-menu-text">शरद ऋतु काव्योत्सव </a></li>
 									<li><a href="/home/detailPage/deep-jaley" class="mega-menu-text">दीप जले मन-आँगन </a></li>
-									<li><a href="/home/detailPage/kavi-sammelan-1" class="mega-menu-text">विभिन्न भारतीय भाषाओँ का कवि सम्मलेन </a></li>
+									<li><a href="/home/detailPage/kavi-sammelan-1" class="mega-menu-text">विभिन्न भारतीय भाषाओं का कवि सम्मलेन </a></li>
 									<li><a href="/home/detailPage/kavi-sammelan-2" class="mega-menu-text">हास्य कवि सम्मेलन  </a></li>
 								</ul>
 								<h6 class="title mt-3"><a href="/home/details/picnic " class="mega-menu-heading">पिकनिक </a></h6>
@@ -123,8 +123,8 @@
 									<li><a href="/home/detailPage/dusri-duniya" class="mega-menu-text">दूसरी दुनिया    </a></li>
 									<li><a href="/home/detailPage/shaddi-ka-interview" class="mega-menu-text">शादी का इंटरव्यू  </a></li>
 									<li><a href="/home/detailPage/udhar-ka-sukh" class="mega-menu-text">उधार का सुख   </a></li>
-									<li><a href="/home/detailPage/cheef-ki-dawat" class="mega-menu-text">ची़फ़ की दावत    </a></li>
-									<li><a href="/home/detailPage/ashwthama" class="mega-menu-text">अश्वथामा   </a></li>
+									<li><a href="/home/detailPage/cheef-ki-dawat" class="mega-menu-text">चीफ़ की दावत    </a></li>
+									<li><a href="/home/detailPage/ashwthama" class="mega-menu-text">अश्वत्थामा   </a></li>
 									<li><a href="/home/detailPage/aadhe-adhure" class="mega-menu-text">आधे-अधूरे </a></li>
 									<li><a href="/home/detailPage/mitro" class="mega-menu-text">मित्रो मरजानी  </a></li>
 									<li><a href="/home/detailPage/surdas" class="mega-menu-text">सूरदास   </a></li>
@@ -133,7 +133,7 @@
 									<li><a href="/home/detailPage/apni-apni-pasand" class="mega-menu-text">अपनी-अपनी पसंद </a></li>
 									<li><a href="/home/detailPage/andha-yug" class="mega-menu-text">अंधा युग </a></li>
 								</ul>
-								<h6 class="title"><a href="/home/detailpage/bhor" class="mega-menu-heading">भोर - द डॉन विदइन" का लोकार्पण</a></h6>
+								<h6 class="title"><a href="/home/detailpage/bhor" class="mega-menu-heading">ऑडियो सी.डी. का लोकार्पण</a></h6>
 							</div>
 							<!-- col-megamenu.// -->
 						</div>
@@ -487,7 +487,7 @@
 			</li>
 			<li class="nav-item"><a class="nav-link text-white mega-menu-main-heading" href="<?=site_url("/home/ourbooks")?>">प्रकाशित पुस्तकें  </a></li>
 			<li class="nav-item"><a class="nav-link text-white mega-menu-main-heading" href="<?=site_url("/home/invitations")?>">निमंत्रण-पत्र   </a></li>
-			<li class="nav-item"><a class="nav-link text-white mega-menu-main-heading" href="<?=site_url("/home/wellWishes")?>">शुभकामनाएं सन्देश    </a></li>
+			<li class="nav-item"><a class="nav-link text-white mega-menu-main-heading" href="<?=site_url("/home/wellWishes")?>">शुभकामनाएँ सन्देश    </a></li>
 			
 		</ul>
 		<!--

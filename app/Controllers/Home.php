@@ -115,6 +115,7 @@ class Home extends BaseController
 		$amount = $this->request->getPost('amount');
 		$currency = $this->request->getPost('currency');
 		$description = $this->request->getPost('notes');
+		$contactNum = $this->request->getPost('phone_no');
 
 		$donationModel->insert([
 			'name'=>$fullName,
@@ -122,6 +123,7 @@ class Home extends BaseController
 			'amount'=>$amount,
 			'currency'=>$currency,
 			'description'=>$description,
+			'number'=>$contactNum,
 			'status'=>'initiated'
 		]);
 
