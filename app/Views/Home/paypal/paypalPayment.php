@@ -18,7 +18,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="<?=site_url("/css/style.css")?>" />
-    
+    <script
+    src="https://www.paypal.com/sdk/js?client-id=AaUwtQvn-BRNvNh3IXfMV5ar19R-aJlIMEnv8BCTkzcSu4zmxXKTW-TBTQCCVHKnoavCFSnRBzSCleH6&disable-funding=credit,card"> // Required. Replace YOUR_CLIENT_ID with your sandbox client ID.
+  </script>
+
 </head>
 
 <body>
@@ -99,15 +102,10 @@
     <?= $this->include("components/footer") ?>
   
   <!-- Orders Integration -->
-  <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+ 
    <script>
-     paypal.Button.render({
-    // Configure environment
-    env: 'sandbox',
-    client: {
-      sandbox: 'AaUwtQvn-BRNvNh3IXfMV5ar19R-aJlIMEnv8BCTkzcSu4zmxXKTW-TBTQCCVHKnoavCFSnRBzSCleH6',
-      production: 'AcKZDVCl8jQvG8xRNylwzxrgNqKp-ZNY98S6XDDFC38buQAoLSGQjQgMxw8PnjUJUgVwDOWkoO5Dlwc2'
-    },
+     paypal.Buttons({
+    
     // Customize button (optional)
     locale: 'en_US',
     style: {
@@ -117,25 +115,24 @@
       shape: 'pill',
     },
 
-    // Enable Pay Now checkout flow (optional)
-    commit: true,
-
+    
     // Set up a payment
-    payment: function(data, actions) {
-      return actions.payment.create({
-        transactions: [{
+    createOrder: function(data, actions) {
+      // This function sets up the details of the transaction, including the amount and line item details.
+      return actions.order.create({
+        purchase_units: [{
           amount: {
-            total: '<?=$amount != null?$amount:'0.1'; ?>',
+            value: '<?=$amount != null?$amount:'0.1'; ?>',
             currency: '<?=$currency !=null?$currency:'USD';?>',
           }
         }]
       });
     },
     // Execute the payment
-    onAuthorize: function(data, actions) {
-      return actions.payment.execute().then(function(details) {
+    onApprove: function(data, actions) {
+      return actions.order.capture().then(function(details) {
         // Show a confirmation message to the buyer
-        console.log("AUTHORIZE")
+        console.log("Capture")
         console.log(details)
 
        const paymentObject = {
@@ -167,7 +164,7 @@
 
       const paymentObject = {
          donationUid : <?=$donationUid;?>,
-         paymentid:data.paymentID,
+         paymentid:data.orderID,
          payload:JSON.stringify(data),
        }
 
@@ -186,7 +183,7 @@
   console.error('Error:', error);
 });
     }
-  }, '#paypal-button');
+  }).render('#paypal-button');
 
 
    </script>

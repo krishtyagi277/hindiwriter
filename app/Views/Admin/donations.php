@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="<?=site_url("/css/style.css")?>" />
     
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
@@ -70,6 +69,8 @@
 
 <div class="container-fluid" style="cursor:pointer;" >
   <h2 style="text-align:center;">Donations Data</h2>
+  <p class="lead"><button id="export" class="d-none btn btn-danger">Export To Excel</button>
+
   <table  id="example" class="table table-striped">
     <thead>
       <tr>
@@ -114,13 +115,20 @@
     </tbody>
   </table>
 </div>
+<script src="<?=site_url("/js/excel-export.js")?>" ></script>
 
 <script>
 $(document).ready(function() {
     $('#example').DataTable();
 } );
 </script>
-
+<script>
+  $('#export').on('click',function(){
+    $('table').excelExport({
+      title: 'Donations'
+    });
+  })
+  </script>
 </body>
 
 </html>

@@ -292,6 +292,7 @@ if ($result->success) {
 		$email = service('email');
 		$email->setTo($emailId);
 		$email->setSubject('हमें सब्सक्राइब करने के लिए आपका हार्दिक धन्यवाद।');
+		$email->setCC('ranashilpi922@gmail.com');
 		$data = view('emails/subscribeEmail.php');
 		$email->setMessage($data);
 		

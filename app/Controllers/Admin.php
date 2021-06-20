@@ -57,7 +57,7 @@ class Admin extends BaseController
 			return redirect()->to("/admin/login");
 		   }
 		$donationModel = new \App\Models\DonationModel;
-		$data = $donationModel->findAll();
+		$data = $donationModel->orderBy('created_at', 'desc')->findAll();
 			
 		return view('Admin/donations', ['donationData'=> $data, 'id'=>$id],);
 	}

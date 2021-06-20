@@ -164,6 +164,7 @@
 									<li><a href="/home/detailPage/international-sammelan-2015" class="mega-menu-text">अंतरराष्ट्रीय</br>हिन्दी सम्मलेन</br>अमेरिका</br>2015 </a></li>
 									<li><a href="/home/detailPage/international-sammelan-2014" class="mega-menu-text">अंतरराष्ट्रीय</br>हिन्दी सम्मेलन</br>2014</a></li>
 									<li><a href="/home/detailPage/pravasi-hindi" class="mega-menu-text">प्रवासी</br>हिन्दी लेखक</br>मंच</a></li>
+									<li><a href="/home/detailPage/prvasi-sahkari-works" class="mega-menu-text">प्रवासी</br>साहित्यकार</br>कार्यक्रम</a></li>
 								</ul>
 							</div>
 							<!-- col-megamenu.// -->

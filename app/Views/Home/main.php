@@ -21,15 +21,15 @@
 	<link rel="stylesheet" href="../css/style.css" />
 	<meta name="title" content="मुख्य पृष्ठ">
 	<meta name="description"
-		content="अगर आप हिन्दी साहित्य में रूचि में रखते हैं, लिखते हैं तो हिन्दी राइटर्स गिल्ड कैनेडा के निःशुल्क सदस्य बनिए|">
+		content="अगर आप हिन्दी साहित्य में रूचि रखते हैं, लिखते हैं तो हिन्दी राइटर्स गिल्ड कैनेडा के निःशुल्क सदस्य बनिए|">
 	<meta property="og:url" content="<?=site_url("/home/main")?>" />
 	<meta property="og:type" content="website">
 	<meta property="og:description"
-		content="अगर आप हिन्दी साहित्य में रूचि में रखते हैं, लिखते हैं तो हिन्दी राइटर्स गिल्ड कैनेडा के निःशुल्क सदस्य बनिए। ">
+		content="अगर आप हिन्दी साहित्य में रूचि रखते हैं, लिखते हैं तो हिन्दी राइटर्स गिल्ड कैनेडा के निःशुल्क सदस्य बनिए।">
 	<meta property="og:title" content="मुख्य पृष्ठ">
 	<meta property="og:image" content="<?=site_url("/img/metaimage/main.jpg") ?>">
-	<meta property="og:image:width" content="1280">
-	<meta property="og:image:height" content="720">
+	<!-- <meta property="og:image:width" content="1280">
+	<meta property="og:image:height" content="1280"> -->
 	<script type="text/javascript">
 		/// some script
 
@@ -92,11 +92,11 @@
 					</ul>
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img src="<?=site_url("/img/b1.jpg")?>" alt="Los Angeles" width="1100" height="500">
+							<img src="<?=site_url("/img/a2.jpg")?>" alt="Los Angeles" width="1100" height="500">
 
 						</div>
 						<div class="carousel-item">
-							<img src="<?=site_url("/img/a1.jpg")?>" alt="Chicago" width="1100" height="500">
+							<img src="<?=site_url("/img/b2.jpg")?>" alt="Chicago" width="1100" height="500">
 
 						</div>
 

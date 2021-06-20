@@ -54,7 +54,7 @@
 	</div>
 	<div class="row mt-4 bg-dark border-top p-3">
 		<div class="col-md-12 col-lg-12 pl-0">
-		<p class="wow fadeInUp text-white text-center">Visitors: <a href="https://www.freecounterstat.com" title="free counters"><img src="https://counter6.stat.ovh/private/freecounterstat.php?c=nw7lsmqjb4rnnlmrae4cc3hs64q7cl8c" border="0" title="free counters" alt="free counters"></a></p>
+		<p class="wow fadeInUp text-white text-center">Visitors: <a href="javascript:void(0)" title="free counters"><img src="https://counter6.stat.ovh/private/freecounterstat.php?c=nw7lsmqjb4rnnlmrae4cc3hs64q7cl8c" border="0" title="free counters" alt="free counters"></a></p>
 			<p class="wow fadeInUp text-white text-center" data-wow-delay="0.2s"> <a href="http://mapleitesolutions.com/" class="text-white" target="_blank"> Copyright 2021-Website designing & Development by Mapleitesolutions.com </a> </p>
 		</div>
 	</div>
