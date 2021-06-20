@@ -183,6 +183,33 @@
             <div class="col-sm-1 col-md-1 col-lg-1 pr-0">
             </div>
         </div>
+        <div class="row pb-5" style="cursor:pointer;">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 intro-box-container">
+                <div class="row m-0 p-0 mt-2 mb-2">
+                    <div class="col-sm-12 col-md-12 col-lg-12 intro-box-container">
+                        <img src="<?=site_url("/img/9.png")?>"
+                            class="img-fluid mx-auto d-block section-heading wow fadeInDown" data-wow-delay="0.3s"
+                            alt="intro-box" />
+                        <div class="intro-box-text">
+                            <p class="text-center mt-2 wow fadeInUp section-text" data-wow-delay="0.3s"><b>
+                                    प्रकाशित पुस्तकें</b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="d-flex flex-md-row flex-lg-row flex-sm-column flex-wrap justify-content-center align-items-center mt-5">
+                    <div class="intro-box-container intor-page-book-section">
+                        <img src="<?=site_url("/img/books/59.jpg")?>" class="img-fluid shadow-lg w-75 wow fadeInLeft"
+                            data-wow-delay="0.3s" alt="activity-cricle" />
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
         
     </div>
 

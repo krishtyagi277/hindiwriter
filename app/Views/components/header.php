@@ -6,6 +6,8 @@
 		</div>
 		<div class="d-flex flex-lg-row flex-md-row flex-sm-column flex-wrap justify-content-center">
 			<div class="d-flex flex-row flex-wrap flex-sm-row justify-content-center">
+			<div class="pt-1 bd-highlight pointer border-2"><a href="https://www.kooapp.com/profile/hwgcanada" target="_blank"><img src="<?=site_url("/img/icons/Koo-app-3.png")?>" class="img-fluid w-50 m-0 p-o" alt=""></a></div>
+			
 				<div class="pt-1 bd-highlight pointer"><a href="https://www.facebook.com/hindiwritersguildcanada" target="_blank"><img src="<?=site_url("/img/icons/facebook.png")?>" class="img-fluid w-50 m-0 p-o" alt=""></a> </div>
 				<div class="pt-1 bd-highlight pointer"><a href="https://twitter.com/GuildHindi" target="_blank"><img src="<?=site_url("/img/icons/twitter.png")?>" class="img-fluid w-50 m-0 p-o" alt=""></a> </div>
 				<div class="pt-1 bd-highlight pointer"><a href="https://www.instagram.com/hwg2008/" target="_blank"><img src="<?=site_url("/img/icons/instagram.png")?>" class="img-fluid w-50 m-0 p-o" alt=""></a></div>

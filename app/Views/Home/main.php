@@ -4,6 +4,7 @@
 <head>
 	<title>HWG Web Page</title>
 	<meta charset="utf-8">
+	<link rel="icon" href="<?=site_url("/img/HWG-LOGO-21.png") ?>" sizes="196x196">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -92,11 +93,11 @@
 					</ul>
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img src="<?=site_url("/img/a2.jpg")?>" alt="Los Angeles" width="1100" height="500">
+							<img src="<?=site_url("/img/a3.jpg")?>" alt="a3" width="1100" height="500">
 
 						</div>
 						<div class="carousel-item">
-							<img src="<?=site_url("/img/b2.jpg")?>" alt="Chicago" width="1100" height="500">
+							<img src="<?=site_url("/img/b3.jpg")?>" alt="b3" width="1100" height="500">
 
 						</div>
 
