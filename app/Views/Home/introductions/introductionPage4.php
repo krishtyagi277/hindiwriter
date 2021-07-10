@@ -222,7 +222,7 @@
 
                     </div>
                     <div class="intro-box-container intor-page-book-section">
-                    <a href="https://www.jazbaat.net/payment.php" target="_blank"><img src="<?=site_url("/img/books/6.jpg")?>"
+                    <a href="https://www.jazbaat.net/" target="_blank"><img src="<?=site_url("/img/books/6.jpg")?>"
                             class="img-fluid shadow-lg w-75 wow fadeInLeft" data-wow-delay="0.3s"
                             alt="activity-cricle" /></a>
 

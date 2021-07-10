@@ -536,7 +536,7 @@ if ($result->success) {
 	}
 
 	public function upcomingevents(){
-		return view("emails/subscribeEmail");
+		return view("Home/upcomingEvents");
 	}
 
 	
